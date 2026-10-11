@@ -1,0 +1,1170 @@
+Class	Chapter	Keyword	Word Count	Definition
+11th	Ch1 The Living World	Biodiversity	2	Number and types of organisms present on earth; 1.7–1.8 million known and described species
+11th	Ch1 The Living World	Nomenclature	1	Process of standardising names of living organisms so each organism is known by the same name worldwide
+11th	Ch1 The Living World	Identification	1	Correct description of an organism to which a name is attached; prerequisite for nomenclature
+11th	Ch1 The Living World	Classification	1	Process of grouping organisms into convenient categories based on easily observable characters
+11th	Ch1 The Living World	Taxonomy	1	Branch dealing with characterisation, identification, nomenclature and classification of organisms
+11th	Ch1 The Living World	Systematics	1	Study of diversity and evolutionary relationships among organisms; from Latin systema; enlarged scope includes identification, nomenclature, classification
+11th	Ch1 The Living World	Binomial nomenclature	2	Two-word naming system (genus + specific epithet) devised by Carolus Linnaeus; universally accepted
+11th	Ch1 The Living World	Generic name	2	First word of binomial name; represents the genus; written with capital first letter
+11th	Ch1 The Living World	Specific epithet	2	Second component of binomial name; represents species; written in lowercase; e.g., indica in Mangifera indica
+11th	Ch1 The Living World	Taxon	1	A group of organisms classified at any taxonomic rank; pl. taxa
+11th	Ch1 The Living World	Taxa	1	Plural of taxon; scientific term for categories at any hierarchical level
+11th	Ch1 The Living World	Taxonomic category	2	Each rank or step in the taxonomic hierarchy; e.g., species, genus, family, order, class, phylum, kingdom
+11th	Ch1 The Living World	Taxonomic hierarchy	2	Graded series of all taxonomic categories from species (lowest) to kingdom (highest)
+11th	Ch1 The Living World	Species	1	Lowest taxonomic category; group of organisms with fundamental similarities and distinct morphological differences from other species
+11th	Ch1 The Living World	Genus	1	Group of related species sharing more characters in common; first word of binomial name
+11th	Ch1 The Living World	Family	1	Group of related genera; characterised by vegetative and reproductive features; e.g., Felidae, Solanaceae
+11th	Ch1 The Living World	Order	1	Assemblage of related families sharing fewer similar characters; e.g., Carnivora, Primata
+11th	Ch1 The Living World	Class	1	Taxonomic category comprising related orders; e.g., Mammalia, Insecta
+11th	Ch1 The Living World	Phylum	1	Taxonomic category comprising related classes in animals; e.g., Chordata, Arthropoda
+11th	Ch1 The Living World	Division	1	Plant equivalent of Phylum; groups related classes of plants; e.g., Angiospermae
+11th	Ch1 The Living World	Kingdom	1	Highest taxonomic category; Kingdom Animalia and Kingdom Plantae
+11th	Ch1 The Living World	ICBN	1	International Code for Botanical Nomenclature; agreed principles and criteria for scientific naming of plants
+11th	Ch1 The Living World	ICZN	1	International Code of Zoological Nomenclature; rules for scientific naming of animals
+11th	Ch1 The Living World	Mangifera indica	2	Scientific name of mango; Mangifera = genus, indica = specific epithet; named by Linnaeus
+11th	Ch1 The Living World	Homo sapiens	2	Scientific name of humans; Homo = genus, sapiens = specific epithet; order Primata, class Mammalia
+11th	Ch1 The Living World	Musca domestica	2	Scientific name of housefly; family Muscidae, order Diptera, class Insecta, phylum Arthropoda
+11th	Ch1 The Living World	Triticum aestivum	2	Scientific name of wheat; family Poaceae, order Poales, class Monocotyledonae
+11th	Ch1 The Living World	Panthera leo	2	Scientific name of lion; genus Panthera also includes P. tigris (tiger) and P. pardus (leopard)
+11th	Ch1 The Living World	Panthera tigris	2	Scientific name of tiger; same genus as lion (Panthera); family Felidae
+11th	Ch1 The Living World	Panthera pardus	2	Scientific name of leopard; genus Panthera; family Felidae
+11th	Ch1 The Living World	Solanum tuberosum	2	Scientific name of potato; genus Solanum includes S. nigrum and S. melongena (brinjal)
+11th	Ch1 The Living World	Felis	1	Genus of cats; family Felidae; different from genus Panthera (big cats)
+11th	Ch1 The Living World	Felidae	1	Family of cats; contains genera Panthera (big cats) and Felis (cats); order Carnivora
+11th	Ch1 The Living World	Canidae	1	Family of dogs; order Carnivora; separate from Felidae
+11th	Ch1 The Living World	Solanaceae	1	Plant family containing Solanum, Petunia, Datura; order Polymoniales
+11th	Ch1 The Living World	Carnivora	1	Animal order containing families Felidae and Canidae; class Mammalia
+11th	Ch1 The Living World	Chordata	1	Animal phylum defined by notochord and dorsal hollow neural system; includes fishes, amphibians, reptiles, birds, mammals
+11th	Ch1 The Living World	Primata	1	Animal order comprising monkey, gorilla, gibbon and humans; class Mammalia
+11th	Ch1 The Living World	Mammalia	1	Animal class with external ears and body hair; includes orders Primata and Carnivora
+11th	Ch2 Biological Classification	Two kingdom classification	3	Earliest system by Linnaeus; Plantae and Animalia; did not distinguish prokaryotes/eukaryotes or unicellular/multicellular
+11th	Ch2 Biological Classification	Five kingdom classification	3	Whittaker (1969): Monera, Protista, Fungi, Plantae, Animalia; based on cell structure, body organisation, nutrition, reproduction, phylogeny
+11th	Ch2 Biological Classification	Three domain system	3	Divides Monera into Archaebacteria and Eubacteria domains + Eukarya; results in six-kingdom classification
+11th	Ch2 Biological Classification	Kingdom Monera	2	All prokaryotes; bacteria; no nuclear membrane; most metabolically diverse organisms
+11th	Ch2 Biological Classification	Kingdom Protista	2	All unicellular eukaryotes; chrysophytes, dinoflagellates, euglenoids, slime moulds, protozoans
+11th	Ch2 Biological Classification	Kingdom Fungi	2	Heterotrophic eukaryotes; chitin cell wall; saprophytes or parasites; mycelium of hyphae
+11th	Ch2 Biological Classification	Kingdom Plantae	2	Eukaryotic chlorophyll-containing organisms; cellulose cell wall; alternation of generations
+11th	Ch2 Biological Classification	Kingdom Animalia	2	Heterotrophic multicellular eukaryotes; no cell wall; holozoic nutrition; definite growth pattern
+11th	Ch2 Biological Classification	Bacteria	1	Sole members of Kingdom Monera; most abundant microorganisms; four shapes: coccus, bacillus, vibrio, spirillum
+11th	Ch2 Biological Classification	Coccus	1	Spherical-shaped bacterium; pl. cocci; e.g., Staphylococcus
+11th	Ch2 Biological Classification	Bacillus	1	Rod-shaped bacterium; pl. bacilli; e.g., Bacillus anthracis
+11th	Ch2 Biological Classification	Vibrio	1	Comma-shaped bacterium; pl. vibrio; e.g., Vibrio cholerae (causes cholera)
+11th	Ch2 Biological Classification	Spirillum	1	Spiral-shaped bacterium; pl. spirilla
+11th	Ch2 Biological Classification	Photosynthetic autotroph	2	Organism making food from inorganic substances using light energy; e.g., cyanobacteria, green plants
+11th	Ch2 Biological Classification	Chemosynthetic autotroph	2	Organism making food from inorganic substances using chemical energy; e.g., nitrifying bacteria; recycle N, P, Fe, S
+11th	Ch2 Biological Classification	Heterotroph	1	Organism depending on other organisms or dead organic matter for food
+11th	Ch2 Biological Classification	Archaebacteria	1	Ancient bacteria in extreme habitats; different cell wall structure (no peptidoglycan); ether-linked lipids; three types: halophiles, thermoacidophiles, methanogens
+11th	Ch2 Biological Classification	Halophile	1	Archaebacterium living in extremely saline areas; e.g., Halobacterium
+11th	Ch2 Biological Classification	Thermoacidophile	1	Archaebacterium living in hot springs (high temperature, high acidity)
+11th	Ch2 Biological Classification	Methanogen	1	Archaebacterium producing methane (biogas) from H2 and CO2; found in marshy areas and rumen of cattle
+11th	Ch2 Biological Classification	Eubacteria	1	True bacteria; rigid cell wall; flagellum if motile; includes cyanobacteria and mycoplasma
+11th	Ch2 Biological Classification	Cyanobacteria	1	Blue-green algae; photosynthetic autotrophs; chlorophyll a; fix atmospheric nitrogen in heterocysts; e.g., Nostoc, Anabaena
+11th	Ch2 Biological Classification	Heterocyst	1	Specialised thick-walled cell in cyanobacteria (e.g., Nostoc, Anabaena) for atmospheric nitrogen fixation
+11th	Ch2 Biological Classification	Algal bloom	2	Rapid multiplication of cyanobacteria/algae in polluted water bodies forming surface scum
+11th	Ch2 Biological Classification	Mycoplasma	1	Bacteria completely lacking cell wall; smallest living cells; survive without oxygen; pathogenic in animals and plants
+11th	Ch2 Biological Classification	Chrysophytes	1	Group including diatoms and golden algae; silica cell walls; plankton; chief producers in oceans
+11th	Ch2 Biological Classification	Diatoms	1	Chrysophytes with two overlapping silica shells fitting like a soap box; indestructible walls; form diatomaceous earth
+11th	Ch2 Biological Classification	Diatomaceous earth	2	Accumulation of diatom cell wall deposits over billions of years; used in polishing and filtration of oils and syrups
+11th	Ch2 Biological Classification	Plankton	1	Microscopic organisms floating passively in water currents; most chrysophytes are plankton
+11th	Ch2 Biological Classification	Dinoflagellates	1	Mostly marine protists; two flagella (longitudinal + transverse); stiff cellulose plates; cause red tides; e.g., Gonyaulax
+11th	Ch2 Biological Classification	Red tide	2	Phenomenon where red dinoflagellates (e.g., Gonyaulax) multiply rapidly making sea appear red; toxins kill marine animals
+11th	Ch2 Biological Classification	Euglenoids	1	Freshwater protists; pellicle instead of cell wall; two flagella; mixotrophic (photosynthetic in light, heterotrophic in dark); e.g., Euglena
+11th	Ch2 Biological Classification	Pellicle	1	Protein-rich flexible layer in euglenoids replacing cell wall; allows body flexibility
+11th	Ch2 Biological Classification	Slime moulds	2	Saprophytic protists; body moves engulfing organic material; form plasmodium; produce fruiting bodies with spores
+11th	Ch2 Biological Classification	Plasmodium	1	Naked multinucleate mass of cytoplasm; feeding stage of slime mould; can spread over several feet
+11th	Ch2 Biological Classification	Fruiting body	2	Spore-bearing structure formed by slime moulds and fungi during unfavourable conditions
+11th	Ch2 Biological Classification	Protozoans	1	Heterotrophic protists; four groups: amoeboid, flagellated, ciliated, sporozoan; primitive relatives of animals
+11th	Ch2 Biological Classification	Pseudopodia	1	False feet of amoeboid protozoans; used for movement and prey capture; e.g., Amoeba
+11th	Ch2 Biological Classification	Amoeba	1	Amoeboid protozoan; moves by pseudopodia; freshwater, marine or moist soil; Entamoeba is parasitic
+11th	Ch2 Biological Classification	Trypanosoma	1	Flagellated protozoan; parasitic; causes sleeping sickness in humans
+11th	Ch2 Biological Classification	Paramoecium	1	Ciliated protozoan; aquatic; thousands of cilia; has gullet opening to outside for food intake
+11th	Ch2 Biological Classification	Plasmodium (malarial parasite)	3	Sporozoan protozoan; infectious spore-like stage in life cycle; causes malaria; transmitted by Anopheles mosquito
+11th	Ch2 Biological Classification	Hyphae	1	Long slender thread-like filaments forming the body of fungi; pl. of hypha
+11th	Ch2 Biological Classification	Mycelium	1	Network of hyphae forming the body of a fungus
+11th	Ch2 Biological Classification	Coenocytic hyphae	2	Hyphae without cross walls (septa); continuous tubes with multinucleated cytoplasm; in phycomycetes
+11th	Ch2 Biological Classification	Septum	1	Cross wall in hyphae of higher fungi (ascomycetes, basidiomycetes); pl. septae
+11th	Ch2 Biological Classification	Plasmogamy	1	First step in sexual reproduction of fungi; fusion of cytoplasm/protoplasm of two hyphae
+11th	Ch2 Biological Classification	Karyogamy	1	Second step in fungal sexual reproduction; fusion of two nuclei after plasmogamy
+11th	Ch2 Biological Classification	Dikaryon	1	Fungal cell with two nuclei (n+n) after plasmogamy but before karyogamy
+11th	Ch2 Biological Classification	Dikaryophase	1	Intervening phase in ascomycetes and basidiomycetes where cells contain two separate nuclei (n+n)
+11th	Ch2 Biological Classification	Phycomycetes	1	Lower/primitive fungi; aseptate coenocytic mycelium; zoospores or aplanospores; zygospore formed sexually; e.g., Mucor, Rhizopus, Albugo
+11th	Ch2 Biological Classification	Zoospore	1	Motile asexual spore produced in sporangium of phycomycetes
+11th	Ch2 Biological Classification	Aplanospore	1	Non-motile asexual spore in phycomycetes
+11th	Ch2 Biological Classification	Zygospore	1	Sexual spore in phycomycetes formed by fusion of two gametes
+11th	Ch2 Biological Classification	Isogamous	1	Gametes similar in morphology (same size and shape); type of sexual reproduction in some phycomycetes
+11th	Ch2 Biological Classification	Anisogamous	1	Gametes dissimilar in size but both motile; type of sexual reproduction
+11th	Ch2 Biological Classification	Oogamous	1	One large non-motile female gamete + small motile male gamete; type of sexual reproduction
+11th	Ch2 Biological Classification	Ascomycetes	1	Sac fungi; septate branched mycelium; conidia (asexual); ascospores in asci; ascocarps as fruiting bodies; e.g., Penicillium, Aspergillus, Neurospora
+11th	Ch2 Biological Classification	Conidia	1	Asexual spores of ascomycetes produced exogenously on conidiophores; germinate to produce mycelium
+11th	Ch2 Biological Classification	Conidiophore	1	Specialised mycelium of ascomycetes that bears conidia (asexual spores)
+11th	Ch2 Biological Classification	Ascospore	1	Sexual spore of ascomycetes produced endogenously inside the ascus
+11th	Ch2 Biological Classification	Ascus	1	Sac-like structure of ascomycetes containing ascospores; pl. asci
+11th	Ch2 Biological Classification	Ascocarp	1	Fruiting body of ascomycetes; contains the asci with ascospores
+11th	Ch2 Biological Classification	Coprophilous	1	Growing on dung; characteristic of some ascomycetes
+11th	Ch2 Biological Classification	Basidiomycetes	1	Club fungi; septate mycelium; no asexual spores; basidiospores on basidia; basidiocarps; e.g., Agaricus, Ustilago, Puccinia
+11th	Ch2 Biological Classification	Basidium	1	Club-shaped structure of basidiomycetes bearing four basidiospores exogenously; pl. basidia
+11th	Ch2 Biological Classification	Basidiospore	1	Sexual spore of basidiomycetes produced exogenously on basidium after karyogamy and meiosis
+11th	Ch2 Biological Classification	Basidiocarp	1	Fruiting body of basidiomycetes; e.g., mushroom, bracket fungi, puffball
+11th	Ch2 Biological Classification	Deuteromycetes	1	Imperfect fungi; only asexual (conidia) stage known; no sexual stage; septate mycelium; e.g., Alternaria, Colletotrichum, Trichoderma
+11th	Ch2 Biological Classification	Virus	1	Non-cellular obligate intracellular parasite; inert outside host; nucleoprotein (capsid + nucleic acid); either RNA or DNA, never both
+11th	Ch2 Biological Classification	Capsid	1	Protein coat of a virus made of capsomeres; arranged in helical or polyhedral form; protects nucleic acid
+11th	Ch2 Biological Classification	Capsomere	1	Small protein subunit making up the capsid of a virus
+11th	Ch2 Biological Classification	Bacteriophage	1	Virus that infects bacteria; usually double-stranded DNA; protein coat + head + tail fibres
+11th	Ch2 Biological Classification	Tobacco Mosaic Virus (TMV)	3	First virus discovered by Ivanowsky (1892) as causal agent of mosaic disease of tobacco; single-stranded RNA virus
+11th	Ch2 Biological Classification	Contagium vivum fluidum	3	Infectious living fluid; term given by Beijerinck (1898) for tobacco virus extract; demonstrated it could infect healthy plants
+11th	Ch2 Biological Classification	Viroid	1	Infectious free RNA without protein coat; smaller than virus; causes potato spindle tuber disease; discovered by T.O. Diener (1971)
+11th	Ch2 Biological Classification	Prion	1	Infectious agent consisting of abnormally folded protein; no nucleic acid; similar in size to viruses; causes BSE and CJD
+11th	Ch2 Biological Classification	Bovine Spongiform Encephalopathy (BSE)	3	Mad cow disease in cattle caused by prions; brain becomes spongy
+11th	Ch2 Biological Classification	Creutzfeldt-Jacob disease (CJD)	2	Human prion disease; neurological; analogous variant of mad cow disease (BSE) in humans
+11th	Ch2 Biological Classification	Lichen	1	Symbiotic association of algae (phycobiont, autotrophic) and fungi (mycobiont, heterotrophic); pollution indicator; does not grow in polluted areas
+11th	Ch2 Biological Classification	Phycobiont	1	Algal component of lichen; autotrophic; prepares food for the fungal partner
+11th	Ch2 Biological Classification	Mycobiont	1	Fungal component of lichen; heterotrophic; provides shelter and absorbs minerals and water for algal partner
+11th	Ch2 Biological Classification	Alternation of generations	3	Life cycle of plants alternating between diploid sporophytic and haploid gametophytic phases
+11th	Ch2 Biological Classification	Insectivorous plant	2	Partially heterotrophic plant trapping and digesting insects for nitrogen; e.g., Bladderwort, Venus fly trap
+11th	Ch2 Biological Classification	Holozoic nutrition	2	Mode of nutrition in Kingdom Animalia; ingestion of food followed by digestion; food reserves stored as glycogen or fat
+11th	Ch3 Plant Kingdom	Algae	1	Chlorophyll-bearing, simple, thalloid, autotrophic, largely aquatic organisms; three classes: Chlorophyceae, Phaeophyceae, Rhodophyceae
+11th	Ch3 Plant Kingdom	Thallus	1	Undifferentiated plant body not divided into root, stem or leaves; in algae and liverworts
+11th	Ch3 Plant Kingdom	Chlorophyceae	1	Green algae; pigments chlorophyll a and b; store starch; cellulose cell wall with pectose outer layer; pyrenoids in chloroplasts
+11th	Ch3 Plant Kingdom	Phaeophyceae	1	Brown algae; fucoxanthin pigment; store laminarin/mannitol; algin in cell wall; body: holdfast + stipe + frond; mostly marine
+11th	Ch3 Plant Kingdom	Rhodophyceae	1	Red algae; phycoerythrin pigment; floridean starch; non-motile gametes; no flagella; mostly marine
+11th	Ch3 Plant Kingdom	Pyrenoid	1	Protein + starch storage body located in chloroplasts of green algae
+11th	Ch3 Plant Kingdom	Fucoxanthin	1	Brown/yellow xanthophyll pigment of brown algae (Phaeophyceae); responsible for olive-green to brown colour
+11th	Ch3 Plant Kingdom	Phycoerythrin	1	Red pigment of red algae (Rhodophyceae); allows photosynthesis at greater ocean depths
+11th	Ch3 Plant Kingdom	Laminarin	1	Complex carbohydrate stored as food in brown algae
+11th	Ch3 Plant Kingdom	Floridean starch	2	Food reserve of red algae; similar to amylopectin and glycogen in structure
+11th	Ch3 Plant Kingdom	Algin	1	Hydrocolloid (water-holding substance) from brown algae cell wall; commercial use
+11th	Ch3 Plant Kingdom	Carrageen	1	Hydrocolloid from red algae; commercial use
+11th	Ch3 Plant Kingdom	Agar	1	Commercial polysaccharide from Gelidium and Gracilaria (red algae); used to culture microbes, in ice cream and jellies
+11th	Ch3 Plant Kingdom	Holdfast	1	Organ of attachment in brown algae anchoring plant to substratum
+11th	Ch3 Plant Kingdom	Stipe	1	Stalk-like part of brown algal body connecting holdfast and frond
+11th	Ch3 Plant Kingdom	Frond	1	Leaf-like photosynthetic organ of brown algae
+11th	Ch3 Plant Kingdom	Alternation of generations	3	Life cycle alternating between haploid gametophyte and diploid sporophyte generations; in all land plants
+11th	Ch3 Plant Kingdom	Gametophyte	1	Haploid (n) generation; produces gametes by mitosis; dominant in bryophytes
+11th	Ch3 Plant Kingdom	Sporophyte	1	Diploid (2n) generation; produces haploid spores by meiosis; dominant in pteridophytes and seed plants
+11th	Ch3 Plant Kingdom	Bryophyta	1	Amphibians of plant kingdom; live in soil but need water for reproduction; gametophyte dominant; no vascular tissue; rhizoids
+11th	Ch3 Plant Kingdom	Rhizoid	1	Root-like unicellular or multicellular structure in bryophytes for attachment and absorption; not true roots
+11th	Ch3 Plant Kingdom	Antheridium	1	Male sex organ in bryophytes and pteridophytes; produces biflagellate antherozoids; pl. antheridia
+11th	Ch3 Plant Kingdom	Archegonium	1	Flask-shaped female sex organ in bryophytes, pteridophytes and gymnosperms; produces a single egg; pl. archegonia
+11th	Ch3 Plant Kingdom	Antherozoid	1	Biflagellate male gamete of bryophytes and pteridophytes; requires water for transfer to archegonium
+11th	Ch3 Plant Kingdom	Gemma	1	Green multicellular asexual bud of liverworts; produced in gemma cups; pl. gemmae
+11th	Ch3 Plant Kingdom	Gemma cup	2	Cup-shaped receptacle on liverwort thallus containing gemmae for asexual reproduction
+11th	Ch3 Plant Kingdom	Protonema	1	Creeping green branched filamentous first stage of moss life cycle; develops from germinating spore
+11th	Ch3 Plant Kingdom	Sphagnum	1	A moss used as peat (fuel) and packing material; holds large amounts of water; pioneer in plant succession
+11th	Ch3 Plant Kingdom	Peat	1	Partially decomposed Sphagnum moss; long used as fuel; capacity to hold water
+11th	Ch3 Plant Kingdom	Pteridophyta	1	First vascular land plants; sporophyte dominant; true roots, stems, leaves; homosporous or heterosporous; e.g., ferns, Selaginella
+11th	Ch3 Plant Kingdom	Microphyll	1	Small leaf of pteridophytes; e.g., in Selaginella
+11th	Ch3 Plant Kingdom	Macrophyll	1	Large leaf (frond) of pteridophytes; e.g., in ferns
+11th	Ch3 Plant Kingdom	Sporophyll	1	Leaf-like appendage that bears sporangia; in pteridophytes and gymnosperms
+11th	Ch3 Plant Kingdom	Strobilus	1	Compact cone-like structure bearing sporophylls; e.g., Selaginella, Equisetum; pl. strobili
+11th	Ch3 Plant Kingdom	Prothallus	1	Free-living, small, multicellular, thalloid gametophyte of pteridophytes; needs cool damp places
+11th	Ch3 Plant Kingdom	Heterospory	1	Production of two kinds of spores: microspores (small) and megaspores (large); e.g., Selaginella, Salvinia; precursor to seed habit
+11th	Ch3 Plant Kingdom	Microspore	1	Smaller spore of heterosporous plants; germinates to form male gametophyte
+11th	Ch3 Plant Kingdom	Megaspore	1	Larger spore of heterosporous plants; germinates to form female gametophyte; retained on parent in gymnosperms
+11th	Ch3 Plant Kingdom	Gymnosperm	1	Plants with naked seeds; ovules not enclosed by ovary wall; heterosporous; e.g., Pinus, Cycas, Cedrus
+11th	Ch3 Plant Kingdom	Ovule	1	Structure in gymnosperms/angiosperms containing megaspore mother cell + nucellus + integuments; becomes seed after fertilisation
+11th	Ch3 Plant Kingdom	Nucellus	1	Main nutritive tissue of ovule; megaspore mother cell differentiates from it
+11th	Ch3 Plant Kingdom	Pollen grain	2	Reduced male gametophyte; produced in microsporangia; carried by wind in gymnosperms
+11th	Ch3 Plant Kingdom	Pollen tube	2	Tube produced by germinating pollen grain; carries male gametes to archegonium/egg in ovule
+11th	Ch3 Plant Kingdom	Microsporophyll	1	Sporophyll bearing microsporangia (male cones) in gymnosperms
+11th	Ch3 Plant Kingdom	Megasporophyll	1	Sporophyll bearing megasporangia/ovules (female cones) in gymnosperms
+11th	Ch3 Plant Kingdom	Coralloid root	2	Specialised root in Cycas associated with N₂-fixing cyanobacteria
+11th	Ch3 Plant Kingdom	Angiosperm	1	Flowering plants with seeds enclosed in fruits; most advanced plant group; dicotyledons and monocotyledons
+11th	Ch3 Plant Kingdom	Dicotyledon	1	Angiosperm with two seed leaves (cotyledons); reticulate venation; e.g., mango, pea, bean
+11th	Ch3 Plant Kingdom	Monocotyledon	1	Angiosperm with one seed leaf; parallel venation; e.g., wheat, maize, grass
+11th	Ch3 Plant Kingdom	Numerical taxonomy	2	Classification based on all observable characters assigned numerical codes; equal weightage to all characters; computer-aided
+11th	Ch3 Plant Kingdom	Cytotaxonomy	1	Classification based on cytological information: chromosome number, structure and behaviour
+11th	Ch3 Plant Kingdom	Chemotaxonomy	1	Classification using chemical constituents of plants to resolve confusion in taxonomy
+11th	Ch3 Plant Kingdom	Phylogenetic classification	2	Classification based on evolutionary relationships; organisms of same taxa share a common ancestor
+11th	Ch4 Animal Kingdom	Cellular level of organisation	4	Cells arranged as loose aggregates with some division of labour; lowest level; e.g., sponges (Porifera)
+11th	Ch4 Animal Kingdom	Tissue level of organisation	4	Cells performing same function grouped into tissues; e.g., Coelenterata
+11th	Ch4 Animal Kingdom	Organ level of organisation	4	Tissues grouped into organs specialised for specific functions; e.g., Platyhelminthes
+11th	Ch4 Animal Kingdom	Organ system level of organisation	5	Organs forming functional systems; e.g., Annelida, Arthropoda, Mollusca, Echinodermata, Chordata
+11th	Ch4 Animal Kingdom	Asymmetry	1	No plane of symmetry can divide body into equal halves; e.g., sponges
+11th	Ch4 Animal Kingdom	Radial symmetry	2	Any plane through central axis divides organism into identical halves; e.g., coelenterates, echinoderms, ctenophores
+11th	Ch4 Animal Kingdom	Bilateral symmetry	2	Body divisible into equal left and right halves in only one plane; e.g., annelids, arthropods, vertebrates
+11th	Ch4 Animal Kingdom	Diploblastic	1	Two embryonic germ layers: outer ectoderm and inner endoderm; mesoglea between them; e.g., Coelenterata
+11th	Ch4 Animal Kingdom	Triploblastic	1	Three germ layers: ectoderm, mesoderm, endoderm; Platyhelminthes and all higher phyla
+11th	Ch4 Animal Kingdom	Mesoglea	1	Undifferentiated jelly-like layer between ectoderm and endoderm in diploblastic animals
+11th	Ch4 Animal Kingdom	Coelom	1	True body cavity lined by mesoderm; contains visceral organs; in coelomates
+11th	Ch4 Animal Kingdom	Coelomate	1	Animal with true coelom lined by mesoderm; e.g., annelids, molluscs, arthropods, echinoderms, chordates
+11th	Ch4 Animal Kingdom	Pseudocoelomate	1	Animal with false body cavity not lined by mesoderm; e.g., Aschelminthes (roundworms)
+11th	Ch4 Animal Kingdom	Acoelomate	1	Animal with no body cavity; mesoderm fills space between gut and body wall; e.g., Platyhelminthes
+11th	Ch4 Animal Kingdom	Metamerism	1	Body divided into serial repeating segments (metameres) externally and internally; e.g., earthworm
+11th	Ch4 Animal Kingdom	Notochord	1	Mesodermally derived rod-like structure on dorsal side during embryonic development; defines Chordata
+11th	Ch4 Animal Kingdom	Porifera	1	Sponges; cellular level; asymmetrical; canal system; choanocytes; intracellular digestion; spicules/spongin skeleton
+11th	Ch4 Animal Kingdom	Ostia	1	Minute pores in body wall of sponges through which water enters
+11th	Ch4 Animal Kingdom	Spongocoel	1	Central cavity of a sponge; lined by choanocytes
+11th	Ch4 Animal Kingdom	Osculum	1	Opening at top of sponge through which water exits after passing through spongocoel
+11th	Ch4 Animal Kingdom	Choanocyte	1	Collar cell; flagellated cell lining spongocoel and canals of sponges; creates water current; intracellular digestion
+11th	Ch4 Animal Kingdom	Spicule	1	Calcareous or siliceous skeletal element in sponge body wall for support
+11th	Ch4 Animal Kingdom	Spongin	1	Protein fibre forming skeleton in some sponges (e.g., Euspongia)
+11th	Ch4 Animal Kingdom	Coelenterata (Cnidaria)	2	Diploblastic; radially symmetrical; tissue level; cnidoblasts with nematocysts; gastrovascular cavity; polyp + medusa forms
+11th	Ch4 Animal Kingdom	Cnidoblast	1	Specialised stinging cell (cnidocyte) of Coelenterata containing nematocyst; for anchorage, defence and prey capture
+11th	Ch4 Animal Kingdom	Nematocyst	1	Coiled stinging capsule inside cnidoblast; injected into prey; characteristic of Coelenterata
+11th	Ch4 Animal Kingdom	Gastrovascular cavity	2	Central single-opening digestive cavity in coelenterates; both mouth and anus; digestion extracellular + intracellular
+11th	Ch4 Animal Kingdom	Polyp	1	Sessile cylindrical body form of cnidarians; e.g., Hydra, Adamsia (sea anemone); asexually produces medusae
+11th	Ch4 Animal Kingdom	Medusa	1	Free-swimming umbrella-shaped body form of cnidarians; e.g., Aurelia (jellyfish); sexually produces polyps
+11th	Ch4 Animal Kingdom	Metagenesis	1	Alternation of asexual (polyp) and sexual (medusa) generations in cnidarians; e.g., Obelia
+11th	Ch4 Animal Kingdom	Ctenophora	1	Sea walnuts/comb jellies; marine; radially symmetrical; diploblastic; 8 rows of comb plates for locomotion; bioluminescent
+11th	Ch4 Animal Kingdom	Bioluminescence	1	Ability of living organisms to emit light; well-marked in ctenophores
+11th	Ch4 Animal Kingdom	Comb plates	2	Eight external rows of ciliated plates in ctenophores for locomotion
+11th	Ch4 Animal Kingdom	Platyhelminthes	1	Flatworms; bilateral; triploblastic; acoelomate; organ level; flame cells; mostly endoparasites; hooks and suckers
+11th	Ch4 Animal Kingdom	Flame cell	2	Specialised cell for osmoregulation and excretion in Platyhelminthes; resembles flickering flame
+11th	Ch4 Animal Kingdom	Aschelminthes	1	Roundworms; bilateral; triploblastic; pseudocoelomate; complete digestive system; dioecious; e.g., Ascaris, Wuchereria
+11th	Ch4 Animal Kingdom	Annelida	1	Segmented worms; triploblastic; coelomate; metamerism; closed circulatory system; nephridia; e.g., earthworm, Nereis, leech
+11th	Ch4 Animal Kingdom	Nephridium	1	Tubular excretory organ of annelids for osmoregulation and excretion; pl. nephridia
+11th	Ch4 Animal Kingdom	Parapodia	1	Lateral appendages of aquatic annelids (Nereis) for swimming
+11th	Ch4 Animal Kingdom	Arthropoda	1	Largest animal phylum; chitinous exoskeleton; jointed appendages; open circulatory system; Malpighian tubules; e.g., insects, spiders, prawns
+11th	Ch4 Animal Kingdom	Chitinous exoskeleton	2	External skeleton of chitin in arthropods; provides protection and reduces water loss
+11th	Ch4 Animal Kingdom	Jointed appendages	2	Segmented limbs characteristic of Arthropoda (arthros=joint, poda=appendages)
+11th	Ch4 Animal Kingdom	Malpighian tubule	2	Excretory organ of arthropods; removes nitrogenous waste (uric acid); empties into hindgut
+11th	Ch4 Animal Kingdom	Statocyst	1	Balancing organ in arthropods; detects orientation with respect to gravity
+11th	Ch4 Animal Kingdom	Mollusca	1	Second largest phylum; calcareous shell; muscular foot; visceral hump; mantle; radula; e.g., Pila, Octopus, Sepia
+11th	Ch4 Animal Kingdom	Mantle	1	Soft spongy skin layer of molluscs enveloping visceral hump; encloses mantle cavity with feather-like gills
+11th	Ch4 Animal Kingdom	Mantle cavity	2	Space between visceral hump and mantle in molluscs; contains gills for respiration and excretion
+11th	Ch4 Animal Kingdom	Radula	1	File-like rasping feeding organ in mouth of molluscs; scrapes food
+11th	Ch4 Animal Kingdom	Visceral hump	2	Dorsal part of mollusc body containing internal organs; covered by mantle
+11th	Ch4 Animal Kingdom	Echinodermata	1	Spiny-skinned marine animals; calcareous ossicle endoskeleton; water vascular system; adults radially symmetrical, larvae bilaterally symmetrical
+11th	Ch4 Animal Kingdom	Water vascular system	3	Unique hydraulic system of echinoderms; operates tube feet for locomotion, food capture and respiration
+11th	Ch4 Animal Kingdom	Tube feet	2	Locomotory organs of echinoderms operated by water vascular system
+11th	Ch4 Animal Kingdom	Calcareous ossicle	2	Bony plate/endoskeleton element of echinoderms; gives spiny appearance
+11th	Ch4 Animal Kingdom	Hemichordata	1	Worm-like marine animals; stomochord (rudimentary notochord); body: proboscis + collar + trunk; e.g., Balanoglossus
+11th	Ch4 Animal Kingdom	Stomochord	1	Rudimentary notochord-like structure in collar of hemichordates
+11th	Ch4 Animal Kingdom	Chordata	1	Animals with notochord + dorsal hollow nerve cord + pharyngeal gill slits + post-anal tail + closed circulatory system
+11th	Ch4 Animal Kingdom	Pharyngeal gill slits	3	Perforations in pharynx of chordates; characteristic of all three subphyla at some stage
+11th	Ch4 Animal Kingdom	Dorsal hollow nerve cord	4	Hollow nerve cord on dorsal side; characteristic of all chordates; becomes brain and spinal cord in vertebrates
+11th	Ch4 Animal Kingdom	Post-anal tail	3	Extension of body posterior to anus; characteristic of chordates
+11th	Ch4 Animal Kingdom	Protochordata	1	Lower chordates: Urochordata + Cephalochordata; exclusively marine; lack true vertebral column
+11th	Ch4 Animal Kingdom	Urochordata	1	Notochord present only in larval tail; e.g., Ascidia, Salpa, Doliolum
+11th	Ch4 Animal Kingdom	Cephalochordata	1	Notochord extends head to tail throughout life; e.g., Branchiostoma (Amphioxus/Lancelet)
+11th	Ch4 Animal Kingdom	Vertebrata	1	Notochord replaced by vertebral column in adult; ventral muscular heart; kidneys for excretion
+11th	Ch4 Animal Kingdom	Agnatha	1	Jawless vertebrates; e.g., class Cyclostomata (Petromyzon, Myxine)
+11th	Ch4 Animal Kingdom	Gnathostomata	1	Jawed vertebrates; includes Pisces (Chondrichthyes + Osteichthyes) and Tetrapoda
+11th	Ch4 Animal Kingdom	Cyclostomata	1	Ectoparasites on fishes; sucking circular mouth without jaws; 6-15 gill slits; no scales or paired fins; cartilaginous skeleton
+11th	Ch4 Animal Kingdom	Chondrichthyes	1	Cartilaginous fishes; marine; placoid scales; no operculum; no air bladder; poikilothermic; e.g., Scoliodon, Carcharodon
+11th	Ch4 Animal Kingdom	Osteichthyes	1	Bony fishes; four pairs of gills with operculum; air bladder for buoyancy; cycloid/ctenoid scales; e.g., Labeo, Hippocampus
+11th	Ch4 Animal Kingdom	Air bladder	2	Gas-filled sac in bony fishes (Osteichthyes); regulates buoyancy; absent in cartilaginous fishes
+11th	Ch4 Animal Kingdom	Operculum	1	Bony gill cover in Osteichthyes; covers four pairs of gills; absent in Chondrichthyes
+11th	Ch4 Animal Kingdom	Placoid scale	2	Tooth-like scale in Chondrichthyes; teeth are modified placoid scales
+11th	Ch4 Animal Kingdom	Poikilothermous	1	Cold-blooded; body temperature varies with environment; fishes, amphibians, reptiles
+11th	Ch4 Animal Kingdom	Homoiothermous	1	Warm-blooded; maintains constant body temperature; birds and mammals
+11th	Ch4 Animal Kingdom	Amphibia	1	Dual life (aquatic + terrestrial); moist skin; three-chambered heart; cloaca; respiration by gills/lungs/skin; e.g., Rana, Bufo
+11th	Ch4 Animal Kingdom	Cloaca	1	Common chamber in amphibians, reptiles and birds into which alimentary, urinary and reproductive tracts open
+11th	Ch4 Animal Kingdom	Reptilia	1	Terrestrial; dry cornified skin; no external ear; three-chambered heart (four in crocodiles); poikilothermic; oviparous; e.g., Naja, Chelone
+11th	Ch4 Animal Kingdom	Aves	1	Birds; feathers; forelimbs = wings; pneumatic hollow bones; four-chambered heart; homoiothermic; oviparous; e.g., Corvus, Struthio
+11th	Ch4 Animal Kingdom	Pneumatic bone	2	Hollow bone with air cavities in birds; reduces body weight for flight
+11th	Ch4 Animal Kingdom	Crop	1	Anterior food storage chamber in bird digestive tract
+11th	Ch4 Animal Kingdom	Gizzard	1	Muscular grinding chamber in bird digestive tract; breaks down hard food
+11th	Ch4 Animal Kingdom	Mammalia	1	Mammals; mammary glands; hair; four-chambered heart; homoiothermic; viviparous (mostly); e.g., Homo sapiens, Balaenoptera
+11th	Ch4 Animal Kingdom	Mammary gland	2	Milk-producing gland unique to mammals; nourishes young ones; gives class name Mammalia
+11th	Ch4 Animal Kingdom	Dioecious	1	Sexes separate; distinct male and female individuals; e.g., most higher animals
+11th	Ch4 Animal Kingdom	Monoecious	1	Both male and female sex organs in same individual; hermaphrodite; e.g., sponges, earthworms, tapeworm
+11th	Ch4 Animal Kingdom	Oviparous	1	Egg-laying; eggs develop outside mother's body; e.g., birds, reptiles, most fishes
+11th	Ch4 Animal Kingdom	Viviparous	1	Giving birth to young ones; embryo develops inside mother; e.g., most mammals
+11th	Ch4 Animal Kingdom	Intracellular digestion	2	Digestion occurring inside cells; characteristic of sponges
+11th	Ch4 Animal Kingdom	Extracellular digestion	2	Digestion occurring in body cavity/gut outside cells; in coelenterates and higher animals
+11th	Ch4 Animal Kingdom	Direct development	2	Young one resembles adult at birth/hatching; no larval stage; e.g., reptiles, birds, mammals
+11th	Ch4 Animal Kingdom	Indirect development	2	Young one (larva) very different from adult; metamorphosis required; e.g., frog, butterfly
+11th	Ch5 Morphology of Flowering Plants	Root system	2	Underground part of flowering plant; functions: water and mineral absorption, anchorage, food storage, synthesis of PGRs
+11th	Ch5 Morphology of Flowering Plants	Shoot system	2	Above-ground part: stem, leaves, flowers, fruits; conducts water, minerals and photosynthates
+11th	Ch5 Morphology of Flowering Plants	Tap root system	3	Primary root + lateral (secondary, tertiary) roots; in dicots; e.g., mustard, mango
+11th	Ch5 Morphology of Flowering Plants	Fibrous root system	3	Cluster of equal roots from base of stem replacing primary root; in monocots; e.g., wheat, grass
+11th	Ch5 Morphology of Flowering Plants	Adventitious root	2	Root arising from parts other than radicle; e.g., grass, Monstera, banyan prop roots
+11th	Ch5 Morphology of Flowering Plants	Root cap	2	Thimble-like structure covering and protecting root apex as it pushes through soil
+11th	Ch5 Morphology of Flowering Plants	Region of meristematic activity	4	Zone just above root cap; cells small, thin-walled, divide repeatedly
+11th	Ch5 Morphology of Flowering Plants	Region of elongation	3	Zone proximal to meristematic region; cells rapidly enlarge causing root elongation
+11th	Ch5 Morphology of Flowering Plants	Region of maturation	3	Zone proximal to elongation region; cells differentiate; root hairs present
+11th	Ch5 Morphology of Flowering Plants	Root hair	2	Fine thread-like extension of epidermal cells in maturation zone; absorbs water and minerals from soil
+11th	Ch5 Morphology of Flowering Plants	Node	1	Region of stem where leaves, branches and axillary buds are borne
+11th	Ch5 Morphology of Flowering Plants	Internode	1	Portion of stem between two consecutive nodes
+11th	Ch5 Morphology of Flowering Plants	Axillary bud	2	Bud present in the axil of leaf; develops into branch or flower
+11th	Ch5 Morphology of Flowering Plants	Stipule	1	Small leaf-like structure at base of petiole; in pairs; e.g., pea, rose
+11th	Ch5 Morphology of Flowering Plants	Pulvinus	1	Swollen leaf base in leguminous plants; e.g., pea, bean
+11th	Ch5 Morphology of Flowering Plants	Petiole	1	Stalk of leaf connecting lamina to stem; orients blade towards light
+11th	Ch5 Morphology of Flowering Plants	Lamina	1	Green expanded part (blade) of the leaf; contains veins; main site of photosynthesis
+11th	Ch5 Morphology of Flowering Plants	Midrib	1	Middle prominent vein of a leaf running from base to apex
+11th	Ch5 Morphology of Flowering Plants	Venation	1	Pattern of arrangement of veins in the lamina; reticulate (dicots) or parallel (monocots)
+11th	Ch5 Morphology of Flowering Plants	Reticulate venation	2	Veins form a network (net-like); characteristic of dicotyledonous leaves
+11th	Ch5 Morphology of Flowering Plants	Parallel venation	2	Veins run parallel to each other; characteristic of monocotyledonous leaves
+11th	Ch5 Morphology of Flowering Plants	Simple leaf	2	Leaf with one undivided lamina (or incisions not reaching midrib)
+11th	Ch5 Morphology of Flowering Plants	Compound leaf	2	Leaf with lamina cut to midrib forming distinct leaflets; pinnate or palmate
+11th	Ch5 Morphology of Flowering Plants	Pinnately compound leaf	3	Leaflets arranged on both sides of a common axis (rachis); e.g., neem, rose
+11th	Ch5 Morphology of Flowering Plants	Palmately compound leaf	3	Leaflets attached at common point at tip of petiole; e.g., silk cotton, Cannabis
+11th	Ch5 Morphology of Flowering Plants	Rachis	1	Common midrib-like axis of a pinnately compound leaf on which leaflets are borne
+11th	Ch5 Morphology of Flowering Plants	Phyllotaxy	1	Pattern of arrangement of leaves on stem or branch; alternate, opposite or whorled
+11th	Ch5 Morphology of Flowering Plants	Alternate phyllotaxy	2	Single leaf at each node on alternating sides; e.g., mustard, sunflower, china rose
+11th	Ch5 Morphology of Flowering Plants	Opposite phyllotaxy	2	Pair of leaves at each node lying opposite to each other; e.g., Calotropis, guava
+11th	Ch5 Morphology of Flowering Plants	Whorled phyllotaxy	2	More than two leaves at a node forming a whorl; e.g., Alstonia
+11th	Ch5 Morphology of Flowering Plants	Inflorescence	1	Arrangement of flowers on the floral axis; racemose or cymose
+11th	Ch5 Morphology of Flowering Plants	Racemose inflorescence	2	Main axis continues growing; flowers arise laterally in acropetal order; e.g., raceme, spike, corymb, umbel
+11th	Ch5 Morphology of Flowering Plants	Cymose inflorescence	2	Main axis terminates in a flower; growth limited; flowers in basipetal order; e.g., Solanum, Datura
+11th	Ch5 Morphology of Flowering Plants	Thalamus	1	Swollen end of pedicel (receptacle) on which all floral whorls are borne
+11th	Ch5 Morphology of Flowering Plants	Pedicel	1	Stalk supporting a single flower in an inflorescence
+11th	Ch5 Morphology of Flowering Plants	Calyx	1	Outermost floral whorl; made of sepals; usually green; protects flower in bud
+11th	Ch5 Morphology of Flowering Plants	Corolla	1	Second floral whorl; made of petals; usually brightly coloured; attracts pollinators
+11th	Ch5 Morphology of Flowering Plants	Perianth	1	Undifferentiated calyx + corolla that cannot be distinguished; e.g., lily, tulip
+11th	Ch5 Morphology of Flowering Plants	Androecium	1	Male reproductive whorl of flower; made of stamens (filament + anther)
+11th	Ch5 Morphology of Flowering Plants	Gynoecium	1	Female reproductive whorl; made of one or more carpels (stigma + style + ovary)
+11th	Ch5 Morphology of Flowering Plants	Bisexual flower	2	Flower having both androecium and gynoecium; also called hermaphrodite or perfect flower
+11th	Ch5 Morphology of Flowering Plants	Unisexual flower	2	Flower with only stamens (staminate) or only carpels (pistillate); e.g., cucumber, maize
+11th	Ch5 Morphology of Flowering Plants	Actinomorphic	1	Radially symmetrical flower; divisible into equal halves through any radial plane; e.g., mustard, chilli, datura
+11th	Ch5 Morphology of Flowering Plants	Zygomorphic	1	Bilaterally symmetrical flower; divisible into equal halves in only one plane; e.g., pea, bean, gulmohur
+11th	Ch5 Morphology of Flowering Plants	Bracteate	1	Flower having bracts (reduced leaves) at base of pedicel; e.g., Bougainvillea
+11th	Ch5 Morphology of Flowering Plants	Hypogynous flower	2	Superior ovary; calyx, corolla and androecium arise below ovary; e.g., mustard, brinjal, china rose
+11th	Ch5 Morphology of Flowering Plants	Perigynous flower	2	Half-inferior ovary; floral parts on rim of thalamus at same level as ovary; e.g., plum, rose, peach
+11th	Ch5 Morphology of Flowering Plants	Epigynous flower	2	Inferior ovary; thalamus grows up enclosing ovary completely; e.g., guava, cucumber, sunflower
+11th	Ch5 Morphology of Flowering Plants	Superior ovary	2	Ovary situated above other floral whorls; in hypogynous flowers
+11th	Ch5 Morphology of Flowering Plants	Inferior ovary	2	Ovary situated below other floral whorls; in epigynous flowers
+11th	Ch5 Morphology of Flowering Plants	Sepal	1	Individual member of calyx; usually green leaf-like; protects flower bud
+11th	Ch5 Morphology of Flowering Plants	Gamosepalous	1	Sepals united (fused together); e.g., Calotropis, Datura
+11th	Ch5 Morphology of Flowering Plants	Polysepalous	1	Sepals free (not fused); e.g., rose, lotus
+11th	Ch5 Morphology of Flowering Plants	Petal	1	Individual member of corolla; usually brightly coloured; attracts pollinators
+11th	Ch5 Morphology of Flowering Plants	Gamopetalous	1	Petals united (fused); e.g., Datura, Petunia, Calotropis
+11th	Ch5 Morphology of Flowering Plants	Polypetalous	1	Petals free (not fused); e.g., rose, lotus, mustard
+11th	Ch5 Morphology of Flowering Plants	Aestivation	1	Mode of arrangement of sepals or petals relative to each other in a floral bud; valvate, twisted, imbricate, vexillary
+11th	Ch5 Morphology of Flowering Plants	Valvate aestivation	2	Sepals/petals touch at margin without overlapping in bud; e.g., Calotropis
+11th	Ch5 Morphology of Flowering Plants	Twisted aestivation	2	One margin overlaps next in same direction; e.g., china rose, lady's finger, cotton
+11th	Ch5 Morphology of Flowering Plants	Imbricate aestivation	2	Margins overlap without fixed direction; e.g., Cassia, gulmohur
+11th	Ch5 Morphology of Flowering Plants	Vexillary aestivation	2	Standard overlaps wings which overlap keel; papilionaceous; e.g., pea, bean
+11th	Ch5 Morphology of Flowering Plants	Stamen	1	Male reproductive unit; filament (stalk) + anther (pollen-producing bilobed organ)
+11th	Ch5 Morphology of Flowering Plants	Filament	1	Stalk of stamen supporting the anther
+11th	Ch5 Morphology of Flowering Plants	Anther	1	Bilobed pollen-producing part of stamen; each lobe has two pollen sacs
+11th	Ch5 Morphology of Flowering Plants	Pollen sac	2	Chamber in anther where pollen grains are produced; two per anther lobe
+11th	Ch5 Morphology of Flowering Plants	Staminode	1	Sterile stamen; does not produce functional pollen
+11th	Ch5 Morphology of Flowering Plants	Epipetalous stamen	2	Stamen attached to petals; e.g., brinjal, tobacco
+11th	Ch5 Morphology of Flowering Plants	Monoadelphous	1	All stamens united by filaments into one bundle; e.g., china rose, cotton
+11th	Ch5 Morphology of Flowering Plants	Diadelphous	1	Stamens in two bundles; e.g., pea (9+1)
+11th	Ch5 Morphology of Flowering Plants	Polyadelphous	1	Stamens in more than two bundles; e.g., citrus
+11th	Ch5 Morphology of Flowering Plants	Carpel	1	Female reproductive unit; stigma (receives pollen) + style + ovary (contains ovules)
+11th	Ch5 Morphology of Flowering Plants	Stigma	1	Receptive surface at tip of style for pollen grain landing and germination
+11th	Ch5 Morphology of Flowering Plants	Style	1	Slender tube of carpel connecting stigma to ovary
+11th	Ch5 Morphology of Flowering Plants	Ovary	1	Enlarged basal part of carpel; contains ovules on placenta; develops into fruit after fertilisation
+11th	Ch5 Morphology of Flowering Plants	Placenta	1	Flattened cushion-like tissue inside ovary to which ovules are attached
+11th	Ch5 Morphology of Flowering Plants	Apocarpous	1	Carpels free from each other in gynoecium; e.g., lotus, rose
+11th	Ch5 Morphology of Flowering Plants	Syncarpous	1	Carpels fused together in gynoecium; e.g., mustard, tomato
+11th	Ch5 Morphology of Flowering Plants	Placentation	1	Arrangement of ovules (on placenta) within the ovary; marginal, axile, parietal, basal, free central
+11th	Ch5 Morphology of Flowering Plants	Marginal placentation	2	Placenta as ridge along ventral suture; ovules in two rows; e.g., pea
+11th	Ch5 Morphology of Flowering Plants	Axile placentation	2	Placenta on central axis in multilocular ovary; e.g., china rose, tomato, lemon
+11th	Ch5 Morphology of Flowering Plants	Parietal placentation	2	Ovules on inner wall of unilocular ovary; e.g., mustard, Argemone
+11th	Ch5 Morphology of Flowering Plants	Free central placentation	3	Ovules on central axis; no septa; e.g., Dianthus, Primrose
+11th	Ch5 Morphology of Flowering Plants	Basal placentation	2	Placenta at base of ovary; single ovule; e.g., sunflower, marigold
+11th	Ch5 Morphology of Flowering Plants	Fruit	1	Mature ripened ovary developed after fertilisation; pericarp + seeds
+11th	Ch5 Morphology of Flowering Plants	Parthenocarpic fruit	2	Fruit developing without fertilisation; no seeds; e.g., banana, some grapes
+11th	Ch5 Morphology of Flowering Plants	Pericarp	1	Wall of fruit; may be dry or fleshy; three layers in fleshy fruits: epicarp, mesocarp, endocarp
+11th	Ch5 Morphology of Flowering Plants	Epicarp	1	Outermost layer of fleshy pericarp; e.g., skin of mango
+11th	Ch5 Morphology of Flowering Plants	Mesocarp	1	Middle layer of fleshy pericarp; fleshy edible part of mango; fibrous in coconut
+11th	Ch5 Morphology of Flowering Plants	Endocarp	1	Innermost layer of pericarp; stony hard layer of mango (surrounds seed)
+11th	Ch5 Morphology of Flowering Plants	Drupe	1	Fleshy fruit with hard stony endocarp; one-seeded; from monocarpellary superior ovary; e.g., mango, coconut
+11th	Ch5 Morphology of Flowering Plants	Seed coat	2	Outer covering of seed; two layers: outer testa and inner tegmen
+11th	Ch5 Morphology of Flowering Plants	Testa	1	Outer layer of seed coat
+11th	Ch5 Morphology of Flowering Plants	Tegmen	1	Inner layer of seed coat
+11th	Ch5 Morphology of Flowering Plants	Hilum	1	Scar on seed coat marking point of attachment of seed to fruit/funicle
+11th	Ch5 Morphology of Flowering Plants	Micropyle	1	Small pore in seed coat above hilum; site of water entry and pollen tube entry during fertilisation
+11th	Ch5 Morphology of Flowering Plants	Radicle	1	Embryonic root in seed; develops into root system after germination
+11th	Ch5 Morphology of Flowering Plants	Plumule	1	Embryonic shoot in seed; develops into shoot system after germination
+11th	Ch5 Morphology of Flowering Plants	Cotyledon	1	Seed leaf; two in dicots (food storage), one (scutellum) in monocots
+11th	Ch5 Morphology of Flowering Plants	Embryonal axis	2	Central axis of embryo with radicle at one end and plumule at other end
+11th	Ch5 Morphology of Flowering Plants	Endospermic seed	2	Seed with endosperm persisting in mature seed; food stored in endosperm; e.g., castor, maize
+11th	Ch5 Morphology of Flowering Plants	Non-endospermic seed	3	Seed with no endosperm in mature stage; food stored in cotyledons; e.g., pea, bean, gram
+11th	Ch5 Morphology of Flowering Plants	Scutellum	1	Single large shield-shaped cotyledon of monocot (maize) seed; secretes amylase; absorbs nutrients from endosperm
+11th	Ch5 Morphology of Flowering Plants	Aleurone layer	2	Proteinous outermost layer of endosperm in maize; produces hydrolytic enzymes during germination
+11th	Ch5 Morphology of Flowering Plants	Coleoptile	1	Sheath enclosing plumule in monocot seed; protects emerging shoot
+11th	Ch5 Morphology of Flowering Plants	Coleorhiza	1	Sheath enclosing radicle in monocot seed; protects emerging root
+11th	Ch5 Morphology of Flowering Plants	Floral formula	2	Symbolic representation of flower features showing number, arrangement, fusion and adhesion of floral parts
+11th	Ch5 Morphology of Flowering Plants	Floral diagram	2	Diagrammatic cross-sectional representation of flower showing arrangement of all whorls
+11th	Ch6 Anatomy of Flowering Plants	Anatomy	1	Study of internal structure of plants; shows similarities and differences not visible externally
+11th	Ch6 Anatomy of Flowering Plants	Epidermal tissue system	3	Outermost tissue system; comprises epidermis, stomata, trichomes and root hairs; protective function
+11th	Ch6 Anatomy of Flowering Plants	Epidermis	1	Outermost single layer of cells covering entire plant body; parenchymatous; bears cuticle, stomata, trichomes
+11th	Ch6 Anatomy of Flowering Plants	Cuticle	1	Waxy thick layer on outside of epidermis; prevents water loss by transpiration; absent in roots
+11th	Ch6 Anatomy of Flowering Plants	Stoma	1	Pore in epidermis bounded by two guard cells; regulates transpiration and gaseous exchange; pl. stomata
+11th	Ch6 Anatomy of Flowering Plants	Guard cell	2	Bean-shaped (dicots) or dumb-bell-shaped (grasses) cells flanking stomatal pore; contain chloroplasts; regulate stomatal opening
+11th	Ch6 Anatomy of Flowering Plants	Subsidiary cell	2	Specialised epidermal cell surrounding guard cells; assists in stomatal movement
+11th	Ch6 Anatomy of Flowering Plants	Stomatal apparatus	2	Stomatal pore + guard cells + subsidiary cells together
+11th	Ch6 Anatomy of Flowering Plants	Trichome	1	Multicellular epidermal hair on stem; may be branched, soft/stiff or secretory; reduces transpiration
+11th	Ch6 Anatomy of Flowering Plants	Ground tissue system	3	All tissues except epidermis and vascular bundles; includes cortex, pericycle, pith; consists of parenchyma, collenchyma, sclerenchyma
+11th	Ch6 Anatomy of Flowering Plants	Cortex	1	Region between epidermis and stele (endodermis); parenchymatous; storage function
+11th	Ch6 Anatomy of Flowering Plants	Hypodermis	1	Outermost layer(s) of cortex just below epidermis; collenchymatous in dicot stem (support), sclerenchymatous in monocot stem
+11th	Ch6 Anatomy of Flowering Plants	Endodermis	1	Innermost layer of cortex; single layer of barrel-shaped cells; has Casparian strips of suberin in roots; starch sheath in stems
+11th	Ch6 Anatomy of Flowering Plants	Casparian strip	2	Waxy suberin band in radial and tangential walls of endodermal cells; water-impermeable; forces apoplastic water into symplast
+11th	Ch6 Anatomy of Flowering Plants	Pericycle	1	Layer just inside endodermis; initiates lateral roots and vascular cambium; sclerenchymatous patches in dicot stem
+11th	Ch6 Anatomy of Flowering Plants	Stele	1	All tissues inside endodermis: pericycle + vascular bundles + pith
+11th	Ch6 Anatomy of Flowering Plants	Pith	1	Central parenchymatous tissue inside stele; food storage; large in monocot root; small in dicot root
+11th	Ch6 Anatomy of Flowering Plants	Medullary ray	2	Radially placed parenchymatous cells between vascular bundles in dicot stem; lateral conduction
+11th	Ch6 Anatomy of Flowering Plants	Vascular tissue system	3	Conducting tissue system; xylem + phloem forming vascular bundles; transports water, minerals and food
+11th	Ch6 Anatomy of Flowering Plants	Vascular bundle	2	Strand of xylem + phloem; open (with cambium, dicots) or closed (no cambium, monocots); radial or conjoint
+11th	Ch6 Anatomy of Flowering Plants	Open vascular bundle	3	Has cambium between xylem and phloem; can form secondary xylem and phloem; in dicot stems
+11th	Ch6 Anatomy of Flowering Plants	Closed vascular bundle	3	No cambium; no secondary growth possible; in monocot stems
+11th	Ch6 Anatomy of Flowering Plants	Radial vascular bundle	3	Xylem and phloem alternating along different radii; as in roots
+11th	Ch6 Anatomy of Flowering Plants	Conjoint vascular bundle	3	Xylem and phloem on same radius; xylem inside, phloem outside; as in stems and leaves
+11th	Ch6 Anatomy of Flowering Plants	Epiblema	1	Outermost layer (epidermis) of root; bears unicellular root hairs; no cuticle
+11th	Ch6 Anatomy of Flowering Plants	Conjunctive tissue	2	Parenchymatous cells between xylem and phloem patches in root
+11th	Ch6 Anatomy of Flowering Plants	Protoxylem	1	First-formed xylem; towards periphery (exarch) in roots; towards centre (endarch) in stems
+11th	Ch6 Anatomy of Flowering Plants	Metaxylem	1	Later-formed larger xylem; towards centre in roots; towards periphery in stems
+11th	Ch6 Anatomy of Flowering Plants	Endarch protoxylem	2	Protoxylem towards centre of vascular bundle; characteristic of stems
+11th	Ch6 Anatomy of Flowering Plants	Exarch protoxylem	2	Protoxylem towards periphery; characteristic of roots
+11th	Ch6 Anatomy of Flowering Plants	Bundle sheath	2	Layer of thick-walled cells surrounding vascular bundle in leaf; in monocots = sclerenchymatous; in C4 = site of Calvin cycle
+11th	Ch6 Anatomy of Flowering Plants	Mesophyll	1	Photosynthetic tissue between upper and lower epidermis of leaf; palisade parenchyma + spongy parenchyma
+11th	Ch6 Anatomy of Flowering Plants	Palisade parenchyma	2	Elongated cells arranged vertically under adaxial epidermis; rich in chloroplasts; main photosynthetic tissue
+11th	Ch6 Anatomy of Flowering Plants	Spongy parenchyma	2	Oval/round loosely arranged cells below palisade; large intercellular spaces; gas exchange
+11th	Ch6 Anatomy of Flowering Plants	Dorsiventral leaf	2	Dicot leaf with distinct adaxial (upper) and abaxial (lower) surfaces; stomata mainly abaxial; differentiated mesophyll
+11th	Ch6 Anatomy of Flowering Plants	Isobilateral leaf	2	Monocot leaf; stomata on both surfaces; mesophyll not differentiated into palisade and spongy
+11th	Ch6 Anatomy of Flowering Plants	Bulliform cell	2	Large empty colourless adaxial epidermal cell in grass leaves; when flaccid causes leaf rolling to reduce water loss
+11th	Ch6 Anatomy of Flowering Plants	Parenchyma	1	Simple tissue; thin-walled loosely packed cells with intercellular spaces; stores food; most abundant ground tissue
+11th	Ch6 Anatomy of Flowering Plants	Collenchyma	1	Simple tissue; unevenly thickened cellulose walls especially at corners; provides flexibility and mechanical support in young stems
+11th	Ch6 Anatomy of Flowering Plants	Sclerenchyma	1	Simple tissue; uniformly thick lignified dead cell walls; provides strength and rigidity; fibres and sclereids
+11th	Ch6 Anatomy of Flowering Plants	Fibre	1	Long narrow sclerenchyma cell; provides mechanical support; e.g., jute (Corchorus), hemp, flax
+11th	Ch6 Anatomy of Flowering Plants	Sclereid	1	Short irregular-shaped sclerenchyma cell (stone cell); forms hard seed coat and gritty flesh of pear
+11th	Ch6 Anatomy of Flowering Plants	Xylem	1	Complex tissue; conducts water and minerals upward; made of tracheids, vessels, xylem parenchyma, xylem fibres
+11th	Ch6 Anatomy of Flowering Plants	Tracheid	1	Elongated dead xylem cell with pitted walls; water conduction and support; present in all vascular plants
+11th	Ch6 Anatomy of Flowering Plants	Vessel element	2	Wide, short dead xylem cell with perforated end walls; faster water conduction; only in angiosperms
+11th	Ch6 Anatomy of Flowering Plants	Xylem parenchyma	2	Living xylem cells; store food and assist lateral water conduction
+11th	Ch6 Anatomy of Flowering Plants	Phloem	1	Complex tissue; conducts food (photosynthates) from leaves to rest of plant; sieve tubes, companion cells, phloem parenchyma, bast fibres
+11th	Ch6 Anatomy of Flowering Plants	Sieve tube element	3	Living enucleate cell of phloem; sieve plates at ends for food flow; associated with companion cell
+11th	Ch6 Anatomy of Flowering Plants	Companion cell	2	Nucleated cell adjacent to sieve tube element; controls metabolism of enucleate sieve tube
+11th	Ch6 Anatomy of Flowering Plants	Sieve plate	2	Perforated end wall of sieve tube element allowing food transport between cells
+11th	Ch6 Anatomy of Flowering Plants	Meristematic tissue	2	Actively dividing undifferentiated tissue; apical (root/shoot tip), lateral (cambium), intercalary (internodes)
+11th	Ch6 Anatomy of Flowering Plants	Apical meristem	2	Meristem at tips of roots and shoots; responsible for primary growth (increase in length)
+11th	Ch6 Anatomy of Flowering Plants	Lateral meristem	2	Meristem on sides of organ; vascular cambium and cork cambium; responsible for secondary growth (increase in girth)
+11th	Ch6 Anatomy of Flowering Plants	Intercalary meristem	2	Meristem at internodes and leaf bases; responsible for growth of internodes; e.g., grasses
+11th	Ch6 Anatomy of Flowering Plants	Vascular cambium	2	Lateral meristem between xylem and phloem; produces secondary xylem (inward) and secondary phloem (outward)
+11th	Ch6 Anatomy of Flowering Plants	Cork cambium (phellogen)	3	Secondary lateral meristem in bark; produces cork (phellem) outward and phelloderm inward
+11th	Ch6 Anatomy of Flowering Plants	Cork (phellem)	2	Dead suberised cells produced by cork cambium; replaces epidermis in older stems; waterproof
+11th	Ch6 Anatomy of Flowering Plants	Lenticel	1	Pore in cork/bark for gaseous exchange when stomata are absent; in older stems and woody plants
+11th	Ch6 Anatomy of Flowering Plants	Secondary growth	2	Increase in girth due to activity of lateral meristems (vascular cambium + cork cambium); mostly in dicots
+11th	Ch6 Anatomy of Flowering Plants	Heartwood	1	Dark dead inner wood; no water conduction; mechanically strong; tannins/resins deposited
+11th	Ch6 Anatomy of Flowering Plants	Sapwood	1	Light outer wood; conducts water; living xylem; surrounds heartwood
+11th	Ch6 Anatomy of Flowering Plants	Annual ring	2	Ring in wood cross-section from one year of secondary growth; spring wood (wide) + autumn wood (narrow)
+11th	Ch6 Anatomy of Flowering Plants	Spring wood	2	Wide-pored, less dense wood formed in spring/summer; also called early wood
+11th	Ch6 Anatomy of Flowering Plants	Autumn wood	2	Narrow-pored, dense wood formed in autumn; also called late wood
+11th	Ch7 Structural Organisation in Animals	Rana tigrina	2	Most common Indian frog; belongs to class Amphibia, phylum Chordata; poikilotherm
+11th	Ch7 Structural Organisation in Animals	Mimicry	1	Protective coloration allowing frogs to change colour to hide from predators (camouflage)
+11th	Ch7 Structural Organisation in Animals	Aestivation	1	Summer sleep in frogs; shelter in deep burrows during peak summer to avoid extreme heat
+11th	Ch7 Structural Organisation in Animals	Hibernation	1	Winter sleep in frogs; shelter in deep burrows during peak winter to avoid extreme cold
+11th	Ch7 Structural Organisation in Animals	Nictitating membrane	2	Transparent protective membrane covering frog's eye underwater
+11th	Ch7 Structural Organisation in Animals	Tympanum	1	Membranous ear of frog on either side of eyes; receives sound signals
+11th	Ch7 Structural Organisation in Animals	Sexual dimorphism	2	Males and females differ in external appearance; male frogs have vocal sacs and copulatory pad
+11th	Ch7 Structural Organisation in Animals	Vocal sac	2	Sound-producing organ in male frogs; absent in females
+11th	Ch7 Structural Organisation in Animals	Cutaneous respiration	2	Gaseous exchange through moist skin; in frogs during aquatic phase and during aestivation/hibernation
+11th	Ch7 Structural Organisation in Animals	Pulmonary respiration	2	Breathing using lungs; on land in frogs; air enters through nostrils → buccal cavity → lungs
+11th	Ch7 Structural Organisation in Animals	Chyme	1	Partially digested food passed from stomach to duodenum
+11th	Ch7 Structural Organisation in Animals	Villi	1	Finger-like folds in inner wall of intestine; increase surface area for absorption of digested food
+11th	Ch7 Structural Organisation in Animals	Microvilli	1	Tiny projections on villi; further increase surface area for absorption
+11th	Ch7 Structural Organisation in Animals	Pericardium	1	Membrane covering the heart
+11th	Ch7 Structural Organisation in Animals	Sinus venosus	2	Triangular structure joining right atrium of frog heart; receives blood from vena cava
+11th	Ch7 Structural Organisation in Animals	Vena cava	2	Major veins bringing blood back to heart; open into sinus venosus
+11th	Ch7 Structural Organisation in Animals	Conus arteriosus	2	Sac-like chamber on ventral side of frog heart ventricle; blood exits to arteries
+11th	Ch7 Structural Organisation in Animals	Hepatic portal system	3	Venous connection between intestine and liver; brings absorbed nutrients to liver first
+11th	Ch7 Structural Organisation in Animals	Renal portal system	3	Venous connection between lower body and kidney; blood from hindlimbs filtered by kidney
+11th	Ch7 Structural Organisation in Animals	Lymphatic system	2	System of lymph vessels and lymph nodes; lymph lacks proteins and RBCs; transports fats
+11th	Ch7 Structural Organisation in Animals	Nephron	1	Structural and functional unit of kidney (uriniferous tubule); filters blood and produces urine
+11th	Ch7 Structural Organisation in Animals	Urinogenital duct	2	Common duct for urine and sperm in male frogs; connects kidney/testis to cloaca
+11th	Ch7 Structural Organisation in Animals	Ureotelic	1	Excreting nitrogen mainly as urea; frog is ureotelic
+11th	Ch7 Structural Organisation in Animals	Cranium	1	Bony brain box enclosing and protecting brain; in all vertebrates
+11th	Ch7 Structural Organisation in Animals	Forebrain	1	Anterior brain: olfactory lobes + cerebral hemispheres + diencephalon
+11th	Ch7 Structural Organisation in Animals	Midbrain	1	Middle brain region; characterised by pair of optic lobes in frog
+11th	Ch7 Structural Organisation in Animals	Hindbrain	1	Posterior brain: cerebellum + medulla oblongata; medulla continues as spinal cord
+11th	Ch7 Structural Organisation in Animals	Optic lobe	2	Part of midbrain; processes visual information
+11th	Ch7 Structural Organisation in Animals	Mesorchium	1	Double fold of peritoneum attaching testes to kidneys in male frog
+11th	Ch7 Structural Organisation in Animals	Vasa efferentia	2	10-12 ducts from testis entering kidney and opening into Bidder's canal in male frog
+11th	Ch7 Structural Organisation in Animals	Tadpole	1	Aquatic larval stage of frog; hatches from egg; undergoes metamorphosis to form adult
+11th	Ch7 Structural Organisation in Animals	Metamorphosis	1	Transformation of tadpole larva into adult frog; involves reorganisation of body structures
+11th	Ch7 Structural Organisation in Animals	Epithelial tissue	2	Sheet-like animal tissue lining body surface and cavities; one free surface; protective and secretory
+11th	Ch7 Structural Organisation in Animals	Connective tissue	2	Animal tissue with cells in extracellular matrix; binds and supports other tissues; blood, bone, cartilage, areolar
+11th	Ch7 Structural Organisation in Animals	Muscular tissue	2	Animal tissue composed of contractile cells (muscle fibres); skeletal, smooth and cardiac types
+11th	Ch7 Structural Organisation in Animals	Neural tissue	2	Nerve tissue made of neurons and neuroglia; generates and transmits electrical impulses
+11th	Ch8 Cell: The Unit of Life	Cell theory	2	All living organisms are composed of cells; all cells arise from pre-existing cells (Omnis cellula-e cellula); formulated by Schleiden & Schwann, modified by Virchow (1855)
+11th	Ch8 Cell: The Unit of Life	Prokaryotic cell	2	Cell lacking membrane-bound nucleus and organelles; 70S ribosomes; bacteria, cyanobacteria, mycoplasma, PPLO
+11th	Ch8 Cell: The Unit of Life	Eukaryotic cell	2	Cell with membrane-bound nucleus and organelles; 80S cytoplasmic ribosomes; protists, fungi, plants, animals
+11th	Ch8 Cell: The Unit of Life	Cytoplasm	1	Semi-fluid matrix filling cell; main arena of cellular activities; contains organelles
+11th	Ch8 Cell: The Unit of Life	Plasma membrane	2	Selectively permeable bilayer of phospholipids and proteins; outer boundary of cell; fluid mosaic model
+11th	Ch8 Cell: The Unit of Life	Fluid mosaic model	3	Singer and Nicolson (1972): membrane is quasi-fluid phospholipid bilayer with laterally mobile integral and peripheral proteins
+11th	Ch8 Cell: The Unit of Life	Phospholipid bilayer	2	Two layers of phospholipids with hydrophilic heads outward and hydrophobic tails inward; basic structure of cell membrane
+11th	Ch8 Cell: The Unit of Life	Integral protein	2	Protein partially or totally embedded in phospholipid bilayer; cannot be easily removed
+11th	Ch8 Cell: The Unit of Life	Peripheral protein	2	Protein lying on surface of membrane; loosely associated; easily removed
+11th	Ch8 Cell: The Unit of Life	Passive transport	2	Movement of molecules across membrane without energy; down concentration gradient; diffusion, osmosis, facilitated diffusion
+11th	Ch8 Cell: The Unit of Life	Active transport	2	Energy-dependent (ATP) transport of molecules across membrane against concentration gradient; e.g., Na+/K+ pump
+11th	Ch8 Cell: The Unit of Life	Cell wall	2	Rigid non-living outer layer outside plasma membrane; in plants (cellulose), fungi (chitin), bacteria (peptidoglycan); gives shape and protection
+11th	Ch8 Cell: The Unit of Life	Primary cell wall	3	Thin, flexible cell wall of young/growing plant cell; capable of growth
+11th	Ch8 Cell: The Unit of Life	Secondary cell wall	3	Thick, rigid wall formed inside primary wall of mature plant cell; contains lignin
+11th	Ch8 Cell: The Unit of Life	Middle lamella	2	Layer of calcium pectate between adjacent cell walls; cements neighbouring plant cells together
+11th	Ch8 Cell: The Unit of Life	Plasmodesmata	1	Cytoplasmic connections through cell wall linking neighbouring plant cells; allow cell-to-cell communication
+11th	Ch8 Cell: The Unit of Life	Cell envelope	2	Multi-layered structure in bacteria: glycocalyx + cell wall + plasma membrane
+11th	Ch8 Cell: The Unit of Life	Glycocalyx	1	Outermost layer of bacterial cell envelope; loose slime layer or tough capsule; protection and adherence
+11th	Ch8 Cell: The Unit of Life	Capsule	1	Tough, thick glycocalyx of certain bacteria; protects from phagocytosis and desiccation
+11th	Ch8 Cell: The Unit of Life	Mesosome	1	Infolding of bacterial plasma membrane; helps in cell wall formation, DNA replication, respiration and secretion
+11th	Ch8 Cell: The Unit of Life	Plasmid	1	Small circular DNA in bacteria outside genomic DNA; carries extra genes (e.g., antibiotic resistance)
+11th	Ch8 Cell: The Unit of Life	Pili	1	Elongated tubular protein projections on bacterial surface; help in attachment to surfaces and conjugation
+11th	Ch8 Cell: The Unit of Life	Fimbriae	1	Small bristle-like protein fibres on bacteria; help attach to host tissues
+11th	Ch8 Cell: The Unit of Life	Flagellum (bacterial)	2	Thin filamentous extension for motility; composed of filament + hook + basal body; structurally different from eukaryotic flagellum
+11th	Ch8 Cell: The Unit of Life	Inclusion body	2	Reserve material stored in prokaryotic cytoplasm without membrane; e.g., phosphate granules, glycogen granules, gas vacuoles
+11th	Ch8 Cell: The Unit of Life	Ribosome	1	Non-membrane-bound organelle; site of protein synthesis; 70S (prokaryotes) or 80S (eukaryotes)
+11th	Ch8 Cell: The Unit of Life	Polyribosome (polysome)	2	Chain of ribosomes attached to one mRNA molecule; translate same mRNA simultaneously
+11th	Ch8 Cell: The Unit of Life	Endomembrane system	2	Coordinated group of membrane organelles: ER + Golgi complex + lysosomes + vacuoles
+11th	Ch8 Cell: The Unit of Life	Endoplasmic reticulum	2	Network of tubules and cisternae in eukaryotic cytoplasm; RER (with ribosomes, protein synthesis) and SER (lipid synthesis)
+11th	Ch8 Cell: The Unit of Life	Rough endoplasmic reticulum	3	ER with ribosomes on outer surface; site of protein synthesis and processing; continuous with outer nuclear membrane
+11th	Ch8 Cell: The Unit of Life	Smooth endoplasmic reticulum	3	ER without ribosomes; site of lipid and steroid hormone synthesis
+11th	Ch8 Cell: The Unit of Life	Golgi apparatus	2	Stacked flattened membrane sacs (cisternae); cis face (receiving) and trans face (releasing); packages and modifies proteins; forms glycoproteins and glycolipids
+11th	Ch8 Cell: The Unit of Life	Cisternae	1	Flattened disc-shaped sacs of Golgi apparatus; 0.5–1.0 µm diameter; stacked parallel
+11th	Ch8 Cell: The Unit of Life	Lysosome	1	"Membrane-bound vesicle containing hydrolytic enzymes (lipases, proteases, carbohydrases); active at acid pH; digests macromolecules; ""suicide bag"" of cell"
+11th	Ch8 Cell: The Unit of Life	Vacuole	1	Membrane-bound space in cytoplasm; bound by tonoplast; stores water, sap, waste; up to 90% of plant cell volume
+11th	Ch8 Cell: The Unit of Life	Tonoplast	1	Single membrane bounding the vacuole; facilitates transport of ions into vacuole against gradient
+11th	Ch8 Cell: The Unit of Life	Mitochondrion	1	"Double-membrane organelle; site of aerobic respiration; produces ATP; has own 70S ribosomes and circular DNA; ""powerhouse of cell"""
+11th	Ch8 Cell: The Unit of Life	Crista	1	Infolding of inner mitochondrial membrane; increases surface area for ATP synthesis; pl. cristae
+11th	Ch8 Cell: The Unit of Life	Matrix (mitochondrial)	2	Dense fluid inside inner mitochondrial membrane; site of Krebs cycle; contains circular DNA and 70S ribosomes
+11th	Ch8 Cell: The Unit of Life	Plastid	1	Double-membrane plant organelle; chloroplasts (photosynthesis), chromoplasts (pigment), leucoplasts (storage)
+11th	Ch8 Cell: The Unit of Life	Chloroplast	1	Green plastid containing chlorophyll; site of photosynthesis; thylakoids + stroma; has own 70S ribosomes and circular DNA
+11th	Ch8 Cell: The Unit of Life	Chromoplast	1	Coloured (non-green) plastid containing carotenoids; gives yellow/orange/red colour to flowers and fruits
+11th	Ch8 Cell: The Unit of Life	Leucoplast	1	Colourless plastid storing nutrients: amyloplasts (starch), elaioplasts (oils/fats), aleuroplasts (proteins)
+11th	Ch8 Cell: The Unit of Life	Stroma (chloroplast)	2	Fluid-filled matrix of chloroplast; site of Calvin cycle (dark reactions); contains circular DNA and 70S ribosomes
+11th	Ch8 Cell: The Unit of Life	Thylakoid	1	Flattened membranous sac in chloroplast stroma; contains chlorophyll; stacked into grana; site of light reactions
+11th	Ch8 Cell: The Unit of Life	Granum	1	Stack of thylakoids in chloroplast; pl. grana; site of light reactions of photosynthesis
+11th	Ch8 Cell: The Unit of Life	Stroma lamella	2	Flat membranous tubule connecting thylakoids of different grana; intergranal thylakoid
+11th	Ch8 Cell: The Unit of Life	Cytoskeleton	1	Network of microtubules, microfilaments, and intermediate filaments; provides mechanical support, shape, and motility to cell
+11th	Ch8 Cell: The Unit of Life	Microtubule	1	Hollow tube of tubulin protein; part of cytoskeleton; forms spindle fibres, cilia axoneme, centrioles
+11th	Ch8 Cell: The Unit of Life	Microfilament	1	Solid rod of actin protein; part of cytoskeleton; involved in cell movement and shape
+11th	Ch8 Cell: The Unit of Life	Cilium	1	Short hair-like motile outgrowth of cell membrane; moves fluid past cell surface; 9+2 microtubule array; pl. cilia
+11th	Ch8 Cell: The Unit of Life	Flagellum (eukaryotic)	2	Long hair-like motile outgrowth for cell locomotion; 9+2 microtubule axoneme; structurally same as cilium but longer
+11th	Ch8 Cell: The Unit of Life	Axoneme	1	Core of cilium/flagellum; 9 peripheral doublet + 2 central microtubules (9+2 arrangement)
+11th	Ch8 Cell: The Unit of Life	Basal body	2	Centriole-like structure at base of cilium/flagellum; anchors it in cell
+11th	Ch8 Cell: The Unit of Life	Centrosome	1	Non-membrane organelle in animal cells containing two centrioles; organises spindle fibres during cell division
+11th	Ch8 Cell: The Unit of Life	Centriole	1	Cylindrical structure of 9 peripheral triplet microtubules; forms basal body of cilia/flagella and spindle apparatus
+11th	Ch8 Cell: The Unit of Life	Nucleus	1	Membrane-bound organelle containing chromosomes; controls cell activities and heredity; first described by Robert Brown (1831)
+11th	Ch8 Cell: The Unit of Life	Nuclear envelope	2	Double membrane surrounding nucleus; has perinuclear space (10–50 nm); outer membrane continuous with RER
+11th	Ch8 Cell: The Unit of Life	Nuclear pore	2	Opening in nuclear envelope where two membranes fuse; passage for RNA and protein between nucleus and cytoplasm
+11th	Ch8 Cell: The Unit of Life	Nucleoplasm	1	Fluid inside nucleus; contains nucleolus and chromatin
+11th	Ch8 Cell: The Unit of Life	Nucleolus	1	Spherical non-membrane body in nucleoplasm; site of rRNA synthesis; larger in cells active in protein synthesis
+11th	Ch8 Cell: The Unit of Life	Chromatin	1	Nucleoprotein fibre in interphase nucleus; DNA + histone proteins + non-histone proteins + RNA; condenses into chromosomes during division
+11th	Ch8 Cell: The Unit of Life	Chromosome	1	Condensed chromatin visible during cell division; contains genes; has centromere and two chromatids
+11th	Ch8 Cell: The Unit of Life	Centromere (chromosome)	2	Primary constriction on chromosome; point of spindle fibre attachment; holds two chromatids
+11th	Ch8 Cell: The Unit of Life	Metacentric chromosome	2	Chromosome with centromere at middle; two equal arms
+11th	Ch8 Cell: The Unit of Life	Submetacentric chromosome	2	Chromosome with centromere slightly off-centre; one shorter and one longer arm
+11th	Ch8 Cell: The Unit of Life	Acrocentric chromosome	2	Chromosome with centromere near one end; one very short and one very long arm
+11th	Ch8 Cell: The Unit of Life	Telocentric chromosome	2	Chromosome with terminal centromere; one arm only
+11th	Ch8 Cell: The Unit of Life	Satellite (chromosome)	2	Small fragment-like region on chromosome due to secondary constriction; non-staining region
+11th	Ch8 Cell: The Unit of Life	Microbody	1	Small membrane-bound vesicle containing enzymes; e.g., peroxisomes; present in both plant and animal cells
+11th	Ch9 Biomolecules	Biomolecule	1	Carbon compound found in living organisms; includes both small molecules (<1000 Da) and macromolecules
+11th	Ch9 Biomolecules	Primary metabolite	2	Biomolecule with identified function in normal physiology; e.g., amino acids, sugars, fatty acids, nucleotides
+11th	Ch9 Biomolecules	Secondary metabolite	2	Compound in plants/fungi/microbes beyond primary metabolites; e.g., alkaloids, rubber, essential oils, antibiotics, pigments
+11th	Ch9 Biomolecules	Biomacromolecule	1	Large polymer biomolecule in acid-insoluble fraction; proteins, nucleic acids, polysaccharides; MW > 10,000 Da
+11th	Ch9 Biomolecules	Amino acid	2	Building block of proteins; has amino group (–NH2), carboxyl group (–COOH) and R group on α-carbon; 20 types in proteins
+11th	Ch9 Biomolecules	Essential amino acid	3	Amino acid that body cannot synthesise; must be obtained from diet; e.g., leucine, lysine, tryptophan
+11th	Ch9 Biomolecules	Zwitterion	1	Amino acid form with both –NH3+ and –COO- groups; net charge zero; in solution at isoelectric pH
+11th	Ch9 Biomolecules	Fatty acid	2	Carboxyl group attached to hydrocarbon R group; saturated (no double bonds) or unsaturated (with C=C)
+11th	Ch9 Biomolecules	Saturated fatty acid	3	Fatty acid with no C=C double bonds; e.g., palmitic acid (C16), stearic acid (C18)
+11th	Ch9 Biomolecules	Unsaturated fatty acid	3	Fatty acid with one or more C=C double bonds; e.g., arachidonic acid (C20, 4 double bonds)
+11th	Ch9 Biomolecules	Glycerol	1	Trihydroxy propane; backbone of fats and oils; esterified with fatty acids to form triglycerides
+11th	Ch9 Biomolecules	Triglyceride	1	Three fatty acids esterified to glycerol; main storage lipid (fats at room temp, oils if liquid)
+11th	Ch9 Biomolecules	Phospholipid	1	Lipid with glycerol + two fatty acids + phosphorylated organic compound (e.g., choline); main component of cell membrane; e.g., lecithin
+11th	Ch9 Biomolecules	Nitrogenous base	2	Heterocyclic nitrogen-containing compound in nucleotides; purines (adenine, guanine) and pyrimidines (cytosine, thymine, uracil)
+11th	Ch9 Biomolecules	Purine	1	Double-ring nitrogenous base; adenine (A) and guanine (G); in both DNA and RNA
+11th	Ch9 Biomolecules	Pyrimidine	1	Single-ring nitrogenous base; cytosine (C), thymine (T, in DNA), uracil (U, in RNA)
+11th	Ch9 Biomolecules	Nucleoside	1	Nitrogenous base + sugar (ribose or deoxyribose); e.g., adenosine, thymidine, uridine, cytidine, guanosine
+11th	Ch9 Biomolecules	Nucleotide	1	Nitrogenous base + sugar + phosphate; building block of nucleic acids; e.g., adenylic acid (AMP)
+11th	Ch9 Biomolecules	Polysaccharide	1	Polymer of monosaccharides; e.g., cellulose, starch, glycogen, chitin, inulin
+11th	Ch9 Biomolecules	Cellulose	1	Homopolymer of glucose; structural component of plant cell wall; cannot be digested by humans
+11th	Ch9 Biomolecules	Starch	1	Storage polysaccharide in plants; homopolymer of glucose; forms helix that holds I2 (turns blue)
+11th	Ch9 Biomolecules	Glycogen	1	Storage polysaccharide in animals; branched homopolymer of glucose; in liver and muscle
+11th	Ch9 Biomolecules	Chitin	1	Complex polysaccharide of N-acetylglucosamine; forms exoskeleton of arthropods and cell wall of fungi
+11th	Ch9 Biomolecules	Inulin	1	Storage polysaccharide; polymer of fructose; found in dahlia tubers
+11th	Ch9 Biomolecules	Protein	1	Polypeptide or polymer of amino acids linked by peptide bonds; heteropolymer of 20 amino acid types; structural and functional roles
+11th	Ch9 Biomolecules	Peptide bond	2	Covalent bond between carboxyl group of one amino acid and amino group of next; links amino acids in protein chain
+11th	Ch9 Biomolecules	Primary structure (protein)	3	Linear sequence of amino acids in polypeptide chain; N-terminal to C-terminal end
+11th	Ch9 Biomolecules	Secondary structure (protein)	3	Local folding pattern of polypeptide chain; α-helix (right-handed) and β-pleated sheet; stabilised by hydrogen bonds
+11th	Ch9 Biomolecules	Alpha helix	2	Right-handed helical secondary structure of protein; stabilised by hydrogen bonds between backbone NH and CO groups
+11th	Ch9 Biomolecules	Beta-pleated sheet	3	Flat secondary structure of protein; polypeptide strands side by side with H-bonds; parallel or antiparallel
+11th	Ch9 Biomolecules	Tertiary structure (protein)	3	Overall 3D folding of entire polypeptide chain; formed by interactions of R groups; gives functional shape
+11th	Ch9 Biomolecules	Quaternary structure (protein)	3	Arrangement of multiple polypeptide subunits relative to each other; e.g., haemoglobin (2α + 2β subunits)
+11th	Ch9 Biomolecules	Collagen	1	Most abundant protein in animal kingdom; structural protein; forms intercellular ground substance
+11th	Ch9 Biomolecules	Enzyme	1	Protein catalyst that accelerates biological reactions; lowers activation energy; substrate-specific
+11th	Ch9 Biomolecules	Ribozyme	1	Nucleic acid (RNA) with catalytic activity; not a protein; discovered by Altman and Cech
+11th	Ch9 Biomolecules	Active site	2	Crevice or pocket in enzyme where substrate binds; complementary in shape to substrate
+11th	Ch9 Biomolecules	Substrate	1	Molecule that binds to enzyme active site and is converted to product (S→P)
+11th	Ch9 Biomolecules	Enzyme-substrate complex	3	Transient intermediate formed when substrate binds to enzyme active site (ES complex); essential for catalysis
+11th	Ch9 Biomolecules	Activation energy	2	Energy required to break substrate bonds and reach transition state; enzymes lower this barrier
+11th	Ch9 Biomolecules	Optimum temperature	2	Temperature at which enzyme shows maximum activity; above it enzyme is denatured
+11th	Ch9 Biomolecules	Optimum pH	2	pH at which enzyme shows maximum activity; deviation reduces activity
+11th	Ch9 Biomolecules	Vmax	1	Maximum velocity of enzyme reaction; reached when all enzyme molecules are saturated with substrate
+11th	Ch9 Biomolecules	Competitive inhibitor	2	Molecule structurally similar to substrate; competes for active site; reduces enzyme activity; e.g., malonate inhibits succinic dehydrogenase
+11th	Ch9 Biomolecules	Cofactor	1	Non-protein component bound to enzyme making it catalytically active; prosthetic group, coenzyme or metal ion
+11th	Ch9 Biomolecules	Apoenzyme	1	Protein portion of enzyme without its cofactor; inactive by itself
+11th	Ch9 Biomolecules	Prosthetic group	2	Tightly bound organic cofactor; part of active site; e.g., haem in peroxidase and catalase
+11th	Ch9 Biomolecules	Coenzyme	1	Loosely bound organic cofactor; transiently associates with enzyme; often vitamin derivative; e.g., NAD, NADP
+11th	Ch9 Biomolecules	Holoenzyme	1	Complete, catalytically active enzyme with apoenzyme + cofactor
+11th	Ch9 Biomolecules	Metabolic pathway	2	Series of enzyme-catalysed sequential reactions converting one molecule to another; e.g., glycolysis (glucose → pyruvate)
+11th	Ch9 Biomolecules	Oxidoreductase	1	Enzyme class catalysing oxidation-reduction reactions; includes dehydrogenases
+11th	Ch9 Biomolecules	Transferase	1	Enzyme class catalysing transfer of a functional group from one substrate to another
+11th	Ch9 Biomolecules	Hydrolase	1	Enzyme class catalysing hydrolysis of bonds (ester, peptide, glycosidic, etc.)
+11th	Ch9 Biomolecules	Lyase	1	Enzyme class catalysing removal of groups leaving double bonds (non-hydrolytic)
+11th	Ch9 Biomolecules	Isomerase	1	Enzyme class catalysing interconversion of optical, geometric or positional isomers
+11th	Ch9 Biomolecules	Ligase	1	Enzyme class catalysing joining of two compounds with ATP hydrolysis; forms C-O, C-S, C-N, P-O bonds
+11th	Ch10 Cell Cycle and Cell Division	Cell cycle	2	Ordered sequence of events by which a cell duplicates its genome and divides into two daughter cells; interphase + M phase
+11th	Ch10 Cell Cycle and Cell Division	Interphase	1	Preparatory phase between two M phases; includes G1 + S + G2; >95% of cell cycle duration; cell grows and DNA replicates
+11th	Ch10 Cell Cycle and Cell Division	G1 phase	2	Gap 1: period between mitosis and S phase; cell grows metabolically; no DNA replication; proteins synthesised
+11th	Ch10 Cell Cycle and Cell Division	S phase	2	Synthesis phase; DNA replication occurs; DNA amount doubles (2C → 4C); chromosome number unchanged; centrioles duplicate
+11th	Ch10 Cell Cycle and Cell Division	G2 phase	2	Gap 2: after S phase; cell continues to grow; proteins for mitosis synthesised; lasts until M phase begins
+11th	Ch10 Cell Cycle and Cell Division	G0 phase	2	Quiescent stage; cells exit G1 and stop dividing; metabolically active but non-proliferating; e.g., heart cells, neurons
+11th	Ch10 Cell Cycle and Cell Division	M phase	2	Mitosis phase: nuclear division (karyokinesis) + cytoplasmic division (cytokinesis); produces two daughter cells
+11th	Ch10 Cell Cycle and Cell Division	Mitosis	1	Equational division; produces two genetically identical diploid daughter cells; four stages: prophase, metaphase, anaphase, telophase
+11th	Ch10 Cell Cycle and Cell Division	Karyokinesis	1	Division of the nucleus; includes prophase, metaphase, anaphase, telophase
+11th	Ch10 Cell Cycle and Cell Division	Cytokinesis	1	Division of cytoplasm after karyokinesis; in animals by cleavage furrow; in plants by cell plate formation
+11th	Ch10 Cell Cycle and Cell Division	Prophase	1	First stage of mitosis; chromosomes condense, centrosomes move to poles, asters form, spindle appears, nuclear envelope and nucleolus disappear
+11th	Ch10 Cell Cycle and Cell Division	Metaphase	1	Second stage; chromosomes maximally condensed; align at metaphase plate; kinetochores attach to spindle fibres from both poles; best stage to study chromosome morphology
+11th	Ch10 Cell Cycle and Cell Division	Anaphase	1	Third stage; centromeres split; chromatids (now called chromosomes) move to opposite poles; centromere leads
+11th	Ch10 Cell Cycle and Cell Division	Telophase	1	Final stage; chromosomes decondense; nuclear envelope and nucleolus reform; two daughter nuclei formed
+11th	Ch10 Cell Cycle and Cell Division	Metaphase plate	2	Imaginary equatorial plane at cell centre where chromosomes align during metaphase
+11th	Ch10 Cell Cycle and Cell Division	Aster	1	Array of microtubules radiating from centrosome during mitosis; forms part of mitotic apparatus
+11th	Ch10 Cell Cycle and Cell Division	Spindle fibre	2	Microtubule of mitotic spindle; connects centrosome to kinetochores (chromosomal) or to opposite pole (polar)
+11th	Ch10 Cell Cycle and Cell Division	Cell plate	2	New cell wall precursor forming in centre of plant cell during cytokinesis; grows outward from Golgi vesicles; becomes middle lamella
+11th	Ch10 Cell Cycle and Cell Division	Cleavage furrow	2	Inward pinching of plasma membrane during animal cell cytokinesis; deepens until cells are separated
+11th	Ch10 Cell Cycle and Cell Division	Syncytium	1	Multinucleate cell resulting from karyokinesis without cytokinesis; e.g., liquid endosperm of coconut
+11th	Ch10 Cell Cycle and Cell Division	Meiosis	1	Reductive division; one diploid cell → four haploid cells; includes meiosis I and meiosis II; occurs during gametogenesis
+11th	Ch10 Cell Cycle and Cell Division	Meiosis I	2	First meiotic division; homologous chromosomes separate; reduces chromosome number by half; includes Prophase I with 5 sub-stages
+11th	Ch10 Cell Cycle and Cell Division	Meiosis II	2	Second meiotic division; sister chromatids separate; resembles mitosis; no DNA replication between meiosis I and II
+11th	Ch10 Cell Cycle and Cell Division	Leptotene	1	First stage of Prophase I; chromosomes start becoming visible; compaction begins
+11th	Ch10 Cell Cycle and Cell Division	Zygotene	1	Second stage of Prophase I; homologous chromosomes pair (synapsis); synaptonemal complex forms; bivalents (tetrads) appear
+11th	Ch10 Cell Cycle and Cell Division	Synapsis	1	Pairing of homologous chromosomes during zygotene; accompanied by formation of synaptonemal complex
+11th	Ch10 Cell Cycle and Cell Division	Synaptonemal complex	2	Protein scaffold holding synapsed homologous chromosomes together during zygotene; site of recombination
+11th	Ch10 Cell Cycle and Cell Division	Bivalent	1	Pair of synapsed homologous chromosomes (= tetrad); consists of four chromatids; clearly visible in pachytene
+11th	Ch10 Cell Cycle and Cell Division	Pachytene	1	Third stage of Prophase I; tetrads distinct; crossing over occurs between non-sister chromatids at recombination nodules
+11th	Ch10 Cell Cycle and Cell Division	Recombination nodule	2	Sites on bivalent chromosomes where crossing over occurs during pachytene
+11th	Ch10 Cell Cycle and Cell Division	Crossing over	2	Exchange of genetic material between non-sister chromatids of homologous chromosomes during pachytene; produces recombinant chromosomes
+11th	Ch10 Cell Cycle and Cell Division	Recombinase	1	Enzyme catalysing crossing over between homologous chromosomes during meiosis
+11th	Ch10 Cell Cycle and Cell Division	Diplotene	1	Fourth stage of Prophase I; synaptonemal complex dissolves; homologs tend to separate except at chiasmata
+11th	Ch10 Cell Cycle and Cell Division	Chiasmata	1	X-shaped structures at sites of crossing over visible during diplotene; hold homologs together; pl. of chiasma
+11th	Ch10 Cell Cycle and Cell Division	Diakinesis	1	Fifth and final stage of Prophase I; chiasmata terminalise; chromosomes fully condensed; meiotic spindle assembles; nucleolus and nuclear envelope disappear
+11th	Ch10 Cell Cycle and Cell Division	Terminalisation	1	Movement of chiasmata toward chromosome ends during diakinesis
+11th	Ch10 Cell Cycle and Cell Division	Interkinesis	1	Stage between meiosis I and meiosis II; short-lived; no DNA replication; followed by Prophase II
+11th	Ch10 Cell Cycle and Cell Division	Dyad	1	Two haploid cells formed after meiosis I and cytokinesis; each undergoes meiosis II
+11th	Ch10 Cell Cycle and Cell Division	Tetrad of cells	3	Four haploid cells produced after completion of meiosis II; also called tetrad
+11th	Ch10 Cell Cycle and Cell Division	Equational division	2	Term for mitosis; chromosome number of parent preserved in both daughter cells
+11th	Ch10 Cell Cycle and Cell Division	Reductional division	2	Term for meiosis I; chromosome number halved in daughter cells
+11th	Ch11 Photosynthesis in Higher Plants	Photosynthesis	1	Physico-chemical process in green plants using light energy to synthesise organic compounds (glucose) from CO2 and H2O; releases O2
+11th	Ch11 Photosynthesis in Higher Plants	Autotroph	1	Organism that synthesises its own food using light energy (photoautotroph) or chemical energy (chemoautotroph); e.g., green plants
+11th	Ch11 Photosynthesis in Higher Plants	Heterotroph	1	Organism that cannot synthesise own food; depends on autotrophs directly or indirectly
+11th	Ch11 Photosynthesis in Higher Plants	Chlorophyll a	2	Primary photosynthetic pigment; bright blue-green; absorption peaks at 430 nm (blue) and 662 nm (red); forms reaction centre
+11th	Ch11 Photosynthesis in Higher Plants	Chlorophyll b	2	Accessory pigment; yellow-green; transfers light energy to chlorophyll a; broader wavelength absorption
+11th	Ch11 Photosynthesis in Higher Plants	Xanthophyll	1	Yellow accessory pigment in leaves; carotenoid type; absorbs blue-violet light; transfers energy to chlorophyll a
+11th	Ch11 Photosynthesis in Higher Plants	Carotenoid	1	Yellow to orange-red accessory pigments; absorb blue-violet light; protect chlorophyll a from photo-oxidation
+11th	Ch11 Photosynthesis in Higher Plants	Accessory pigment	2	Pigment other than chlorophyll a that absorbs light and transfers energy to reaction centre; e.g., chlorophyll b, xanthophylls, carotenoids
+11th	Ch11 Photosynthesis in Higher Plants	Absorption spectrum	2	Graph showing wavelengths of light absorbed by a pigment; chlorophyll a absorbs mainly blue (430 nm) and red (662 nm)
+11th	Ch11 Photosynthesis in Higher Plants	Action spectrum	2	Graph showing rate of photosynthesis at different wavelengths; closely resembles absorption spectrum of chlorophyll a
+11th	Ch11 Photosynthesis in Higher Plants	Photosystem I (PS I)	3	Light-harvesting complex with reaction centre P700 (absorbs 700 nm red light); involved in cyclic and non-cyclic photophosphorylation; produces NADPH
+11th	Ch11 Photosynthesis in Higher Plants	Photosystem II (PS II)	3	Light-harvesting complex with reaction centre P680 (absorbs 680 nm red light); splits water; transfers electrons to PS I
+11th	Ch11 Photosynthesis in Higher Plants	Reaction centre	2	Single chlorophyll a molecule in photosystem that actually drives photochemistry; P700 in PS I, P680 in PS II
+11th	Ch11 Photosynthesis in Higher Plants	Antenna complex	2	Hundreds of accessory pigment molecules in photosystem; harvest light and funnel energy to reaction centre
+11th	Ch11 Photosynthesis in Higher Plants	Light reaction	2	First stage of photosynthesis; occurs in thylakoid membranes; uses light to split water, generate ATP + NADPH, release O2
+11th	Ch11 Photosynthesis in Higher Plants	Photolysis of water	3	Splitting of water in PS II: 2H2O → 4H+ + 4e- + O2; driven by light; source of electrons for PS II and O2 evolved
+11th	Ch11 Photosynthesis in Higher Plants	Z scheme	2	Diagram of non-cyclic electron flow from water → PS II → electron transport chain → PS I → NADP+; shaped like Z on redox potential scale
+11th	Ch11 Photosynthesis in Higher Plants	Non-cyclic photophosphorylation	2	Both PS I and PS II active; electrons from water flow through PS II → PS I → NADP+; produces ATP + NADPH + O2
+11th	Ch11 Photosynthesis in Higher Plants	Cyclic photophosphorylation	2	Only PS I active; electrons cycle back from acceptor to PS I through ETC; only ATP produced; no NADPH or O2
+11th	Ch11 Photosynthesis in Higher Plants	Photophosphorylation	1	Synthesis of ATP from ADP + Pi using light energy during light reactions of photosynthesis
+11th	Ch11 Photosynthesis in Higher Plants	Chemiosmotic hypothesis	2	ATP synthesis in chloroplast driven by proton (H+) gradient across thylakoid membrane; protons flow through CF0-CF1 ATP synthase
+11th	Ch11 Photosynthesis in Higher Plants	Calvin cycle	2	Biosynthetic (dark) phase of photosynthesis; CO2 fixed into sugar using ATP and NADPH; discovered by Melvin Calvin; occurs in stroma
+11th	Ch11 Photosynthesis in Higher Plants	Carbon fixation	2	Incorporation of CO2 into organic compound; RuBisCO catalyses CO2 + RuBP → two 3-PGA
+11th	Ch11 Photosynthesis in Higher Plants	RuBP (ribulose bisphosphate)	3	5-carbon CO2 acceptor in Calvin cycle; carboxylated by RuBisCO; regenerated at end of cycle
+11th	Ch11 Photosynthesis in Higher Plants	RuBisCO	1	Ribulose bisphosphate carboxylase-oxygenase; most abundant enzyme on Earth; fixes CO2 in Calvin cycle; also binds O2 (photorespiration)
+11th	Ch11 Photosynthesis in Higher Plants	3-phosphoglycerate (3-PGA)	3	First stable product of CO2 fixation in C3 plants (3-carbon acid); formed from RuBP + CO2
+11th	Ch11 Photosynthesis in Higher Plants	Triose phosphate (G3P)	3	3-carbon sugar produced in Calvin cycle reduction stage; used to synthesise glucose and regenerate RuBP
+11th	Ch11 Photosynthesis in Higher Plants	Dark reaction	2	Biosynthetic phase of photosynthesis; occurs in stroma; uses ATP and NADPH from light reactions to fix CO2; not strictly light-independent
+11th	Ch11 Photosynthesis in Higher Plants	C3 plant	2	Plant fixing CO2 directly via Calvin cycle; first stable product is 3-PGA (3C); photorespiration present; e.g., wheat, rice, potato, soybean
+11th	Ch11 Photosynthesis in Higher Plants	C4 plant	2	Plant with Hatch-Slack pathway; first CO2 fixation product is OAA (4C) in mesophyll; Calvin cycle in bundle sheath; no photorespiration; e.g., maize, sugarcane, sorghum
+11th	Ch11 Photosynthesis in Higher Plants	Hatch-Slack pathway	2	C4 carbon fixation pathway; CO2 fixed as OAA in mesophyll by PEPcase; C4 acids transported to bundle sheath for Calvin cycle
+11th	Ch11 Photosynthesis in Higher Plants	OAA (oxaloacetic acid)	3	First stable 4-carbon CO2 fixation product in C4 plants; formed in mesophyll cells by PEP carboxylase
+11th	Ch11 Photosynthesis in Higher Plants	PEP (phosphoenolpyruvate)	3	3-carbon primary CO2 acceptor in C4 plants; in mesophyll cells; carboxylated by PEP carboxylase; regenerated from C3 compound
+11th	Ch11 Photosynthesis in Higher Plants	PEP carboxylase (PEPcase)	3	Enzyme in mesophyll cells of C4 plants; fixes CO2 onto PEP to form OAA; absent in C3 plants; no oxygenase activity
+11th	Ch11 Photosynthesis in Higher Plants	Kranz anatomy	2	"Special C4 leaf anatomy; large bundle sheath cells (with many chloroplasts, thick walls, no intercellular spaces) surrounding vascular bundle; ""Kranz"" = wreath in German"
+11th	Ch11 Photosynthesis in Higher Plants	Bundle sheath cell	3	Large cells around vascular bundle in C4 leaves; site of Calvin cycle; rich in RuBisCO; thick walls impervious to gas
+11th	Ch11 Photosynthesis in Higher Plants	Photorespiration	1	Light-dependent O2 consumption and CO2 release; RuBisCO binds O2 instead of CO2; forms phosphoglycolate; wasteful; only in C3 plants
+11th	Ch11 Photosynthesis in Higher Plants	CAM (Crassulacean Acid Metabolism)	4	Photosynthesis in succulent/desert plants; stomata open at night to fix CO2 as malate; Calvin cycle in day with closed stomata; avoids water loss
+11th	Ch11 Photosynthesis in Higher Plants	Blackman law of limiting factors	4	If a process is affected by multiple factors, rate is determined by the factor nearest its minimum value; explains light saturation in photosynthesis
+11th	Ch11 Photosynthesis in Higher Plants	Light saturation point	3	Light intensity above which photosynthesis rate no longer increases; ~10% of full sunlight for most plants
+11th	Ch12 Respiration in Plants	Cellular respiration	2	Oxidation of organic molecules (food) within cells to release energy trapped as ATP; occurs in cytoplasm and mitochondria
+11th	Ch12 Respiration in Plants	Respiratory substrate	2	Organic molecule oxidised during respiration to release energy; usually carbohydrates (glucose), also fats and proteins
+11th	Ch12 Respiration in Plants	Glycolysis	1	EMP pathway; 10 enzyme-catalysed reactions in cytoplasm; glucose (6C) → 2 pyruvate (3C); net gain: 2 ATP + 2 NADH; in all organisms
+11th	Ch12 Respiration in Plants	EMP pathway	2	Embden-Meyerhof-Parnas pathway; another name for glycolysis
+11th	Ch12 Respiration in Plants	Pyruvate	1	3-carbon end product of glycolysis; key metabolic intermediate; can undergo fermentation or aerobic respiration
+11th	Ch12 Respiration in Plants	Hexokinase	1	Enzyme phosphorylating glucose to glucose-6-phosphate at start of glycolysis using ATP
+11th	Ch12 Respiration in Plants	PGAL (3-phosphoglyceraldehyde)	4	3-carbon intermediate in glycolysis; oxidised with NAD+ to form 1,3-bisphosphoglycerate; also called G3P
+11th	Ch12 Respiration in Plants	Fermentation	1	Anaerobic incomplete oxidation of glucose; pyruvate → ethanol + CO2 (yeast) or lactate (bacteria, muscle); regenerates NAD+
+11th	Ch12 Respiration in Plants	Alcoholic fermentation	2	Yeast converts pyruvate → acetaldehyde → ethanol + CO2; catalysed by pyruvate decarboxylase and alcohol dehydrogenase
+11th	Ch12 Respiration in Plants	Lactic acid fermentation	3	Bacteria and muscle cells convert pyruvate → lactic acid by lactate dehydrogenase under anaerobic conditions
+11th	Ch12 Respiration in Plants	Aerobic respiration	2	Complete oxidation of glucose using O2 → CO2 + H2O + ~38 ATP; in mitochondria; glycolysis + Krebs cycle + ETS
+11th	Ch12 Respiration in Plants	Pyruvate dehydrogenase	2	Enzyme complex converting pyruvate + CoA + NAD+ → acetyl CoA + CO2 + NADH; in mitochondrial matrix; links glycolysis to Krebs cycle
+11th	Ch12 Respiration in Plants	Acetyl CoA	2	2-carbon compound (acetyl group + coenzyme A) entering Krebs cycle; formed from pyruvate; link between glycolysis and TCA cycle
+11th	Ch12 Respiration in Plants	Krebs cycle (TCA cycle)	3	Tricarboxylic acid cycle in mitochondrial matrix; acetyl CoA + OAA → CO2 + NADH + FADH2 + GTP; discovered by Hans Krebs
+11th	Ch12 Respiration in Plants	Citric acid	2	6-carbon compound formed when acetyl CoA condenses with OAA; first product of Krebs cycle; gives TCA cycle its alternate name
+11th	Ch12 Respiration in Plants	Oxaloacetic acid (OAA)	3	4-carbon acceptor molecule in Krebs cycle; reacts with acetyl CoA to form citrate; regenerated at end of each cycle
+11th	Ch12 Respiration in Plants	Alpha-ketoglutaric acid	3	5-carbon intermediate in Krebs cycle; formed by decarboxylation of isocitrate; converted to succinyl-CoA
+11th	Ch12 Respiration in Plants	Succinyl-CoA	2	4-carbon intermediate in Krebs cycle; converted to succinate with GTP synthesis (substrate-level phosphorylation)
+11th	Ch12 Respiration in Plants	GTP (guanosine triphosphate)	3	High-energy compound produced in Krebs cycle; equivalent to ATP; converted to ATP in coupled reaction
+11th	Ch12 Respiration in Plants	NADH	1	Reduced form of NAD+; carries electrons to ETS; each NADH yields ~3 ATP in oxidative phosphorylation
+11th	Ch12 Respiration in Plants	FADH2	1	Reduced form of FAD+; carries electrons to ETS; each FADH2 yields ~2 ATP in oxidative phosphorylation
+11th	Ch12 Respiration in Plants	Electron transport system (ETS)	3	Series of protein complexes (I-IV) in inner mitochondrial membrane; electrons from NADH/FADH2 passed to O2; drives ATP synthesis
+11th	Ch12 Respiration in Plants	Ubiquinone (coenzyme Q)	3	Mobile electron carrier in inner mitochondrial membrane; receives electrons from complex I and II; transfers to complex III
+11th	Ch12 Respiration in Plants	Cytochrome c	2	Small mobile protein on outer surface of inner mitochondrial membrane; transfers electrons from complex III to complex IV
+11th	Ch12 Respiration in Plants	Complex IV (cytochrome oxidase)	3	Final complex in ETS; transfers electrons to O2 forming H2O; contains cytochromes a and a3 and copper centres
+11th	Ch12 Respiration in Plants	Oxidative phosphorylation	2	ATP synthesis coupled to electron transport in ETS using energy from proton gradient (chemiosmosis); requires O2
+11th	Ch12 Respiration in Plants	ATP synthase (complex V)	3	Enzyme synthesising ATP from ADP+Pi; F0 (transmembrane H+ channel) + F1 (catalytic site); in inner mitochondrial membrane
+11th	Ch12 Respiration in Plants	Substrate level phosphorylation	3	Direct synthesis of ATP coupled to a specific metabolic reaction without ETS; e.g., PEP → pyruvate in glycolysis; succinyl-CoA → succinate in Krebs cycle
+11th	Ch12 Respiration in Plants	Amphibolic pathway	2	Metabolic pathway serving both catabolic and anabolic functions; Krebs cycle intermediates used for biosynthesis (fatty acids, amino acids)
+11th	Ch12 Respiration in Plants	Respiratory quotient (RQ)	3	Ratio of volume CO2 evolved to volume O2 consumed; 1.0 for carbohydrates, 0.7 for fats, ~0.9 for proteins
+11th	Ch12 Respiration in Plants	Obligate anaerobe	2	Organism that can only live in absence of oxygen; O2 is toxic to it
+11th	Ch12 Respiration in Plants	Facultative anaerobe	2	Organism that can survive with or without oxygen; switches between aerobic and anaerobic respiration
+11th	Ch13 Plant Growth and Development	Growth	1	Irreversible permanent increase in size, mass, volume or cell number of a living organism or its part
+11th	Ch13 Plant Growth and Development	Determinate growth	2	Growth that stops when an organism/organ reaches a certain size; in most animals and plant organs like flowers and leaves
+11th	Ch13 Plant Growth and Development	Indeterminate growth	2	Unlimited growth throughout life; characteristic of higher plants due to persistent meristems
+11th	Ch13 Plant Growth and Development	Meristematic phase	2	Phase of plant growth involving active cell division at root/shoot apex; cells rich in protoplasm, thin walls
+11th	Ch13 Plant Growth and Development	Elongation phase	2	Phase of plant growth proximal to meristematic zone; cells enlarge, vacuolate, new cell wall deposited
+11th	Ch13 Plant Growth and Development	Maturation phase	2	Phase of plant growth where cells attain maximum size and wall thickening; cells differentiate into specific types
+11th	Ch13 Plant Growth and Development	Arithmetic growth	2	Growth pattern where one daughter cell divides, other matures; linear increase; e.g., root elongation at constant rate
+11th	Ch13 Plant Growth and Development	Geometric growth	2	Growth pattern where both daughter cells divide; exponential increase initially; S-shaped (sigmoid) curve overall
+11th	Ch13 Plant Growth and Development	Sigmoid growth curve	3	S-shaped curve of growth: lag phase (slow) → log phase (exponential) → stationary phase (plateau); characteristic of living organisms
+11th	Ch13 Plant Growth and Development	Lag phase	2	Initial slow phase of growth; cells preparing for division; metabolic adjustments
+11th	Ch13 Plant Growth and Development	Log phase (exponential phase)	3	Rapid exponential growth phase; maximum rate of cell division and growth
+11th	Ch13 Plant Growth and Development	Stationary phase	2	Phase where growth plateaus due to limited nutrients; birth rate = death rate
+11th	Ch13 Plant Growth and Development	Absolute growth rate	3	Total growth per unit time (increase in size/number)
+11th	Ch13 Plant Growth and Development	Relative growth rate	3	Growth per unit time expressed per unit of initial size; measure of efficiency of growth
+11th	Ch13 Plant Growth and Development	Differentiation	1	Process by which meristematic/unspecialised cells develop specialised structure and function; irreversible in most cases
+11th	Ch13 Plant Growth and Development	Dedifferentiation	1	Regaining of capacity to divide by a fully differentiated living cell; e.g., wound healing, formation of interfascicular cambium
+11th	Ch13 Plant Growth and Development	Redifferentiation	1	Dedifferentiated cells losing capacity to divide again and maturing into specialised cells; e.g., cork cells from cork cambium
+11th	Ch13 Plant Growth and Development	Totipotency	1	Ability of a single plant cell to develop into a complete organism; basis of plant tissue culture
+11th	Ch13 Plant Growth and Development	Plasticity	1	Capacity of an organism to follow different developmental pathways in response to environment; e.g., heterophylly
+11th	Ch13 Plant Growth and Development	Heterophylly	1	Presence of different leaf shapes at different developmental stages or in different environments; e.g., coriander, buttercup
+11th	Ch13 Plant Growth and Development	Plant growth regulator (PGR)	4	Small organic molecule promoting, inhibiting or modifying plant growth; 5 groups: auxins, gibberellins, cytokinins, ethylene, ABA
+11th	Ch13 Plant Growth and Development	Auxin	1	PGR promoting cell elongation; IAA is main natural auxin; produced at shoot apex; causes phototropism; F.W. Went isolated from oat coleoptile tips
+11th	Ch13 Plant Growth and Development	IAA (indole-3-acetic acid)	4	Main natural auxin; promotes cell elongation; controls phototropism and gravitropism; causes apical dominance
+11th	Ch13 Plant Growth and Development	Apical dominance	2	Suppression of lateral bud growth by auxin from apical bud; removal of apex (decapitation) releases lateral buds
+11th	Ch13 Plant Growth and Development	Parthenocarpy	1	Development of fruit without fertilisation; induced by auxin; produces seedless fruits; e.g., tomato, banana
+11th	Ch13 Plant Growth and Development	2,4-D	3	Synthetic auxin (2,4-dichlorophenoxyacetic acid); selective herbicide; kills dicot weeds without harming monocots
+11th	Ch13 Plant Growth and Development	Gibberellin	1	PGR promoting stem elongation, seed germination, bolting, fruit development; >100 types; GA3 most studied; acidic; from Gibberella fungus
+11th	Ch13 Plant Growth and Development	GA3 (gibberellic acid)	3	Most studied gibberellin; promotes stem elongation, bolting, seed germination; delays senescence; increases grape stalk length
+11th	Ch13 Plant Growth and Development	Bolting	1	Rapid elongation of internodes just before flowering; induced by gibberellins in rosette plants; e.g., sugarcane, cabbage, beet
+11th	Ch13 Plant Growth and Development	Cytokinin	1	PGR promoting cell division (cytokinesis); zeatin is main natural cytokinin; delays leaf senescence; promotes lateral bud growth; overcomes apical dominance
+11th	Ch13 Plant Growth and Development	Kinetin	1	First identified cytokinin; isolated from autoclaved herring sperm DNA; modified adenine; not naturally occurring in plants
+11th	Ch13 Plant Growth and Development	Zeatin	1	Natural cytokinin isolated from corn kernels and coconut milk; promotes cell division
+11th	Ch13 Plant Growth and Development	Ethylene	1	Only gaseous PGR; C2H4; promotes fruit ripening, senescence, abscission; produced by ripening fruits; breaks dormancy
+11th	Ch13 Plant Growth and Development	Ethephon	1	Ethylene-releasing compound used in agriculture; absorbed by plant, slowly releases ethylene; hastens fruit ripening, promotes female flowers in cucumber
+11th	Ch13 Plant Growth and Development	Respiratory climacteric	2	Rise in respiration rate during fruit ripening triggered by ethylene; precedes full ripening
+11th	Ch13 Plant Growth and Development	Abscisic acid (ABA)	4	Stress hormone PGR; promotes dormancy, stomatal closure, leaf and fruit abscission; inhibits growth; antagonistic to GA3; isolated as inhibitor-B/abscission II/dormin
+11th	Ch13 Plant Growth and Development	Seed dormancy	2	State of seed metabolic inactivity; maintained by ABA; allows survival under unfavourable conditions
+11th	Ch13 Plant Growth and Development	Abscission	1	Shedding of leaves, flowers, or fruits from plant; promoted by ethylene and ABA
+11th	Ch13 Plant Growth and Development	Senescence	1	Natural aging and deterioration of plant organs; promoted by ABA and ethylene; delayed by cytokinin
+11th	Ch13 Plant Growth and Development	Photoperiodism	1	Response of flowering plants to the relative lengths of day and night (photoperiod); plants classified as LDP, SDP, or day-neutral
+11th	Ch13 Plant Growth and Development	Long-day plant (LDP)	3	Plant requiring night period shorter than critical length for flowering; e.g., wheat, barley, spinach, henbane
+11th	Ch13 Plant Growth and Development	Short-day plant (SDP)	3	Plant requiring night period longer than critical length for flowering; e.g., tobacco, soybean, Xanthium
+11th	Ch13 Plant Growth and Development	Day-neutral plant	3	Plant flowering independent of photoperiod; e.g., tomato, cucumber, sunflower, cotton
+11th	Ch13 Plant Growth and Development	Critical photoperiod	2	Specific length of dark period that determines whether a SDP or LDP will flower; not the light period
+11th	Ch13 Plant Growth and Development	Phytochrome	1	Photoreceptor protein in plants absorbing red (Pr, 660 nm) and far-red (Pfr, 730 nm) light; controls photoperiodism and seed germination
+11th	Ch13 Plant Growth and Development	Vernalisation	1	Induction of flowering competence by prolonged exposure to low temperature; e.g., winter wheat, biennial plants
+11th	Ch13 Plant Growth and Development	Phototropism	1	Growth movement of plant toward (positive) or away from (negative) light; controlled by auxin lateral redistribution
+11th	Ch13 Plant Growth and Development	Gravitropism (geotropism)	2	Growth movement in response to gravity; roots positively gravitropic; shoots negatively gravitropic; controlled by auxin
+11th	Ch14 Breathing and Exchange of Gases	Breathing	1	Mechanical process of drawing atmospheric air in (inspiration) and expelling CO2-rich alveolar air out (expiration)
+11th	Ch14 Breathing and Exchange of Gases	Pulmonary ventilation	2	Movement of air in and out of lungs by pressure gradient; inspiration + expiration
+11th	Ch14 Breathing and Exchange of Gases	Larynx	1	Cartilaginous voice box connecting pharynx to trachea; contains vocal cords; sound production
+11th	Ch14 Breathing and Exchange of Gases	Epiglottis	1	Thin elastic cartilaginous flap covering glottis during swallowing; prevents food entry into larynx
+11th	Ch14 Breathing and Exchange of Gases	Trachea	1	Windpipe; tube from larynx to bronchi; supported by incomplete cartilaginous rings; carries air to lungs
+11th	Ch14 Breathing and Exchange of Gases	Bronchus	1	Primary airway branch from trachea; right and left; supported by cartilage; leads to bronchioles; pl. bronchi
+11th	Ch14 Breathing and Exchange of Gases	Bronchiole	1	Smaller airway branch from bronchus; no cartilage in terminal bronchioles; leads to alveoli
+11th	Ch14 Breathing and Exchange of Gases	Alveolus	1	Tiny air sac at end of bronchiole; site of gas exchange between air and blood; ~300 million in humans; ~80 m² surface area; pl. alveoli
+11th	Ch14 Breathing and Exchange of Gases	Pleural membrane	2	Double-layered membrane enclosing each lung; outer (parietal) + inner (visceral); pleural fluid between them reduces friction
+11th	Ch14 Breathing and Exchange of Gases	Pleural fluid	2	Fluid in pleural cavity between two pleural layers; lubricates lung surface during breathing
+11th	Ch14 Breathing and Exchange of Gases	Diaphragm	1	Dome-shaped muscular partition separating thoracic and abdominal cavities; main muscle of inspiration; contracts to increase thoracic volume
+11th	Ch14 Breathing and Exchange of Gases	Intercostal muscle	2	Muscle between ribs; external = inspiration (lifts ribs); internal = expiration (depresses ribs)
+11th	Ch14 Breathing and Exchange of Gases	Inspiration	1	Active process of drawing air into lungs; diaphragm and external intercostals contract; thoracic volume increases; intra-pulmonary pressure falls
+11th	Ch14 Breathing and Exchange of Gases	Expiration	1	Process of expelling air from lungs; diaphragm and intercostals relax; thoracic volume decreases; intra-pulmonary pressure rises
+11th	Ch14 Breathing and Exchange of Gases	Intra-pulmonary pressure	3	Air pressure within lungs; must be below atmospheric for inspiration; above atmospheric for expiration
+11th	Ch14 Breathing and Exchange of Gases	Spirometer	1	Instrument measuring lung volumes and capacities; used for clinical assessment of pulmonary function
+11th	Ch14 Breathing and Exchange of Gases	Tidal volume (TV)	3	Volume of air inspired or expired in one normal breath; ~500 mL; normal breathing rate × TV = ~6000-8000 mL/min
+11th	Ch14 Breathing and Exchange of Gases	Inspiratory reserve volume (IRV)	4	Extra air that can be forcibly inhaled after normal inspiration; ~2500-3000 mL
+11th	Ch14 Breathing and Exchange of Gases	Expiratory reserve volume (ERV)	4	Extra air that can be forcibly exhaled after normal expiration; ~1000-1100 mL
+11th	Ch14 Breathing and Exchange of Gases	Residual volume (RV)	3	Air remaining in lungs after maximum forced expiration; ~1100-1200 mL; cannot be expelled
+11th	Ch14 Breathing and Exchange of Gases	Vital capacity (VC)	3	Maximum air moved in one breath after forced expiration (TV + IRV + ERV); ~4800 mL; measure of lung function
+11th	Ch14 Breathing and Exchange of Gases	Total lung capacity (TLC)	4	Total air in lungs after maximum inspiration; VC + RV; ~6000 mL
+11th	Ch14 Breathing and Exchange of Gases	Inspiratory capacity (IC)	3	Total air inspired after normal expiration; TV + IRV
+11th	Ch14 Breathing and Exchange of Gases	Functional residual capacity (FRC)	4	Air in lungs after normal expiration; ERV + RV
+11th	Ch14 Breathing and Exchange of Gases	Partial pressure	2	Pressure exerted by one gas in a mixture; drives diffusion of gases across membranes; pO2 (oxygen) and pCO2 (carbon dioxide)
+11th	Ch14 Breathing and Exchange of Gases	Diffusion membrane	2	Three-layered membrane at alveolus for gas exchange: squamous alveolar epithelium + basement substance + capillary endothelium; <1 mm thick
+11th	Ch14 Breathing and Exchange of Gases	Oxyhaemoglobin	1	Haemoglobin bound to O2; formed in lungs where pO2 is high; bright red; carries up to 4 O2 molecules per Hb
+11th	Ch14 Breathing and Exchange of Gases	Carbamino-haemoglobin	1	Haemoglobin bound to CO2; ~20-25% of CO2 transported this way; formed in tissues where pCO2 high
+11th	Ch14 Breathing and Exchange of Gases	Oxygen dissociation curve	3	Sigmoid curve of % Hb saturation vs pO2; shows cooperative binding; right-shifted by high CO2, H+, temperature (Bohr effect)
+11th	Ch14 Breathing and Exchange of Gases	Bohr effect	2	Decrease in O2 affinity of Hb due to increased CO2, H+ or temperature; promotes O2 unloading at active tissues
+11th	Ch14 Breathing and Exchange of Gases	Carbonic anhydrase	2	Enzyme in RBCs catalysing CO2 + H2O ⇌ H2CO3 ⇌ HCO3- + H+; facilitates CO2 transport as bicarbonate
+11th	Ch14 Breathing and Exchange of Gases	Bicarbonate (HCO3-)	2	Form carrying ~70% of CO2 in blood; formed in RBCs by carbonic anhydrase; transported in plasma
+11th	Ch14 Breathing and Exchange of Gases	Chloride shift	2	Exchange of Cl- for HCO3- across RBC membrane during CO2 transport; maintains electrical neutrality
+11th	Ch14 Breathing and Exchange of Gases	Respiratory rhythm centre	3	Neural centre in medulla oblongata; primary regulator of respiratory rate and rhythm
+11th	Ch14 Breathing and Exchange of Gases	Pneumotaxic centre	2	Neural centre in pons; moderates respiratory rhythm centre; reduces inspiration duration
+11th	Ch14 Breathing and Exchange of Gases	Chemosensitive area	2	Region adjacent to respiratory rhythm centre in medulla; sensitive to CO2 and H+; triggers increased breathing
+11th	Ch14 Breathing and Exchange of Gases	Asthma	1	Difficulty in breathing with wheezing; caused by inflammation of bronchi and bronchioles; narrowing of airways
+11th	Ch14 Breathing and Exchange of Gases	Emphysema	1	Chronic disorder with damaged alveolar walls; reduced respiratory surface; major cause: cigarette smoking
+11th	Ch15 Body Fluids and Circulation	Blood	1	Fluid connective tissue; plasma (~55%) + formed elements (~45%); transports O2, nutrients, hormones, CO2, waste
+11th	Ch15 Body Fluids and Circulation	Plasma	1	Straw-coloured fluid matrix of blood (~55%); 90-92% water + proteins (albumin, globulin, fibrinogen) + minerals + glucose
+11th	Ch15 Body Fluids and Circulation	Serum	1	Plasma minus clotting factors (fibrinogen); obtained after blood clots; no fibrinogen
+11th	Ch15 Body Fluids and Circulation	Fibrinogen	1	Plasma protein; converted to fibrin by thrombin during blood clotting
+11th	Ch15 Body Fluids and Circulation	Albumin	1	Major plasma protein; maintains osmotic balance (oncotic pressure) of blood
+11th	Ch15 Body Fluids and Circulation	Globulin	1	Plasma protein; involved in immune defense; includes antibodies (immunoglobulins)
+11th	Ch15 Body Fluids and Circulation	Erythrocyte (RBC)	2	Biconcave, enucleate disc (~5 million/mm3 in adult male); contains haemoglobin; transports O2; lifespan ~120 days; destroyed in spleen
+11th	Ch15 Body Fluids and Circulation	Leucocyte (WBC)	2	Nucleated blood cell; 6000-8000/mm3; immune defense; granulocytes (neutrophil, eosinophil, basophil) and agranulocytes (lymphocyte, monocyte)
+11th	Ch15 Body Fluids and Circulation	Granulocyte	1	WBC with granules in cytoplasm; neutrophil, eosinophil, basophil
+11th	Ch15 Body Fluids and Circulation	Agranulocyte	1	WBC without cytoplasmic granules; lymphocyte and monocyte
+11th	Ch15 Body Fluids and Circulation	Neutrophil	1	Most abundant WBC (60-65%); phagocytic; destroys foreign organisms; first responder to infection
+11th	Ch15 Body Fluids and Circulation	Eosinophil	1	WBC (2-3%); resists infections; associated with allergic reactions and parasitic infections
+11th	Ch15 Body Fluids and Circulation	Basophil	1	Least abundant WBC (0.5-1%); secretes histamine, serotonin, heparin; involved in inflammatory reactions
+11th	Ch15 Body Fluids and Circulation	Lymphocyte	1	Agranulocyte WBC (20-25%); B lymphocytes (antibody production) and T lymphocytes (cell-mediated immunity)
+11th	Ch15 Body Fluids and Circulation	Monocyte	1	Largest WBC (6-8%); phagocytic agranulocyte; destroys foreign organisms; becomes macrophage in tissues
+11th	Ch15 Body Fluids and Circulation	Platelet (thrombocyte)	2	Cell fragment from megakaryocytes in bone marrow; 1.5-3.5 lakh/mm3; involved in blood clotting
+11th	Ch15 Body Fluids and Circulation	Megakaryocyte	1	Large bone marrow cell that fragments to produce platelets (thrombocytes)
+11th	Ch15 Body Fluids and Circulation	ABO blood group	3	Blood grouping based on A and B surface antigens on RBCs; A, B, AB, O; O = universal donor; AB = universal recipient
+11th	Ch15 Body Fluids and Circulation	Rh factor	2	Antigen on RBC surface similar to rhesus monkey antigen; Rh+ (present) or Rh- (absent); incompatibility causes erythroblastosis foetalis
+11th	Ch15 Body Fluids and Circulation	Erythroblastosis foetalis	2	Condition where Rh- mother forms anti-Rh antibodies that destroy Rh+ foetal RBCs in subsequent pregnancies
+11th	Ch15 Body Fluids and Circulation	Blood coagulation	2	Clotting of blood at wound site; fibrinogen → fibrin (by thrombin); traps RBCs in fibrin network; requires Ca2+ and clotting factors
+11th	Ch15 Body Fluids and Circulation	Fibrin	1	Insoluble protein threads forming clot; converted from fibrinogen by thrombin
+11th	Ch15 Body Fluids and Circulation	Thrombin	1	Enzyme converting fibrinogen to fibrin; formed from prothrombin by thrombokinase
+11th	Ch15 Body Fluids and Circulation	Prothrombin	1	Inactive plasma protein; converted to thrombin by thrombokinase during clotting
+11th	Ch15 Body Fluids and Circulation	Lymph	1	Colourless fluid in lymphatic system; derived from interstitial fluid; contains lymphocytes; transports fats from intestine via lacteals
+11th	Ch15 Body Fluids and Circulation	Interstitial fluid (tissue fluid)	3	Fluid in spaces between tissue cells; plasma filtered through capillary walls; similar mineral composition to plasma
+11th	Ch15 Body Fluids and Circulation	Lacteal	1	Lymph capillary in intestinal villus; absorbs dietary fats (as chylomicrons); empties into thoracic duct
+11th	Ch15 Body Fluids and Circulation	Pericardium	1	Double-walled membranous sac enclosing heart; contains pericardial fluid; protects heart from friction
+11th	Ch15 Body Fluids and Circulation	Atrium	1	Upper thin-walled chamber of heart; right receives deoxygenated blood (from vena cava); left receives oxygenated blood (from pulmonary veins); pl. atria
+11th	Ch15 Body Fluids and Circulation	Ventricle	1	Lower thick-walled pumping chamber of heart; right → pulmonary artery; left → aorta; thicker walls than atria
+11th	Ch15 Body Fluids and Circulation	Tricuspid valve	2	Three-cusped valve between right atrium and right ventricle; prevents backflow during ventricular systole
+11th	Ch15 Body Fluids and Circulation	Bicuspid valve (mitral valve)	4	Two-cusped valve between left atrium and left ventricle; prevents backflow during ventricular systole
+11th	Ch15 Body Fluids and Circulation	Semilunar valve	2	Cup-shaped valves at opening of pulmonary artery (from RV) and aorta (from LV); prevent backflow into ventricles
+11th	Ch15 Body Fluids and Circulation	Nodal tissue	2	Specialised cardiac muscle with autoexcitable pacemaker properties; forms SAN, AVN, Bundle of His, Purkinje fibres
+11th	Ch15 Body Fluids and Circulation	Sino-atrial node (SAN)	3	Natural pacemaker in upper right atrium; generates 70-75 action potentials/min; initiates each cardiac cycle
+11th	Ch15 Body Fluids and Circulation	Atrio-ventricular node (AVN)	4	Nodal tissue in lower left corner of right atrium; relays impulse from SAN to ventricles via Bundle of His
+11th	Ch15 Body Fluids and Circulation	Bundle of His	3	Conducting fibres from AVN through interventricular septum; divides into right and left bundle branches
+11th	Ch15 Body Fluids and Circulation	Purkinje fibre	2	Minute conducting fibres spreading through ventricular muscle from Bundle of His; distribute impulse for simultaneous ventricular contraction
+11th	Ch15 Body Fluids and Circulation	Cardiac cycle	2	Complete sequence of events in one heartbeat (~0.8 sec); atrial systole + ventricular systole + joint diastole; 72 cycles/min
+11th	Ch15 Body Fluids and Circulation	Systole	1	Phase of heart contraction; atrial systole (0.1 sec) pushes blood to ventricles; ventricular systole (0.3 sec) pumps blood to arteries
+11th	Ch15 Body Fluids and Circulation	Diastole	1	Phase of heart relaxation; heart fills with blood; joint diastole lasts 0.4 sec
+11th	Ch15 Body Fluids and Circulation	Stroke volume	2	Volume of blood ejected by each ventricle per beat; ~70 mL; cardiac output = stroke volume × heart rate
+11th	Ch15 Body Fluids and Circulation	Cardiac output	2	Volume of blood pumped by each ventricle per minute; stroke volume × heart rate = ~5000 mL/min (5 L/min)
+11th	Ch15 Body Fluids and Circulation	ECG (electrocardiogram)	3	Graphical recording of heart's electrical activity; P wave (atrial depolarisation), QRS complex (ventricular depolarisation), T wave (ventricular repolarisation)
+11th	Ch15 Body Fluids and Circulation	P wave	2	First deflection in ECG; represents atrial depolarisation leading to atrial contraction (systole)
+11th	Ch15 Body Fluids and Circulation	QRS complex	2	ECG deflection representing ventricular depolarisation; marks beginning of ventricular systole
+11th	Ch15 Body Fluids and Circulation	T wave	2	ECG deflection representing ventricular repolarisation (return to resting state); marks end of systole
+11th	Ch15 Body Fluids and Circulation	Double circulation	2	Two separate circulatory pathways: pulmonary (deoxygenated blood → lungs → oxygenated) and systemic (oxygenated blood → body); in birds and mammals
+11th	Ch15 Body Fluids and Circulation	Pulmonary circulation	2	RV → pulmonary artery → lungs (oxygenation) → pulmonary veins → LA; carries deoxygenated blood to lungs
+11th	Ch15 Body Fluids and Circulation	Systemic circulation	2	LV → aorta → body tissues → vena cava → RA; carries oxygenated blood to all body parts
+11th	Ch15 Body Fluids and Circulation	Hepatic portal system	3	Venous connection between intestine and liver; portal vein carries absorbed nutrients to liver before entering systemic circulation
+11th	Ch15 Body Fluids and Circulation	Coronary circulation	2	Blood vessels exclusively supplying and draining heart muscle; coronary arteries and veins
+11th	Ch15 Body Fluids and Circulation	Tunica intima	2	Inner lining of blood vessels; squamous endothelium; in contact with blood
+11th	Ch15 Body Fluids and Circulation	Tunica media	2	Middle layer of blood vessel wall; smooth muscle and elastic fibres; thicker in arteries than veins
+11th	Ch15 Body Fluids and Circulation	Tunica externa	2	Outermost layer of blood vessel; fibrous connective tissue with collagen fibres
+11th	Ch15 Body Fluids and Circulation	Hypertension	1	Persistently high blood pressure (≥140/90 mmHg); risk factor for heart disease, stroke, kidney disease
+11th	Ch15 Body Fluids and Circulation	Coronary artery disease (CAD)	4	Narrowing of coronary arteries by atherosclerosis (calcium, fat, cholesterol, fibrous deposits); reduces blood supply to heart
+11th	Ch15 Body Fluids and Circulation	Angina pectoris	2	Acute chest pain due to inadequate O2 supply to heart muscle; symptom of coronary artery disease
+11th	Ch15 Body Fluids and Circulation	Atherosclerosis	1	Hardening and narrowing of arteries by plaques of calcium, fat, cholesterol; cause of coronary artery disease
+11th	Ch16 Excretory Products and their Elimination	Ammonotelism	1	Excretion of nitrogen mainly as ammonia; most toxic but requires water; bony fishes, aquatic amphibians, aquatic insects
+11th	Ch16 Excretory Products and their Elimination	Ureotelism	1	Excretion of nitrogen mainly as urea; less toxic; requires less water; mammals, terrestrial amphibians, marine fishes
+11th	Ch16 Excretory Products and their Elimination	Uricotelism	1	Excretion of nitrogen as uric acid; least toxic; nearly insoluble; minimum water loss; reptiles, birds, land snails, insects
+11th	Ch16 Excretory Products and their Elimination	Protonephridium (flame cell)	3	Excretory structure in Platyhelminthes, rotifers, some annelids; primarily for osmoregulation; tubule with beating cilia
+11th	Ch16 Excretory Products and their Elimination	Nephridium	1	Tubular excretory structure of earthworms and annelids; removes nitrogenous wastes; maintains fluid and ionic balance
+11th	Ch16 Excretory Products and their Elimination	Malpighian tubule	2	Excretory structure of insects and other arthropods; opens into alimentary canal; removes nitrogenous wastes
+11th	Ch16 Excretory Products and their Elimination	Antennal gland (green gland)	3	Excretory organ in crustaceans (prawns); opens at base of antennae
+11th	Ch16 Excretory Products and their Elimination	Kidney	1	Paired reddish-brown bean-shaped organ; functional units = nephrons; filters blood, forms urine
+11th	Ch16 Excretory Products and their Elimination	Hilum	1	Notch on inner concave surface of kidney; entry/exit point for ureter, blood vessels, nerves
+11th	Ch16 Excretory Products and their Elimination	Renal cortex	2	Outer region of kidney; contains Malpighian corpuscles, PCT, DCT; site of filtration and most reabsorption
+11th	Ch16 Excretory Products and their Elimination	Renal medulla	2	Inner region of kidney; contains Henle's loops, collecting ducts; medullary pyramids project into calyces
+11th	Ch16 Excretory Products and their Elimination	Renal pelvis	2	Funnel-shaped space inside hilum; collects urine from calyces and drains into ureter
+11th	Ch16 Excretory Products and their Elimination	Nephron	1	Functional unit of kidney; ~1 million per kidney; glomerulus + renal tubule (PCT + Henle's loop + DCT + collecting duct)
+11th	Ch16 Excretory Products and their Elimination	Glomerulus	1	Tuft of capillaries from afferent arteriole inside Bowman's capsule; site of ultrafiltration
+11th	Ch16 Excretory Products and their Elimination	Bowman's capsule	2	Double-walled cup at start of renal tubule; encloses glomerulus; collects filtrate from ultrafiltration
+11th	Ch16 Excretory Products and their Elimination	Malpighian body (renal corpuscle)	4	Glomerulus + Bowman's capsule together
+11th	Ch16 Excretory Products and their Elimination	Proximal convoluted tubule (PCT)	4	Highly coiled tubule after Bowman's capsule; brush border epithelium; reabsorbs ~70-80% of electrolytes, water, all glucose and amino acids
+11th	Ch16 Excretory Products and their Elimination	Henle's loop	2	Hairpin-shaped tube; descending limb (permeable to water, not electrolytes) + ascending limb (permeable to electrolytes, not water); creates medullary gradient
+11th	Ch16 Excretory Products and their Elimination	Distal convoluted tubule (DCT)	4	Coiled tubule after Henle's loop; conditional reabsorption of Na+/water; secretes H+, K+, NH3; controlled by ADH and aldosterone
+11th	Ch16 Excretory Products and their Elimination	Collecting duct	2	Straight tube collecting urine from DCTs; conditional water reabsorption (ADH-dependent); helps concentrate urine
+11th	Ch16 Excretory Products and their Elimination	Afferent arteriole	2	Arteriole supplying blood to glomerulus; wider than efferent arteriole; generates high filtration pressure
+11th	Ch16 Excretory Products and their Elimination	Efferent arteriole	2	Arteriole draining blood from glomerulus; narrower than afferent; maintains glomerular pressure
+11th	Ch16 Excretory Products and their Elimination	Peritubular capillaries	2	Capillary network around renal tubule (PCT, DCT); involved in reabsorption and secretion
+11th	Ch16 Excretory Products and their Elimination	Vasa recta	2	U-shaped capillary loop parallel to Henle's loop; counter current flow; maintains medullary osmotic gradient
+11th	Ch16 Excretory Products and their Elimination	Cortical nephron	2	Nephron with short Henle's loop that extends only slightly into medulla; majority of nephrons; vasa recta absent or reduced
+11th	Ch16 Excretory Products and their Elimination	Juxtamedullary nephron	2	Nephron with long Henle's loop extending deep into medulla; important for concentrating urine
+11th	Ch16 Excretory Products and their Elimination	Podocyte	1	Epithelial cell of Bowman's capsule; has minute filtration slits (slit pores) allowing ultrafiltration of plasma
+11th	Ch16 Excretory Products and their Elimination	Filtration slit	2	Minute spaces between podocyte processes; allow passage of plasma components except proteins during ultrafiltration
+11th	Ch16 Excretory Products and their Elimination	Ultrafiltration	1	Non-selective pressure-driven filtration of blood at glomerulus; all plasma components except proteins pass into Bowman's capsule
+11th	Ch16 Excretory Products and their Elimination	GFR (glomerular filtration rate)	4	Volume of filtrate formed per minute; ~125 mL/min = ~180 L/day in healthy adult; regulated by JGA
+11th	Ch16 Excretory Products and their Elimination	Tubular reabsorption	2	Recovery of useful substances from filtrate back to blood; ~99% of filtrate reabsorbed; glucose, amino acids, Na+, water
+11th	Ch16 Excretory Products and their Elimination	Tubular secretion	2	Active transport of waste substances (H+, K+, NH3) from blood into tubular filtrate; maintains pH and ionic balance
+11th	Ch16 Excretory Products and their Elimination	Counter current mechanism	3	Parallel opposite flow in Henle's loop and vasa recta; maintains osmotic gradient from 300 to 1200 mOsmol/L in medulla; enables urine concentration
+11th	Ch16 Excretory Products and their Elimination	Juxtaglomerular apparatus (JGA)	4	Specialised structure at contact of DCT and afferent arteriole; JG cells release renin; regulates GFR and blood pressure
+11th	Ch16 Excretory Products and their Elimination	Renin	1	Enzyme released by JG cells when GFR falls; converts angiotensinogen → angiotensin I; initiates renin-angiotensin mechanism
+11th	Ch16 Excretory Products and their Elimination	Renin-angiotensin mechanism	3	Regulatory pathway: low GFR → renin → angiotensin I → angiotensin II → vasoconstriction + aldosterone → Na+/water retention → increased BP and GFR
+11th	Ch16 Excretory Products and their Elimination	Angiotensin II	2	Powerful vasoconstrictor; increases glomerular blood pressure; stimulates aldosterone release; end product of renin-angiotensin pathway
+11th	Ch16 Excretory Products and their Elimination	Aldosterone	1	Adrenal cortex mineralocorticoid; causes Na+ and water reabsorption in DCT and collecting duct; increases blood volume and pressure
+11th	Ch16 Excretory Products and their Elimination	ADH (antidiuretic hormone)	4	Vasopressin; from posterior pituitary; increases water reabsorption in DCT and collecting duct; reduces urine volume; released by osmoreceptors
+11th	Ch16 Excretory Products and their Elimination	Atrial natriuretic factor (ANF)	4	Hormone released by atria when blood flow increases; causes vasodilation; decreases blood pressure; counteracts renin-angiotensin
+11th	Ch16 Excretory Products and their Elimination	Micturition	1	Process of urination; voluntary release of urine from bladder; initiated by stretch receptors; coordinated by CNS
+11th	Ch16 Excretory Products and their Elimination	Glycosuria	1	Presence of glucose in urine; indicative of diabetes mellitus (blood glucose exceeds renal threshold)
+11th	Ch16 Excretory Products and their Elimination	Ketonuria	1	Presence of ketone bodies in urine; indicator of diabetes mellitus and starvation
+11th	Ch16 Excretory Products and their Elimination	Uraemia	1	Accumulation of urea in blood due to kidney failure; requires haemodialysis or kidney transplant
+11th	Ch16 Excretory Products and their Elimination	Haemodialysis	1	Artificial kidney; blood filtered through cellophane tube in dialysing fluid; removes urea and waste; for kidney failure patients
+11th	Ch16 Excretory Products and their Elimination	Renal calculi	2	Kidney stones; insoluble crystallised salts (oxalates, urates, phosphates) within kidney
+11th	Ch16 Excretory Products and their Elimination	Glomerulonephritis	1	Inflammation of glomeruli; reduces filtration; can lead to kidney failure
+11th	Ch17 Locomotion and Movement	Locomotion	1	Voluntary movement causing change of place; walking, running, swimming, flying; subset of movement
+11th	Ch17 Locomotion and Movement	Amoeboid movement	2	Cell movement by pseudopodia formation (protoplasm streaming); macrophages, leucocytes, Amoeba
+11th	Ch17 Locomotion and Movement	Ciliary movement	2	Movement by coordinated beating of cilia; lines trachea (clears dust), fallopian tube (moves ova)
+11th	Ch17 Locomotion and Movement	Muscular movement	2	Movement involving muscle contraction; locomotion, jaw movement, tongue; requires neural, muscular, skeletal coordination
+11th	Ch17 Locomotion and Movement	Skeletal muscle	2	Striated, voluntary muscle attached to bones; controlled by somatic nervous system; for locomotion and posture
+11th	Ch17 Locomotion and Movement	Visceral (smooth) muscle	3	Non-striated, involuntary muscle in walls of internal organs (gut, reproductive tract); controlled by ANS
+11th	Ch17 Locomotion and Movement	Cardiac muscle	2	Striated, involuntary, branched muscle of heart; myogenic; auto-excitable; never fatigues
+11th	Ch17 Locomotion and Movement	Fascia	1	Collagenous connective tissue sheath holding muscle bundles (fascicles) together in skeletal muscle
+11th	Ch17 Locomotion and Movement	Fascicle	1	Bundle of muscle fibres within a skeletal muscle; surrounded by fascia
+11th	Ch17 Locomotion and Movement	Sarcolemma	1	Plasma membrane of a muscle fibre; generates and propagates action potential
+11th	Ch17 Locomotion and Movement	Sarcoplasm	1	Cytoplasm of muscle fibre; contains myofibrils, nuclei, mitochondria, sarcoplasmic reticulum
+11th	Ch17 Locomotion and Movement	Sarcoplasmic reticulum	2	Specialised endoplasmic reticulum of muscle fibre; stores and releases Ca2+ to initiate contraction
+11th	Ch17 Locomotion and Movement	Myofibril	1	Cylindrical contractile filament in muscle fibre; made of sarcomeres arranged in series; contains actin and myosin
+11th	Ch17 Locomotion and Movement	Sarcomere	1	Functional unit of contraction; region between two Z-lines; contains A-band (myosin) + 2 half I-bands (actin)
+11th	Ch17 Locomotion and Movement	A-band	1	Dark (anisotropic) band in sarcomere; contains thick myosin filaments (and overlapping actin); constant length during contraction
+11th	Ch17 Locomotion and Movement	I-band	1	Light (isotropic) band; contains only thin actin filaments; shortens during contraction; bisected by Z-line
+11th	Ch17 Locomotion and Movement	H-zone	1	Central lighter region of A-band; only myosin (no actin overlap); disappears during full muscle contraction
+11th	Ch17 Locomotion and Movement	Z-line	1	Protein disc bisecting each I-band; anchors actin thin filaments; defines sarcomere boundaries
+11th	Ch17 Locomotion and Movement	M-line	1	Thin fibrous membrane in centre of A-band holding thick myosin filaments together
+11th	Ch17 Locomotion and Movement	Actin (G-actin)	2	Globular monomer polymerising to F-actin; active binding sites for myosin masked by troponin at rest
+11th	Ch17 Locomotion and Movement	F-actin	1	Filamentous actin; two F-actin strands helically wound together form thin filament; has myosin binding sites
+11th	Ch17 Locomotion and Movement	Myosin	1	Thick filament protein; polymerised meromyosins; globular head has ATPase activity and actin binding sites
+11th	Ch17 Locomotion and Movement	Meromyosin	1	Monomer of myosin; heavy meromyosin (HMM) = globular head + short arm; light meromyosin (LMM) = tail
+11th	Ch17 Locomotion and Movement	Cross bridge	2	HMM head of myosin projecting outward; binds actin during contraction; pulls actin toward A-band centre
+11th	Ch17 Locomotion and Movement	Troponin	1	Protein complex on thin filament; binds Ca2+ causing tropomyosin to shift and expose myosin binding sites on actin
+11th	Ch17 Locomotion and Movement	Tropomyosin	1	Regulatory protein running along F-actin; masks myosin binding sites at rest; unmasked when Ca2+ binds troponin
+11th	Ch17 Locomotion and Movement	Sliding filament theory	3	Huxley's theory: muscle contraction occurs by thin actin filaments sliding over thick myosin filaments; A-band constant, I-band shortens
+11th	Ch17 Locomotion and Movement	Neuromuscular junction (motor end plate)	4	Synapse between motor neuron terminal and sarcolemma; ACh released here triggers muscle action potential
+11th	Ch17 Locomotion and Movement	Motor unit	2	One motor neuron + all muscle fibres it innervates; basic functional unit of skeletal muscle contraction
+11th	Ch17 Locomotion and Movement	Myoglobin	1	Red oxygen-storing pigment in muscle; gives red muscle fibres their colour; O2 reserve for aerobic respiration
+11th	Ch17 Locomotion and Movement	Red muscle fibre	3	Rich in myoglobin and mitochondria; slow-twitch; aerobic metabolism; fatigue-resistant
+11th	Ch17 Locomotion and Movement	White muscle fibre	3	Poor in myoglobin; many sarcoplasmic reticulum; fast-twitch; anaerobic; fatigues quickly
+11th	Ch17 Locomotion and Movement	Axial skeleton	2	80 bones along main body axis: skull (22) + vertebral column (26) + sternum (1) + ribs (24)
+11th	Ch17 Locomotion and Movement	Appendicular skeleton	2	126 bones of limbs and girdles; pectoral girdle + upper limbs + pelvic girdle + lower limbs
+11th	Ch17 Locomotion and Movement	Cranium	1	Bony protective covering of brain; 8 cranial bones fused together
+11th	Ch17 Locomotion and Movement	Ear ossicles	2	Three tiny bones in middle ear: Malleus, Incus, Stapes; transmit sound vibrations from eardrum to cochlea
+11th	Ch17 Locomotion and Movement	Vertebral column	2	26 vertebrae: cervical (7) + thoracic (12) + lumbar (5) + sacral (fused) + coccygeal (fused); protects spinal cord
+11th	Ch17 Locomotion and Movement	Atlas	1	First cervical vertebra; articulates with occipital condyles of skull; allows nodding movement
+11th	Ch17 Locomotion and Movement	True rib	2	First 7 pairs; attached dorsally to thoracic vertebrae and ventrally to sternum via hyaline cartilage
+11th	Ch17 Locomotion and Movement	False rib (vertebrochondral)	3	8th, 9th, 10th pairs; not directly connected to sternum; join 7th rib via hyaline cartilage
+11th	Ch17 Locomotion and Movement	Floating rib	2	11th and 12th rib pairs; attached only to thoracic vertebrae; free ventral ends
+11th	Ch17 Locomotion and Movement	Pectoral girdle	2	Two halves; each = clavicle + scapula; articulates upper limb to axial skeleton
+11th	Ch17 Locomotion and Movement	Glenoid cavity	2	Depression on scapula; articulates with head of humerus to form ball-and-socket shoulder joint
+11th	Ch17 Locomotion and Movement	Pelvic girdle	2	Two coxal bones; each = ilium + ischium + pubis; articulates lower limb to axial skeleton; acetabulum for femur
+11th	Ch17 Locomotion and Movement	Acetabulum	1	Cup-shaped cavity on coxal bone at junction of ilium, ischium, pubis; articulates with femur head
+11th	Ch17 Locomotion and Movement	Fibrous joint	2	Immovable joint; flat bones joined by dense fibrous connective tissue; e.g., skull sutures (cranium)
+11th	Ch17 Locomotion and Movement	Cartilaginous joint	2	Bones joined by cartilage; limited movement; e.g., between adjacent vertebrae, pubic symphysis
+11th	Ch17 Locomotion and Movement	Synovial joint	2	Freely movable joint with fluid-filled synovial cavity; e.g., shoulder (ball-and-socket), knee (hinge), atlas-axis (pivot)
+11th	Ch17 Locomotion and Movement	Pivot joint	2	Rotation only; atlas rotates around odontoid process of axis; allows head turning (no/yes movement)
+11th	Ch17 Locomotion and Movement	Gliding joint	2	Bones slide over each other; small movements; between carpal bones
+11th	Ch17 Locomotion and Movement	Saddle joint	2	Each bone saddle-shaped; movement in two planes; between carpal and metacarpal of thumb
+11th	Ch17 Locomotion and Movement	Myasthenia gravis	2	Autoimmune disorder; antibodies against ACh receptors at neuromuscular junction; muscle weakness and paralysis
+11th	Ch17 Locomotion and Movement	Muscular dystrophy	2	Progressive genetic degeneration of skeletal muscle; weakening and wasting
+11th	Ch17 Locomotion and Movement	Tetany	1	Rapid wild muscle contractions (spasms) due to low Ca2+ in body fluids
+11th	Ch17 Locomotion and Movement	Arthritis	1	Inflammation of joints; reduces mobility; includes rheumatoid arthritis and osteoarthritis
+11th	Ch17 Locomotion and Movement	Osteoporosis	1	Reduced bone mass; increased fracture risk; due to decreased estrogen (post-menopausal) or Ca2+ loss
+11th	Ch17 Locomotion and Movement	Gout	1	Joint inflammation due to uric acid crystal deposition in joints; painful, swollen joints
+11th	Ch18 Neural Control and Coordination	CNS (central nervous system)	4	Brain + spinal cord; site of information processing and control; protected by skull and vertebral column
+11th	Ch18 Neural Control and Coordination	PNS (peripheral nervous system)	4	All nerves connecting CNS to organs; afferent (sensory) + efferent (motor) fibres; somatic + autonomic divisions
+11th	Ch18 Neural Control and Coordination	Afferent nerve fibre	3	Sensory fibre; transmits impulses from tissues/organs to CNS
+11th	Ch18 Neural Control and Coordination	Efferent nerve fibre	3	Motor fibre; transmits regulatory impulses from CNS to peripheral tissues/organs
+11th	Ch18 Neural Control and Coordination	Somatic nervous system	3	PNS division relaying impulses from CNS to skeletal muscles; voluntary control
+11th	Ch18 Neural Control and Coordination	Autonomic nervous system (ANS)	4	PNS division transmitting impulses to involuntary organs/smooth muscle; sympathetic + parasympathetic divisions
+11th	Ch18 Neural Control and Coordination	Sympathetic nervous system	3	"ANS division; ""fight or flight""; increases heart rate, dilates pupils, reduces gut motility"
+11th	Ch18 Neural Control and Coordination	Parasympathetic nervous system	3	"ANS division; ""rest and digest""; decreases heart rate, increases gut motility, constricts pupils"
+11th	Ch18 Neural Control and Coordination	Neuron	1	Structural and functional unit of nervous system; cell body + dendrites + axon; excitable cells
+11th	Ch18 Neural Control and Coordination	Cell body (soma)	3	Main body of neuron; contains nucleus, cytoplasm with organelles, Nissl's granules
+11th	Ch18 Neural Control and Coordination	Nissl's granules	2	Granular bodies (rough ER + ribosomes) in neuron cell body and dendrites; site of protein synthesis
+11th	Ch18 Neural Control and Coordination	Dendrite	1	Short branching projections from neuron cell body; receive impulses and transmit toward cell body
+11th	Ch18 Neural Control and Coordination	Axon	1	Long single projection from neuron; transmits impulses away from cell body; ends in synaptic knob
+11th	Ch18 Neural Control and Coordination	Synaptic knob	2	Bulb-like terminal of axon branch; contains synaptic vesicles with neurotransmitters; part of synapse
+11th	Ch18 Neural Control and Coordination	Myelin sheath	2	Insulating layer around axon formed by Schwann cells; speeds up conduction; saltatory conduction in myelinated fibres
+11th	Ch18 Neural Control and Coordination	Schwann cell	2	Glial cell wrapping around axon to form myelin sheath in PNS; gaps = nodes of Ranvier
+11th	Ch18 Neural Control and Coordination	Node of Ranvier	3	Gap between adjacent myelin sheaths; site of action potential generation in saltatory conduction
+11th	Ch18 Neural Control and Coordination	Multipolar neuron	2	Neuron with one axon and two or more dendrites; most common; found in cerebral cortex, spinal cord
+11th	Ch18 Neural Control and Coordination	Bipolar neuron	2	Neuron with one axon and one dendrite; found in retina of eye and olfactory epithelium
+11th	Ch18 Neural Control and Coordination	Unipolar neuron	2	Neuron with only one axon (no dendrites); found in embryonic stage; sensory neurons
+11th	Ch18 Neural Control and Coordination	Resting potential	2	Electrical potential difference across resting neural membrane (~-70 mV inside); maintained by Na+/K+ pump (3 Na+ out, 2 K+ in)
+11th	Ch18 Neural Control and Coordination	Action potential (nerve impulse)	3	Rapid reversal of membrane potential when stimulated; Na+ influx → depolarisation; K+ efflux → repolarisation
+11th	Ch18 Neural Control and Coordination	Depolarisation	1	Reversal of resting potential; Na+ rushes in; inside becomes positive (+35 mV); generates nerve impulse
+11th	Ch18 Neural Control and Coordination	Repolarisation	1	Restoration of resting potential; K+ flows out; inside returns to negative; after depolarisation
+11th	Ch18 Neural Control and Coordination	Sodium-potassium pump	3	Membrane transporter; actively pumps 3 Na+ out and 2 K+ in; maintains resting potential; ATP-dependent
+11th	Ch18 Neural Control and Coordination	Saltatory conduction	2	Jumping of nerve impulse from node to node in myelinated fibres; much faster than continuous conduction
+11th	Ch18 Neural Control and Coordination	Synapse	1	Junction between two neurons or neuron and effector; pre-synaptic + post-synaptic membranes + synaptic cleft
+11th	Ch18 Neural Control and Coordination	Chemical synapse	2	Synapse with synaptic cleft; impulse transmitted via neurotransmitter release; most common type
+11th	Ch18 Neural Control and Coordination	Electrical synapse	2	Synapse where pre- and post-synaptic membranes are in close proximity; electrical current flows directly; faster; rare
+11th	Ch18 Neural Control and Coordination	Synaptic cleft	2	Fluid-filled gap between pre- and post-synaptic membranes at chemical synapse; neurotransmitters diffuse across
+11th	Ch18 Neural Control and Coordination	Neurotransmitter	1	Chemical messenger released from synaptic vesicles into cleft; binds post-synaptic receptors; can be excitatory or inhibitory
+11th	Ch18 Neural Control and Coordination	Forebrain	1	Largest brain region; cerebrum + thalamus + hypothalamus; higher functions, sensory integration, homeostasis
+11th	Ch18 Neural Control and Coordination	Cerebrum	1	Largest part of brain; divided into left and right hemispheres by deep cleft; voluntary movement, memory, intelligence
+11th	Ch18 Neural Control and Coordination	Corpus callosum	2	Bundle of nerve fibres connecting left and right cerebral hemispheres; allows communication between hemispheres
+11th	Ch18 Neural Control and Coordination	Cerebral cortex	2	Outer layer of cerebrum; grey matter (neuron cell bodies); motor areas, sensory areas, association areas; folded (gyri/sulci)
+11th	Ch18 Neural Control and Coordination	Grey matter	2	Outer cerebral cortex; rich in neuron cell bodies; greyish colour; processing and integration
+11th	Ch18 Neural Control and Coordination	White matter	2	Inner cerebral hemisphere; myelinated axon tracts (myelin = white); conducts impulses between regions
+11th	Ch18 Neural Control and Coordination	Thalamus	1	Forebrain structure below cerebrum; major relay/coordinating centre for sensory and motor signals to cerebral cortex
+11th	Ch18 Neural Control and Coordination	Hypothalamus	1	Base of forebrain; controls body temperature, hunger, thirst; neurosecretory cells secrete hypothalamic hormones; links CNS to endocrine system
+11th	Ch18 Neural Control and Coordination	Limbic system	2	Inner cerebral hemispheres + amygdala + hippocampus; involved in sexual behaviour, emotions (pleasure, fear, rage), memory, motivation
+11th	Ch18 Neural Control and Coordination	Midbrain	1	Between forebrain and hindbrain; corpora quadrigemina (four lobes); visual, tactile, auditory reflex integration
+11th	Ch18 Neural Control and Coordination	Corpora quadrigemina	2	Four rounded lobes on dorsal midbrain; visual and auditory reflex centres
+11th	Ch18 Neural Control and Coordination	Hindbrain	1	Pons + cerebellum + medulla oblongata; basic life functions and coordination
+11th	Ch18 Neural Control and Coordination	Pons	1	Part of hindbrain; fibre tracts interconnecting brain regions; relay between cerebrum and cerebellum
+11th	Ch18 Neural Control and Coordination	Cerebellum	1	Part of hindbrain; highly convoluted surface; coordinates muscular movements; balance and posture
+11th	Ch18 Neural Control and Coordination	Medulla oblongata	2	Lowest hindbrain region; connects brain to spinal cord; controls respiration, cardiovascular reflexes, gastric secretions
+11th	Ch18 Neural Control and Coordination	Brain stem	2	Midbrain + pons + medulla oblongata; connects brain to spinal cord; controls basic life functions
+11th	Ch18 Neural Control and Coordination	Meninges	1	Three protective membranes covering brain: dura mater (outer) + arachnoid (middle) + pia mater (inner)
+11th	Ch18 Neural Control and Coordination	Dura mater	2	Tough outer meningeal layer covering brain and spinal cord
+11th	Ch18 Neural Control and Coordination	Pia mater	2	Innermost meningeal layer in direct contact with brain/spinal cord tissue; highly vascular
+11th	Ch19 Chemical Coordination and Integration	Endocrine gland	2	Ductless gland secreting hormones directly into blood; pituitary, thyroid, adrenal, pancreas, parathyroid, thymus, gonads
+11th	Ch19 Chemical Coordination and Integration	Hormone	1	Non-nutrient chemical intercellular messenger; produced in trace amounts; acts on distant target tissues via blood
+11th	Ch19 Chemical Coordination and Integration	Target organ	2	Organ/tissue that responds to specific hormone; has specific hormone receptors
+11th	Ch19 Chemical Coordination and Integration	Hypothalamus	1	Master regulator; produces releasing/inhibiting hormones controlling anterior pituitary via portal circulation; GnRH, somatostatin, etc.
+11th	Ch19 Chemical Coordination and Integration	GnRH (gonadotrophin releasing hormone)	5	Hypothalamic hormone stimulating pituitary to release FSH and LH; regulates gonadal activity
+11th	Ch19 Chemical Coordination and Integration	Somatostatin	1	Hypothalamic inhibiting hormone; inhibits GH release from anterior pituitary; also produced in pancreas
+11th	Ch19 Chemical Coordination and Integration	Pituitary gland	2	Master gland; in sella turcica; adenohypophysis (anterior: GH, PRL, TSH, ACTH, LH, FSH; intermediate: MSH) + neurohypophysis (posterior: ADH, oxytocin)
+11th	Ch19 Chemical Coordination and Integration	Adenohypophysis	1	Anterior pituitary; pars distalis (GH, PRL, TSH, ACTH, LH, FSH) + pars intermedia (MSH)
+11th	Ch19 Chemical Coordination and Integration	Neurohypophysis	1	Posterior pituitary; stores and releases ADH and oxytocin (synthesised by hypothalamus)
+11th	Ch19 Chemical Coordination and Integration	GH (growth hormone)	3	Anterior pituitary; stimulates growth of bones and soft tissue; excess → gigantism (child)/acromegaly (adult); deficiency → dwarfism
+11th	Ch19 Chemical Coordination and Integration	Prolactin (PRL)	2	Anterior pituitary hormone; regulates mammary gland growth and milk production
+11th	Ch19 Chemical Coordination and Integration	TSH (thyroid stimulating hormone)	4	Anterior pituitary tropic hormone; stimulates thyroid synthesis and secretion of thyroxine
+11th	Ch19 Chemical Coordination and Integration	ACTH (adrenocorticotropic hormone)	4	Anterior pituitary tropic hormone; stimulates adrenal cortex to secrete glucocorticoids
+11th	Ch19 Chemical Coordination and Integration	LH (luteinising hormone)	3	Anterior pituitary gonadotrophin; females: induces ovulation, maintains corpus luteum; males: stimulates testosterone from Leydig cells
+11th	Ch19 Chemical Coordination and Integration	FSH (follicle stimulating hormone)	4	Anterior pituitary gonadotrophin; females: follicle growth; males: spermatogenesis (with androgens)
+11th	Ch19 Chemical Coordination and Integration	MSH (melanocyte stimulating hormone)	4	Pars intermedia hormone; acts on melanocytes; regulates skin pigmentation
+11th	Ch19 Chemical Coordination and Integration	Oxytocin	1	Neurohypophysis hormone; stimulates uterine contractions during childbirth; milk ejection from mammary glands
+11th	Ch19 Chemical Coordination and Integration	Vasopressin (ADH)	2	Neurohypophysis hormone; stimulates water reabsorption by renal tubules; deficiency → diabetes insipidus
+11th	Ch19 Chemical Coordination and Integration	Diabetes insipidus	2	Condition due to ADH deficiency; kidneys cannot conserve water; excessive dilute urine and dehydration
+11th	Ch19 Chemical Coordination and Integration	Gigantism	1	Over-secretion of GH in children; abnormal body growth
+11th	Ch19 Chemical Coordination and Integration	Acromegaly	1	Over-secretion of GH in adults; severe facial disfigurement; enlargement of hands, feet, jaw
+11th	Ch19 Chemical Coordination and Integration	Pituitary dwarfism	2	Deficiency of GH in childhood; stunted growth; normal intelligence
+11th	Ch19 Chemical Coordination and Integration	Pineal gland	2	On dorsal forebrain; secretes melatonin; regulates circadian rhythm, sleep-wake cycle, body temperature
+11th	Ch19 Chemical Coordination and Integration	Melatonin	1	Pineal hormone; regulates 24-hour (diurnal/circadian) rhythms; influences sleep, body temperature, metabolism, menstrual cycle
+11th	Ch19 Chemical Coordination and Integration	Thyroid gland	2	Two lobes connected by isthmus; follicular cells secrete T3 (triiodothyronine) and T4 (thyroxine); parafollicular cells secrete TCT
+11th	Ch19 Chemical Coordination and Integration	Thyroxine (T4)	2	Thyroid hormone; regulates BMR, carbohydrate/protein/fat metabolism, neural development, RBC formation; requires iodine
+11th	Ch19 Chemical Coordination and Integration	Triiodothyronine (T3)	2	More active thyroid hormone; same functions as T4; less iodine; converted from T4 in peripheral tissues
+11th	Ch19 Chemical Coordination and Integration	Thyrocalcitonin (TCT)	2	Thyroid protein hormone; lowers blood Ca2+ by inhibiting bone resorption; antagonist to PTH
+11th	Ch19 Chemical Coordination and Integration	Goitre	1	Enlargement of thyroid gland; simple goitre = iodine deficiency; exophthalmic goitre (Graves' disease) = hyperthyroidism
+11th	Ch19 Chemical Coordination and Integration	Cretinism	1	Hypothyroidism in foetus/infant; stunted growth, mental retardation, deaf-mutism, low IQ; due to maternal iodine deficiency
+11th	Ch19 Chemical Coordination and Integration	Hypothyroidism	1	Insufficient thyroid hormone; low BMR, fatigue, weight gain, cold intolerance; goitre in iodine deficiency
+11th	Ch19 Chemical Coordination and Integration	Hyperthyroidism	1	Excess thyroid hormone; increased BMR, weight loss, nervousness; Graves' disease = exophthalmic goitre
+11th	Ch19 Chemical Coordination and Integration	Parathyroid gland	2	Four glands on dorsal thyroid; secrete PTH (parathyroid hormone); regulate blood calcium
+11th	Ch19 Chemical Coordination and Integration	PTH (parathyroid hormone)	3	Hypercalcemic hormone; increases blood Ca2+ by stimulating bone resorption, renal Ca2+ reabsorption, intestinal Ca2+ absorption
+11th	Ch19 Chemical Coordination and Integration	Thymus gland	2	Behind sternum; secretes thymosins; essential for T-lymphocyte differentiation (cell-mediated immunity) and antibody production; degenerates in old age
+11th	Ch19 Chemical Coordination and Integration	Thymosin	1	Thymus hormone; promotes T-lymphocyte differentiation and maturation; enhances cell-mediated and humoral immunity
+11th	Ch19 Chemical Coordination and Integration	Adrenal gland	2	Above each kidney; outer cortex (glucocorticoids, mineralocorticoids, sex steroids) + inner medulla (adrenaline, noradrenaline)
+11th	Ch19 Chemical Coordination and Integration	Adrenal cortex	2	Outer adrenal; zona glomerulosa (mineralocorticoids) + zona fasciculata (glucocorticoids) + zona reticularis (androgens)
+11th	Ch19 Chemical Coordination and Integration	Adrenal medulla	2	Inner adrenal; secretes adrenaline (epinephrine) and noradrenaline (norepinephrine) = catecholamines; fight-or-flight
+11th	Ch19 Chemical Coordination and Integration	Adrenaline (epinephrine)	2	Adrenal medulla catecholamine; fight-or-flight hormone; increases heart rate, blood pressure, blood glucose, alertness
+11th	Ch19 Chemical Coordination and Integration	Noradrenaline (norepinephrine)	3	Adrenal medulla catecholamine; similar to adrenaline; more potent vasoconstrictor; fight-or-flight
+11th	Ch19 Chemical Coordination and Integration	Catecholamine	1	Class of hormones from adrenal medulla; adrenaline and noradrenaline; derived from tyrosine; emergency hormones
+11th	Ch19 Chemical Coordination and Integration	Glucocorticoid	1	Adrenal cortex hormone (mainly cortisol); gluconeogenesis, lipolysis, proteolysis; anti-inflammatory; suppresses immune response
+11th	Ch19 Chemical Coordination and Integration	Cortisol	1	Main glucocorticoid from adrenal cortex; gluconeogenesis; anti-inflammatory; maintains cardiovascular and kidney function; stimulates RBC production
+11th	Ch19 Chemical Coordination and Integration	Mineralocorticoid	1	Adrenal cortex hormone (mainly aldosterone); regulates Na+/K+ balance, water balance, blood pressure
+11th	Ch19 Chemical Coordination and Integration	Aldosterone	1	Main mineralocorticoid; renal tubule reabsorption of Na+ and water; excretion of K+ and phosphate; raises blood pressure
+11th	Ch19 Chemical Coordination and Integration	Addison's disease	2	Underproduction of adrenal cortex hormones; altered carbohydrate metabolism; weakness, fatigue, low blood pressure
+11th	Ch19 Chemical Coordination and Integration	Islets of Langerhans	3	Endocrine clusters in pancreas (~1-2 million); α cells (glucagon) + β cells (insulin); blood glucose regulation
+11th	Ch19 Chemical Coordination and Integration	Insulin	1	β cell pancreatic hormone; lowers blood glucose (hypoglycemic); promotes glycogenesis, glucose uptake; deficiency → diabetes mellitus
+11th	Ch19 Chemical Coordination and Integration	Glucagon	1	α cell pancreatic hormone; raises blood glucose (hyperglycemic); promotes glycogenolysis and gluconeogenesis in liver
+11th	Ch19 Chemical Coordination and Integration	Diabetes mellitus	2	Insulin deficiency or resistance; hyperglycemia; glucosuria; ketone body formation; treated with insulin therapy
+11th	Ch19 Chemical Coordination and Integration	Leydig cells (interstitial cells)	3	Cells in intertubular spaces of testis; secrete androgens (mainly testosterone)
+11th	Ch19 Chemical Coordination and Integration	Androgen	1	Male sex hormone (mainly testosterone) from Leydig cells; male secondary sex characters, spermatogenesis, libido, anabolic effects
+11th	Ch19 Chemical Coordination and Integration	Testosterone	1	Main androgen; from Leydig cells of testis; development of male accessory sex organs, secondary sex characters, spermatogenesis
+11th	Ch19 Chemical Coordination and Integration	Estrogen	1	Female sex hormone from ovarian follicles; development of female secondary sex organs, follicle maturation, female secondary sex characters
+11th	Ch19 Chemical Coordination and Integration	Progesterone	1	Ovarian hormone from corpus luteum; maintains pregnancy; mammary gland alveoli development; milk secretion
+11th	Ch19 Chemical Coordination and Integration	Corpus luteum	2	Structure from ruptured graafian follicle after ovulation; secretes progesterone; maintained by LH
+11th	Ch19 Chemical Coordination and Integration	Erythropoietin	1	Peptide hormone from juxtaglomerular cells of kidney; stimulates erythropoiesis (RBC formation)
+11th	Ch19 Chemical Coordination and Integration	Gastrin	1	GI tract hormone; stimulates gastric glands to secrete HCl and pepsinogen
+11th	Ch19 Chemical Coordination and Integration	Secretin	1	GI tract hormone; stimulates pancreas to secrete water and bicarbonate; neutralises stomach acid
+11th	Ch19 Chemical Coordination and Integration	Cholecystokinin (CCK)	2	GI tract hormone; stimulates pancreatic enzyme secretion and bile release from gall bladder
+11th	Ch19 Chemical Coordination and Integration	GIP (gastric inhibitory peptide)	3	GI tract hormone; inhibits gastric secretion and motility; stimulated by fat in duodenum
+11th	Ch19 Chemical Coordination and Integration	Second messenger	2	Intracellular signal molecule (cAMP, IP3, Ca2+) generated by membrane-bound hormone-receptor complex; mediates hormone action
+11th	Ch19 Chemical Coordination and Integration	Hormone receptor	2	Specific protein in target tissue binding hormone; membrane-bound (peptide hormones) or intracellular (steroid/thyroid hormones)
+11th	Ch1 The Living World	Metabolism	1	Sum total of all chemical reactions occurring in a living body
+11th	Ch1 The Living World	Anabolism	1	Biosynthetic reactions building complex molecules from simpler ones; consume energy
+11th	Ch1 The Living World	Catabolism	1	Breakdown of complex molecules into simpler ones with release of energy
+11th	Ch1 The Living World	Consciousness	1	Ability of living organisms to sense and respond to environmental stimuli
+11th	Ch1 The Living World	Herbarium	1	Repository of dried, pressed, labelled plant specimens mounted on sheets
+11th	Ch1 The Living World	Monograph	1	Comprehensive publication giving complete information on one taxon
+11th	Ch1 The Living World	Key (taxonomic)	2	Analytical tool for identification of organisms based on contrasting characters
+11th	Ch2 Biological Classification	Artificial classification	2	Classification based on one or few superficial characters; e.g., Aristotle
+11th	Ch2 Biological Classification	Natural classification	2	Classification based on natural affinities and overall morphological characters
+11th	Ch2 Biological Classification	Five-kingdom classification	2	Whittaker (1969): Monera, Protista, Fungi, Plantae, Animalia
+11th	Ch2 Biological Classification	Prokaryote	1	Organism lacking membrane-bound nucleus; 70S ribosomes; no membrane-bound organelles
+11th	Ch2 Biological Classification	Eukaryote	1	Organism with membrane-bound nucleus; 80S ribosomes; membrane-bound organelles
+11th	Ch2 Biological Classification	Actinomycetes	1	Filamentous branching bacteria; produce many antibiotics; e.g., Streptomyces
+11th	Ch2 Biological Classification	Dinoflagellate	1	Unicellular protist with two flagella; cause red tide; bioluminescent; e.g., Gonyaulax
+11th	Ch2 Biological Classification	Chrysophyte	1	Golden-brown algae and diatoms; siliceous cell wall; chief producers in oceans
+11th	Ch2 Biological Classification	Diatom	1	"Chrysophyte with ornate silica shell (frustule); ""pearls of ocean""; cell walls persist"
+11th	Ch2 Biological Classification	Euglenoid	1	Unicellular flagellated protist with pellicle; mixotrophic; e.g., Euglena
+11th	Ch2 Biological Classification	Slime mould	2	Protist forming plasmodium (naked mass of cytoplasm); forms fruiting bodies under stress
+11th	Ch2 Biological Classification	Saprophyte	1	Organism obtaining nutrition from dead organic matter by secreting digestive enzymes
+11th	Ch2 Biological Classification	Parasite	1	Organism living in/on host deriving nutrition at the host's expense
+11th	Ch3 Plant Kingdom	Vascular tissue	2	Specialised conducting tissue: xylem (water) + phloem (food); first appears in pteridophytes
+11th	Ch3 Plant Kingdom	Homosporous	1	Producing only one type of spore (same size); e.g., most ferns
+11th	Ch3 Plant Kingdom	Heterosporous	1	Producing microspores and megaspores; e.g., Selaginella, Azolla, Marsilea
+11th	Ch3 Plant Kingdom	Sorus	1	Cluster of sporangia on underside of fern leaf (frond)
+11th	Ch3 Plant Kingdom	Seed	1	Mature ovule containing embryo + stored food; ensures dispersal and survival
+11th	Ch3 Plant Kingdom	Sporangium	1	Structure in which spores are produced
+11th	Ch4 Animal Kingdom	Pseudocoelom	1	False body cavity not lined by mesoderm; e.g., Aschelminthes (Nematoda)
+11th	Ch4 Animal Kingdom	Canal system	2	System of pores, canals, and chambers in sponges for water circulation and filter feeding
+11th	Ch4 Animal Kingdom	Open circulatory system	3	Blood flows into body sinuses (haemocoel); e.g., Arthropoda, Mollusca
+11th	Ch4 Animal Kingdom	Closed circulatory system	3	Blood circulates only through enclosed vessels; e.g., Annelida, vertebrates
+11th	Ch4 Animal Kingdom	Hermaphrodite	1	Organism with both male and female reproductive organs; e.g., earthworm, tapeworm
+11th	Ch4 Animal Kingdom	Parthenogenesis	1	Development of an unfertilised egg into a new individual
+11th	Ch4 Animal Kingdom	Book lung	2	Respiratory organ of arachnids; leaf-like lamellae for gas exchange; e.g., scorpion, spider
+11th	Ch4 Animal Kingdom	Tracheal system	2	Network of air tubes in insects for gas exchange; no respiratory pigment needed
+11th	Ch5 Morphology of Flowering Plants	Pneumatophore	1	Negatively geotropic root growing upward for gas exchange; e.g., Rhizophora (mangrove)
+11th	Ch5 Morphology of Flowering Plants	Rhizome	1	Horizontal underground stem with nodes, internodes, scale leaves; e.g., ginger, fern
+11th	Ch5 Morphology of Flowering Plants	Corm	1	Condensed erect underground stem storing food; e.g., Colocasia (arvi), Crocus (saffron)
+11th	Ch5 Morphology of Flowering Plants	Tuber	1	Swollen underground stem tip with eyes (axillary buds); e.g., potato
+11th	Ch5 Morphology of Flowering Plants	Bulb	1	Underground shoot with fleshy food-storing scale leaves; e.g., onion, garlic
+11th	Ch5 Morphology of Flowering Plants	Phylloclade	1	Flattened green stem performing photosynthesis; leaves reduced to spines; e.g., Opuntia
+11th	Ch5 Morphology of Flowering Plants	Tendril	1	Slender coiling structure for climbing; stem (Cucurbita) or leaf (Pisum) origin
+11th	Ch5 Morphology of Flowering Plants	Thorn	1	Hard pointed modified axillary stem; protects plant; e.g., Bougainvillea, Citrus
+11th	Ch5 Morphology of Flowering Plants	Epigynous	1	Inferior ovary; other floral parts arise from above ovary; e.g., Cucurbita, guava
+11th	Ch5 Morphology of Flowering Plants	Hypogynous	1	Superior ovary; other whorls arise below ovary; e.g., mustard
+11th	Ch6 Anatomy of Flowering Plants	Permanent tissue	2	Tissue formed from meristematic cells that have lost ability to divide; simple or complex
+11th	Ch6 Anatomy of Flowering Plants	Aerenchyma	1	Parenchyma with large air spaces; provides buoyancy in aquatic plants
+11th	Ch6 Anatomy of Flowering Plants	Sclereide	1	Short irregular sclerenchyma cell; forms hard seed coats and stone cells in fruits
+11th	Ch6 Anatomy of Flowering Plants	Stoma (pl. stomata)	3	Pore in leaf epidermis bounded by two guard cells; regulates gas exchange and transpiration
+11th	Ch7 Structural Organisation in Animals	Areolar tissue	2	Loose connective tissue filling spaces between organs; contains collagen and elastic fibres
+11th	Ch7 Structural Organisation in Animals	Tendon	1	Dense fibrous connective tissue connecting muscle to bone; made of collagen
+11th	Ch7 Structural Organisation in Animals	Ligament	1	Dense elastic connective tissue connecting bone to bone at a joint
+11th	Ch7 Structural Organisation in Animals	Cartilage	1	Firm but flexible connective tissue; chondrocytes in lacunae; avascular
+11th	Ch7 Structural Organisation in Animals	Smooth muscle	2	Non-striated involuntary muscle; in internal organs (gut, blood vessels, uterus)
+11th	Ch8 Cell: The Unit of Life	Crista (pl. cristae)	3	Infoldings of inner mitochondrial membrane; increases surface area for ATP synthesis
+11th	Ch8 Cell: The Unit of Life	Stroma	1	Fluid-filled space inside chloroplast; dark reactions (Calvin cycle) occur here
+11th	Ch9 Biomolecules	Macromolecule	1	Large biological polymer: proteins, nucleic acids, polysaccharides, lipids
+11th	Ch9 Biomolecules	Primary structure	2	Linear sequence of amino acids in a polypeptide chain
+11th	Ch9 Biomolecules	Secondary structure	2	Regular local folding: alpha helix or beta-pleated sheet; maintained by hydrogen bonds
+11th	Ch9 Biomolecules	Tertiary structure	2	Overall 3D shape of single polypeptide; maintained by ionic, hydrogen, hydrophobic, disulphide bonds
+11th	Ch9 Biomolecules	Quaternary structure	2	Assembly of two or more polypeptide subunits; e.g., haemoglobin (4 subunits)
+11th	Ch9 Biomolecules	Competitive inhibition	2	Inhibitor similar to substrate competes for active site; reversed by excess substrate
+11th	Ch9 Biomolecules	Non-competitive inhibition	2	Inhibitor binds allosteric site; changes enzyme conformation; not reversed by excess substrate
+11th	Ch9 Biomolecules	Feedback inhibition	2	End product of a metabolic pathway inhibits the first enzyme; regulates pathway output
+11th	Ch10 Cell Cycle and Cell Division	Centromere	1	Constricted region of chromosome where sister chromatids are joined; spindle fibres attach here
+11th	Ch10 Cell Cycle and Cell Division	Bivalent (tetrad)	2	Pair of synapsed homologous chromosomes; 4 chromatids; during meiosis I
+11th	Ch11 Photosynthesis in Higher Plants	Dark reaction (Calvin cycle)	4	Occurs in stroma; uses ATP and NADPH to fix CO2 into glucose; light-independent
+11th	Ch11 Photosynthesis in Higher Plants	Z-scheme	1	Diagram of non-cyclic electron flow from water → PS II → PS I → NADP+; shaped like letter Z
+11th	Ch11 Photosynthesis in Higher Plants	C3 plants	2	Fix CO2 directly via Calvin cycle; first product is 3-PGA (3 carbons); e.g., wheat, rice, potato
+11th	Ch11 Photosynthesis in Higher Plants	C4 plants	2	Hatch-Slack pathway; first product is OAA (4 carbons); Kranz anatomy; e.g., maize, sugarcane
+11th	Ch11 Photosynthesis in Higher Plants	OAA (oxaloacetate)	2	First stable 4-carbon product of CO2 fixation in C4 plants; in mesophyll cells
+11th	Ch11 Photosynthesis in Higher Plants	Limiting factor	2	Factor in least supply limiting rate of photosynthesis; light, CO2, or temperature (Blackman's Law)
+11th	Ch12 Respiration in Plants	Anaerobic respiration	2	Without O2; incomplete oxidation; ethanol + CO2 (yeast) or lactic acid (bacteria, muscle)
+11th	Ch12 Respiration in Plants	Glycolysis (EMP pathway)	3	Breakdown of glucose (6C) to 2 pyruvate (3C) in cytoplasm; net gain: 2 ATP + 2 NADH
+11th	Ch12 Respiration in Plants	Chemiosmosis	1	ATP synthesis by H+ gradient across inner mitochondrial membrane through ATP synthase
+11th	Ch14 Breathing and Exchange of Gases	Carbaminohaemoglobin	1	Haemoglobin bound to CO2; ~20-25% of CO2 transported this way
+11th	Ch14 Breathing and Exchange of Gases	Alveolus (pl. alveoli)	3	Tiny air sac in lungs; site of gas exchange; vast surface area (~80 m²)
+11th	Ch15 Body Fluids and Circulation	Thrombocyte (platelet)	2	Cell fragment from megakaryocytes; involved in blood clotting; ~1.5-3.5 lakh/mm³
+11th	Ch15 Body Fluids and Circulation	Sinoatrial node (SAN)	3	Pacemaker of heart; in right atrium wall; generates electrical impulse; ~70-75 impulses/min
+11th	Ch15 Body Fluids and Circulation	Blood pressure	2	Force of blood on vessel walls; normal ~120/80 mmHg; measured by sphygmomanometer
+11th	Ch16 Excretory Products and their Elimination	GFR	1	Glomerular Filtration Rate; ~125 mL/min (~180 L/day) in humans
+11th	Ch16 Excretory Products and their Elimination	Loop of Henle	3	U-shaped nephron portion; creates medullary osmotic gradient; enables urine concentration
+11th	Ch16 Excretory Products and their Elimination	Counter-current mechanism	2	Loop of Henle maintains medullary concentration gradient; enables production of hypertonic urine
+11th	Ch16 Excretory Products and their Elimination	JGA (juxtaglomerular apparatus)	3	Specialised cells near glomerulus; secretes renin; regulates GFR and blood pressure
+11th	Ch16 Excretory Products and their Elimination	Dialysis	1	Artificial kidney process; filters blood using semipermeable membrane; for kidney failure
+11th	Ch17 Locomotion and Movement	Actin (thin filament)	3	Protein of thin filaments; has myosin-binding sites; blocked by tropomyosin at rest
+11th	Ch17 Locomotion and Movement	Myosin (thick filament)	3	Protein of thick filaments; globular heads bind actin and hydrolyse ATP during contraction
+11th	Ch17 Locomotion and Movement	Neuromuscular junction	2	Synapse between motor neuron and muscle fibre; ACh released triggers muscle action potential
+11th	Ch18 Neural Control and Coordination	Resting membrane potential	3	~-70 mV; maintained by Na+/K+ pump; inside negative relative to outside
+11th	Ch18 Neural Control and Coordination	Action potential	2	Rapid reversal of membrane potential (depolarisation → repolarisation); nerve impulse; all-or-nothing
+11th	Ch18 Neural Control and Coordination	Reflex action	2	Rapid automatic involuntary response to stimulus; does not require brain involvement
+11th	Ch18 Neural Control and Coordination	Reflex arc	2	Neural pathway: receptor → sensory neuron → CNS → motor neuron → effector
+11th	Ch19 Chemical Coordination and Integration	Feedback regulation	2	Hormone production regulated by its own effects; negative feedback most common
+11th	Ch19 Chemical Coordination and Integration	Growth hormone (GH/STH)	3	Anterior pituitary; promotes growth of bones and soft tissue; excess = gigantism/acromegaly; deficiency = dwarfism
+11th	Ch19 Chemical Coordination and Integration	ADH (Vasopressin)	2	Posterior pituitary; promotes water reabsorption in kidney; deficiency causes diabetes insipidus

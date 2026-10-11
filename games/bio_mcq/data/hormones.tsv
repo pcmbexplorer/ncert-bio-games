@@ -1,0 +1,41 @@
+Class	S. No.	Gland / Tissue	Location	Part	Hormone	Type	Mechanism	Function	Disease
+11th		Hypothalamus	Base of forebrain (diencephalon)	Neurosecretory nuclei	Releasing hormones (GnRH)	Peptide	Membrane receptor	Controls pituitary secretion	Dysregulation → endocrine imbalance
+11th					Inhibiting hormones (Somatostatin)	Peptide	Membrane receptor	Controls pituitary secretion	Dysregulation → endocrine imbalance
+11th		Pituitary (Anterior / Pars distalis)	Sella turcica, below hypothalamus	Pars distalis	GH	Protein	Membrane	Growth regulation	Gigantism, Dwarfism, Acromegaly
+11th					PRL	Protein	Membrane	Milk production	Lactation disorders
+11th					TSH	Glycoprotein	Membrane	Stimulates thyroid	Hypo/Hyperthyroidism
+11th					ACTH	Peptide	Membrane	Stimulates adrenal cortex	Addison’s disease
+11th					LH	Glycoprotein	Membrane	Ovulation, testosterone	Infertility
+11th					FSH	Glycoprotein	Membrane	Gametogenesis	Infertility
+11th		Pituitary (Pars intermedia)	Same	Pars intermedia	MSH	Peptide	Membrane	Skin pigmentation	Pigmentation disorders
+11th		Pituitary (Posterior)	Same	Pars nervosa	Oxytocin	Peptide	Membrane	Uterine contraction, milk ejection	Labour issues
+11th					ADH (Vasopressin)	Peptide	Membrane	Water reabsorption	Diabetes insipidus
+11th		Pineal gland	Dorsal forebrain	—	Melatonin	Amino acid derivative	Intracellular	Circadian rhythm	Sleep disorders
+11th		Thyroid gland	Neck, around trachea	Follicular cells	T3, T4	Iodothyronine	Intracellular	Metabolism, growth	Goitre, Cretinism, Hyperthyroidism
+11th				Parafollicular cells	Calcitonin (TCT)	Protein	Membrane	Lowers blood Ca²⁺	Calcium imbalance
+11th		Parathyroid	Posterior thyroid	—	PTH	Peptide	Membrane	Raises blood Ca²⁺	Bone demineralisation
+11th		Thymus	Behind sternum	—	Thymosins	Peptide	Membrane	T-cell maturation	Weak immunity (aging)
+11th		Adrenal medulla	Above kidneys	Medulla	Adrenaline, Noradrenaline	Amino acid derivative	Membrane	Fight/flight response	Stress disorders
+11th		Adrenal cortex	Same	Zona fasciculata	Cortisol (glucocorticoid)	Steroid	Intracellular	Metabolism, anti-inflammatory	Addison’s disease
+11th				Zona glomerulosa	Aldosterone	Steroid	Intracellular	Na⁺ retention, BP control	Electrolyte imbalance
+11th				Zona reticularis	Androgens	Steroid	Intracellular	Secondary sex traits	Hormonal imbalance
+11th		Pancreas (Islets)	Abdomen	α-cells	Glucagon	Peptide	Membrane	↑ Blood glucose	Hyperglycemia
+11th				β-cells	Insulin	Peptide	Membrane	↓ Blood glucose	Diabetes mellitus
+11th		Testis	Scrotum	Leydig cells	Testosterone	Steroid	Intracellular	Male traits, spermatogenesis	Infertility
+11th		Ovary	Abdomen	Follicles	Estrogen	Steroid	Intracellular	Female traits	Menstrual disorders
+11th				Corpus luteum	Progesterone	Steroid	Intracellular	Pregnancy maintenance	Pregnancy failure
+11th		Heart (Atria)	Heart wall	—	ANF	Peptide	Membrane	↓ Blood pressure	Hypertension imbalance
+11th		Kidney	Juxtaglomerular cells	—	Erythropoietin	Glycoprotein	Membrane	RBC formation	Anemia
+11th		GIT	Stomach & intestine	—	Gastrin	Peptide	Membrane	HCl secretion	Ulcer issues
+11th					Secretin	Peptide	Membrane	Bicarbonate secretion	Digestive issues
+11th					CCK	Peptide	Membrane	Enzyme & bile secretion	Digestive dysfunction
+11th					GIP	Peptide	Membrane	Inhibits gastric activity	Metabolic issues
+10th	1.0	Hypothalamus	In the brain	Releasing & Inhibitory Hormones	Regulates the secretion of hormones from the pituitary gland		Controls the pituitary gland; acts as a master regulator		
+10th	2	Pituitary Gland	Just below the brain	Growth Hormone (Human Growth Hormone)	Controls growth and development of bones and muscles	Dwarfism (deficiency), Gigantism (excess)	"Known as the ""master gland"""		
+10th	3	Thyroid Gland	Attached to the windpipe	Thyroxine (contains iodine)	Controls metabolism of carbohydrates, fats, and proteins	Goitre (due to iodine deficiency)	Requires iodine; iodised salt prevents goitre		
+10th	4	Parathyroid Glands	Embedded in the thyroid gland	Parathormone	Regulates calcium and phosphate levels in the blood		Four small glands		
+10th	5	Thymus Gland	Lower part of neck, upper chest	Thymus hormone	Plays role in development of the immune system		Large in young children; shrinks after puberty		
+10th	6	Pancreas	Just below the stomach	Insulin	Lowers blood sugar level (blood glucose level)	Diabetes (due to insulin deficiency)	Diabetes is controlled by insulin injection, diet, exercise, and medication		
+10th	7	Adrenal Glands	On top of two kidneys	Adrenaline	Regulates heart rate, breathing rate, blood pressure, and metabolism		"Called ""glands of emergency""; prepares body for action (fight or flight)"		
+10th	8	Testes	Present only in males	Testosterone	Development of male sex organs and secondary sexual characteristics		Begins functioning at puberty (13–14 years); also makes male gametes (sperms)		
+10th	9	Ovaries	Present only in females	Oestrogen and Progesterone	Oestrogen: Controls female sexual development; Progesterone: Controls menstrual cycle & pregnancy		Begins functioning at puberty (10–12 years); also makes female gametes (ova/eggs)		
