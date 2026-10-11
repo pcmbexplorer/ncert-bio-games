@@ -1,0 +1,12 @@
+# Only track games/ and bootstrap.py — ignore everything else
+converted/
+mcq test-papers/
+neet app/
+notes/
+original/
+*.pdf
+*.docx
+*.xlsx
+*.zip
+__pycache__/
+*.pyc

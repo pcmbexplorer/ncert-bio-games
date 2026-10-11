@@ -354,10 +354,13 @@ def play_round(q, lives, hints, mode, streak, max_lives, max_hints, stats, label
         draw_question(q, lives, hints, mode, streak, max_lives, max_hints,
                       stats["played"]+1, eliminated, None, label)
         hs = "[dim]? = eliminate wrong[/dim]" if hints > 0 else "[dim](no hints)[/dim]"
-        console.print(f"  [A/B/C/D]  {hs}  [dim]Ctrl+C = quit[/dim]: ", end="")
+        console.print(f"  [A/B/C/D]  {hs}  [dim]q = quit[/dim]: ", end="")
         try:
             user = input().strip().upper()
         except (EOFError, KeyboardInterrupt):
+            show_analysis(stats, mode, label); sys.exit()
+
+        if user == "Q":
             show_analysis(stats, mode, label); sys.exit()
 
         if user == "?":
@@ -449,8 +452,10 @@ def main():
             streak = 0
             if lives <= 0:
                 show_analysis(stats, mode, label)
-                console.print("  [dim]Enter to restart · Ctrl+C to quit[/dim]")
-                try: input()
+                console.print("  [dim]Enter to restart · q to quit[/dim]")
+                try:
+                    if input().strip().lower() == "q":
+                        break
                 except (EOFError, KeyboardInterrupt): break
                 lives, hints, streak, best_streak = mode["lives"], mode["hints"], 0, 0
                 stats = {"played":0,"won":0,"lost":0,"hints_used":0,

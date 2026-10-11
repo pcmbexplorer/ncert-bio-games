@@ -468,11 +468,15 @@ def play_round(q: Dict, lives: int, hints: int, mode: Dict,
                       stats["played"] + 1, eliminated, None)
 
         hint_key = "[dim]? = eliminate wrong option[/dim]" if hints > 0 else "[dim](no hints)[/dim]"
-        console.print(f"  Answer [A/B/C/D]  {hint_key}  [dim]Ctrl+C = quit[/dim]: ", end="")
+        console.print(f"  Answer [A/B/C/D]  {hint_key}  [dim]q = quit[/dim]: ", end="")
 
         try:
             user = input().strip().upper()
         except (EOFError, KeyboardInterrupt):
+            show_analysis(stats, mode)
+            sys.exit()
+
+        if user == "Q":
             show_analysis(stats, mode)
             sys.exit()
 
@@ -599,9 +603,10 @@ def main():
             streak = 0
             if lives <= 0:
                 show_analysis(stats, mode)
-                console.print("  [dim]Enter to restart · Ctrl+C to quit[/dim]")
+                console.print("  [dim]Enter to restart · q to quit[/dim]")
                 try:
-                    input()
+                    if input().strip().lower() == "q":
+                        break
                 except (EOFError, KeyboardInterrupt):
                     break
                 lives  = mode["lives"]

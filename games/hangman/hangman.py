@@ -189,7 +189,7 @@ def draw_screen(entry: Dict, word: str, guessed: Set[str], wrong: Set[str],
         ))
 
     hint_prompt = "[dim]? = hint[/dim]" if not hint_used else "[dim](hint active)[/dim]"
-    console.print(f"  {hint_prompt}   [dim]Ctrl+C = quit[/dim]")
+    console.print(f"  {hint_prompt}   [dim]q = quit[/dim]")
 
 
 def show_analysis(stats: Dict, mode: Dict):
@@ -278,7 +278,7 @@ def play_round(entry: Dict, lives: int, hints: int, mode: Dict, streak: int,
             input("\n  [Enter] next word...")
             return False, lives, hints
 
-        console.print(f"\n  Guess (letter or full word): ", end="")
+        console.print(f"\n  Guess (letter, full word, or q to quit): ", end="")
         try:
             user = input().strip().lower()
         except (EOFError, KeyboardInterrupt):
@@ -287,6 +287,10 @@ def play_round(entry: Dict, lives: int, hints: int, mode: Dict, streak: int,
 
         if not user:
             continue
+
+        if user == "q":
+            show_analysis(stats, mode)
+            sys.exit()
 
         # ── Hint ────────────────────────────────────────────────────────────
         if user == "?":
@@ -378,9 +382,10 @@ def main():
             streak = 0
             if lives <= 0:
                 show_analysis(stats, mode)
-                console.print("  [dim]Press Enter to restart or Ctrl+C to quit[/dim]")
+                console.print("  [dim]Press Enter to restart or type q to quit[/dim]")
                 try:
-                    input()
+                    if input().strip().lower() == "q":
+                        break
                 except (EOFError, KeyboardInterrupt):
                     break
                 lives = mode["lives"]

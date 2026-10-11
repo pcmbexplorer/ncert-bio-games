@@ -117,7 +117,8 @@ def launch():
 # ── Main ───────────────────────────────────────────────────────────────────────
 print("\033[1m\n  🧬  NCERT Bio Games\033[0m")
 
-if already_installed:
+if already_installed and sys.stdin.isatty():
+    # Running directly (not piped) — ask
     print(f"\n  Already installed at {INSTALL}")
     print("  [1] Play now (use existing files)")
     print("  [2] Update all files from GitHub, then play")
@@ -126,6 +127,7 @@ if already_installed:
     if choice == "2":
         install()
 else:
+    # Piped via curl, or fresh install — always update/install
     install()
 
 launch()
