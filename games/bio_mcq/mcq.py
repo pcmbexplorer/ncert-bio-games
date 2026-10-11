@@ -307,18 +307,14 @@ def clear():
 
 def render_lives(lives: int, max_lives: int, color: str) -> str:
     if max_lives >= 999:
-        return f"[{color}]∞ lives[/{color}]"
-    filled = min(lives, max_lives)
-    return (f"[{color}]{'❤  ' * filled}[/{color}]"
-            f"[dim]{'🖤  ' * (max_lives - filled)}[/dim]").strip()
+        return f"[{color}]❤  ∞[/{color}]"
+    return f"[{color}]❤  {lives}[/{color}][dim]/{max_lives}[/dim]"
 
 
 def render_hints(hints: int, max_hints: int, color: str) -> str:
     if max_hints >= 999:
-        return f"[{color}]∞ hints[/{color}]"
-    filled = min(hints, max_hints)
-    return (f"[{color}]{'💡 ' * filled}[/{color}]"
-            f"[dim]{'○  ' * (max_hints - filled)}[/dim]").strip()
+        return f"[{color}]💡 ∞[/{color}]"
+    return f"[{color}]💡 {hints}[/{color}][dim]/{max_hints}[/dim]"
 
 
 CLASS_FILTER = {

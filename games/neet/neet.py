@@ -270,14 +270,12 @@ def select_mode() -> Dict:
 # ── Game UI ───────────────────────────────────────────────────────────────────
 
 def render_lives(lives, max_lives, color):
-    if max_lives >= 999: return f"[{color}]∞ lives[/{color}]"
-    f = min(lives, max_lives)
-    return (f"[{color}]{'❤  '*f}[/{color}][dim]{'🖤  '*(max_lives-f)}[/dim]").strip()
+    if max_lives >= 999: return f"[{color}]❤  ∞[/{color}]"
+    return f"[{color}]❤  {lives}[/{color}][dim]/{max_lives}[/dim]"
 
 def render_hints(hints, max_hints, color):
-    if max_hints >= 999: return f"[{color}]∞ hints[/{color}]"
-    f = min(hints, max_hints)
-    return (f"[{color}]{'💡 '*f}[/{color}][dim]{'○  '*(max_hints-f)}[/dim]").strip()
+    if max_hints >= 999: return f"[{color}]💡 ∞[/{color}]"
+    return f"[{color}]💡 {hints}[/{color}][dim]/{max_hints}[/dim]"
 
 
 def draw_question(q, lives, hints, mode, streak, max_lives, max_hints,
