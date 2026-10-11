@@ -12,7 +12,7 @@ import os, sys, subprocess, urllib.request
 from pathlib import Path
 
 # ── Config ─────────────────────────────────────────────────────────────────────
-REPO_RAW  = "https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main"
+REPO_RAW  = "https://raw.githubusercontent.com/pcmbexplorer/ncert-bio-games/main"
 INSTALL   = Path.home() / "ncert-bio-games"
 PLAY      = INSTALL / "games" / "play.py"
 
