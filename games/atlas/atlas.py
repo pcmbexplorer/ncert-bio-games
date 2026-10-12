@@ -18,12 +18,11 @@ console = Console()
 DATA_DIR = Path(__file__).parent.parent / "hangman" / "data"
 
 CLASS_FILES = {
-    "1": ("9th",        DATA_DIR / "keywords-glossary-9th.tsv"),
-    "2": ("10th",       DATA_DIR / "keywords-glossary-10th.tsv"),
-    "3": ("11th",       DATA_DIR / "keywords-glossary-11th.tsv"),
-    "4": ("12th",       DATA_DIR / "keywords-glossary-12th.tsv"),
-    "5": ("Advanced",   DATA_DIR / "keywords-glossary-advanced.tsv"),
-    "6": ("Dictionary", DATA_DIR / "keywords-glossary-dictionary.tsv"),
+    "1": ("9th",      DATA_DIR / "keywords-glossary-9th.tsv"),
+    "2": ("10th",     DATA_DIR / "keywords-glossary-10th.tsv"),
+    "3": ("11th",     DATA_DIR / "keywords-glossary-11th.tsv"),
+    "4": ("12th",     DATA_DIR / "keywords-glossary-12th.tsv"),
+    "5": ("Advanced", DATA_DIR / "keywords-glossary-advanced.tsv"),
 }
 
 
@@ -63,12 +62,11 @@ def select_class() -> tuple:
     ))
     console.print()
     console.print(Panel(
-        "[bold]  1.[/bold]  9th         —    361 keywords\n\n"
-        "[bold]  2.[/bold]  10th        —    213 keywords\n\n"
-        "[bold]  3.[/bold]  11th        —  1,169 keywords\n\n"
-        "[bold]  4.[/bold]  12th        —    658 keywords\n\n"
-        "[bold]  5.[/bold]  [bold magenta]Advanced[/bold magenta]    —    344 keywords  [dim](Wikipedia Biology Glossary)[/dim]\n\n"
-        "[bold]  6.[/bold]  [bold red]Dictionary[/bold red]  —  2,182 keywords  [dim](Biology Dictionary PDF)[/dim]",
+        "[bold]  1.[/bold]  9th       —    361 keywords\n\n"
+        "[bold]  2.[/bold]  10th      —    213 keywords\n\n"
+        "[bold]  3.[/bold]  11th      —  1,169 keywords\n\n"
+        "[bold]  4.[/bold]  12th      —    658 keywords\n\n"
+        "[bold]  5.[/bold]  [bold magenta]Advanced[/bold magenta]  —  2,312 keywords  [dim](Wikipedia + Biology Dictionary)[/dim]",
         title="[bold]Select Class(es)  —  type numbers separated by space/comma[/bold]",
         box=box.ROUNDED,
     ))
