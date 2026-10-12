@@ -14,12 +14,11 @@ console = Console()
 
 DATA_DIR = Path(__file__).parent.parent / "hangman" / "data"
 
-# Chapter sorter works best with NCERT classes that have proper chapter names
 CLASS_FILES = {
-    "1": ("9th",  DATA_DIR / "keywords-glossary-9th.tsv"),
-    "2": ("10th", DATA_DIR / "keywords-glossary-10th.tsv"),
-    "3": ("11th", DATA_DIR / "keywords-glossary-11th.tsv"),
-    "4": ("12th", DATA_DIR / "keywords-glossary-12th.tsv"),
+    "9th":  DATA_DIR / "keywords-glossary-9th.tsv",
+    "10th": DATA_DIR / "keywords-glossary-10th.tsv",
+    "11th": DATA_DIR / "keywords-glossary-11th.tsv",
+    "12th": DATA_DIR / "keywords-glossary-12th.tsv",
 }
 
 MODES = {
@@ -28,12 +27,16 @@ MODES = {
     "3": {"name": "Hard",   "color": "red",    "lives": 3,   "hints": 0,   "replenish": False},
 }
 
-LABELS = ["A", "B", "C", "D"]
+VALID_INPUT = {"9", "10", "11", "12", "9th", "10th", "11th", "12th"}
+
+def normalise(s: str) -> str:
+    s = s.strip().lower().replace("th", "")
+    return s + "th" if s.isdigit() else ""
 
 
 def clear(): os.system("clear")
 
-def truncate(s, n=70):
+def truncate(s, n=100):
     return s if len(s) <= n else s[:n-1] + "…"
 
 def render_lives(lives, max_lives, color):
@@ -45,114 +48,76 @@ def render_hints(hints, max_hints, color):
     return f"[{color}]💡 {hints}[/{color}][dim]/{max_hints}[/dim]"
 
 
-def load_entries(picks):
+def load_entries() -> List[Dict]:
     entries, seen = [], set()
-    for p in picks:
-        with open(CLASS_FILES[p][1], encoding="utf-8") as f:
+    for cls, path in CLASS_FILES.items():
+        with open(path, encoding="utf-8") as f:
             for row in csv.DictReader(f, delimiter="\t"):
                 kw   = row.get("Keyword", "").strip()
                 defn = row.get("Definition", "").strip()
                 ch   = row.get("Chapter", "").strip()
-                cls  = row.get("Class", "").strip()
-                if kw and ch and kw.lower() not in seen:
+                if kw and kw.lower() not in seen:
                     seen.add(kw.lower())
                     entries.append({"keyword": kw, "definition": defn,
                                     "chapter": ch, "class": cls})
     return entries
 
 
-def build_questions(entries):
-    chapters = list({e["chapter"] for e in entries})
-    if len(chapters) < 4:
-        return []
-    qs = []
-    for e in entries:
-        wrong_chs = [c for c in chapters if c != e["chapter"]]
-        if len(wrong_chs) < 3:
-            continue
-        distractors = random.sample(wrong_chs, 3)
-        opts = distractors + [e["chapter"]]
-        random.shuffle(opts)
-        qs.append({
-            "keyword":    e["keyword"],
-            "definition": e["definition"],
-            "chapter":    e["chapter"],
-            "class":      e["class"],
-            "opts":       opts,
-            "correct":    opts.index(e["chapter"]),
-        })
-    random.shuffle(qs)
-    return qs
-
-
-def select_class():
-    clear()
-    console.print(Panel(Align.center("[bold cyan]📚  CHAPTER SORTER[/bold cyan]"),
-                        box=box.DOUBLE_EDGE, style="cyan"))
-    console.print()
-    console.print(Panel(
-        "[bold]  1.[/bold]  9th\n\n[bold]  2.[/bold]  10th\n\n"
-        "[bold]  3.[/bold]  11th\n\n[bold]  4.[/bold]  12th\n\n"
-        "[bold]  5.[/bold]  11th + 12th  [dim](recommended — most chapters)[/dim]",
-        title="[bold]Select Class(es)[/bold]", box=box.ROUNDED))
-    console.print()
-    MAP = {"1":["1"],"2":["2"],"3":["3"],"4":["4"],"5":["3","4"]}
-    choice = Prompt.ask("  Enter [1/2/3/4/5]", choices=list(MAP.keys()), default="5")
-    picks = MAP[choice]
-    name = "+".join(CLASS_FILES[p][0] for p in picks)
-    return name, picks
-
-
 def select_mode():
     clear()
-    console.print(Panel(Align.center("[bold cyan]📚  CHAPTER SORTER[/bold cyan]"),
+    console.print(Panel(Align.center("[bold cyan]📚  CLASS SORTER[/bold cyan]"),
                         box=box.DOUBLE_EDGE, style="cyan"))
     console.print()
     console.print(Panel(
-        "[bold green]  1.  Easy[/bold green]    — Unlimited lives & hints (shows definition)\n\n"
+        "[bold green]  1.  Easy[/bold green]    — Unlimited lives & hints  [dim](? = show definition)[/dim]\n\n"
         "[bold yellow]  2.  Medium[/bold yellow]  — 3 lives · 3 hints · +1 on correct\n\n"
-        "[bold red]  3.  Hard[/bold red]    — 3 lives · no hints · keyword only",
+        "[bold red]  3.  Hard[/bold red]    — 3 lives · no hints",
         title="[bold]Select Mode[/bold]", box=box.ROUNDED))
     console.print()
     choice = Prompt.ask("  Enter [1/2/3]", choices=["1","2","3"], default="2")
     return MODES[choice]
 
 
-def draw_question(q, lives, hints, mode, streak, q_num, eliminated, answered, class_name, show_def):
+def draw_screen(entry, lives, hints, mode, streak, q_num,
+                show_def, answered=None):
     clear()
     color = mode["color"]
     streak_badge = f"   [yellow]🔥 {streak}[/yellow]" if streak > 0 else ""
+    max_lives = mode["lives"]; max_hints = mode["hints"]
+
     console.print(Panel(
-        Align.center(f"[bold cyan]📚  CHAPTER SORTER[/bold cyan]  [dim]· {class_name}[/dim]"
+        Align.center(f"[bold cyan]📚  CLASS SORTER[/bold cyan]"
                      f"   [bold {color}]{mode['name']}[/bold {color}]{streak_badge}"),
         box=box.DOUBLE_EDGE, style="cyan"))
-
-    max_lives = mode["lives"]; max_hints = mode["hints"]
     console.print(f"  {render_lives(lives, max_lives, color)}    "
                   f"{render_hints(hints, max_hints, color)}    [dim]Q{q_num}[/dim]")
     console.print()
 
-    body = f"\n  [bold]{q['keyword']}[/bold]\n"
-    if show_def and q["definition"]:
-        body += f"\n  [dim italic]{truncate(q['definition'], 100)}[/dim italic]\n"
+    body = f"\n  [bold]{entry['keyword']}[/bold]\n"
+    if show_def and entry["definition"]:
+        body += f"\n  [dim italic]{truncate(entry['definition'])}[/dim italic]\n"
+        body += f"  [dim]{entry['chapter']}[/dim]\n"
+
     console.print(Panel(body,
-        title="[dim]Which chapter does this term belong to?[/dim]",
+        title="[dim]Which class does this term belong to?[/dim]",
         box=box.ROUNDED, style="white"))
     console.print()
 
-    for i, (label, opt) in enumerate(zip(LABELS, q["opts"])):
-        short = truncate(opt, 55)
-        if i in eliminated:
-            console.print(f"  [dim strike]{label}.  {short}[/dim strike]")
-        elif answered is not None:
-            if i == q["correct"]:
-                console.print(f"  [bold green]{label}.  {short}  ✓[/bold green]")
-            elif label == answered:
-                console.print(f"  [bold red]{label}.  {short}  ✗[/bold red]")
-            else:
-                console.print(f"  [dim]{label}.  {short}[/dim]")
+    if answered is not None:
+        correct_cls = entry["class"]
+        if answered == correct_cls:
+            console.print(Align.center(Panel(
+                f"[bold green]✓  {correct_cls}[/bold green]",
+                box=box.HEAVY, style="green", width=30)))
         else:
-            console.print(f"  [bold]{label}.[/bold]  {short}")
+            console.print(Align.center(Panel(
+                f"[bold red]✗  Answer: {correct_cls}[/bold red]\n"
+                f"[dim]{entry['chapter']}[/dim]",
+                box=box.HEAVY, style="red", width=50)))
+    else:
+        hint_txt = "[dim]? = show definition[/dim]" if mode["hints"] > 0 else ""
+        console.print(f"  Type class:  [bold]9[/bold]  [bold]10[/bold]  [bold]11[/bold]  [bold]12[/bold]"
+                      f"   {hint_txt}   [dim]q = quit[/dim]")
     console.print()
 
 
@@ -161,7 +126,7 @@ def show_analysis(stats, mode):
     color = mode["color"]
     total = stats["played"]
     acc   = f"{stats['won']/total*100:.0f}%" if total else "—"
-    console.print(Panel(Align.center("[bold cyan]📊  CHAPTER SORTER  ANALYSIS[/bold cyan]"),
+    console.print(Panel(Align.center("[bold cyan]📊  CLASS SORTER  ANALYSIS[/bold cyan]"),
                         box=box.DOUBLE_EDGE, style="cyan"))
     t = Table(box=box.SIMPLE, show_header=False, padding=(0,2))
     t.add_column(style="dim", width=22); t.add_column(style="bold")
@@ -173,81 +138,79 @@ def show_analysis(stats, mode):
     t.add_row("Best Streak", f"[yellow]🔥 {stats['best_streak']}[/yellow]")
     t.add_row("Hints Used",  str(stats["hints_used"]))
 
-    if stats["missed_chapters"]:
-        from collections import Counter
+    if stats["by_class"]:
         t.add_section()
-        for ch, n in Counter(stats["missed_chapters"]).most_common(5):
-            t.add_row(f"  {truncate(ch, 35)}", f"[red]missed {n}×[/red]")
+        for cls in ["9th", "10th", "11th", "12th"]:
+            c, tot = stats["by_class"].get(cls, (0, 0))
+            if tot:
+                pct = f"{c/tot*100:.0f}%"
+                t.add_row(f"  {cls}", f"{c}/{tot}  [yellow]{pct}[/yellow]")
 
     console.print(Align.center(t))
     console.print()
 
 
 def main():
-    class_name, picks = select_class()
     mode = select_mode()
     mode["max_lives"] = mode["lives"]
     mode["max_hints"] = mode["hints"]
 
     console.print("[dim]Loading…[/dim]")
-    entries   = load_entries(picks)
-    questions = build_questions(entries)
-    if not questions:
-        console.print("[red]Not enough chapters in selected class(es).[/red]")
-        return
-    console.print(f"[dim]{len(questions)} questions · "
-                  f"{len({q['chapter'] for q in questions})} chapters.[/dim]")
+    entries = load_entries()
+    random.shuffle(entries)
+    console.print(f"[dim]{len(entries)} terms loaded across 9th–12th.[/dim]")
 
     lives = mode["lives"]; hints = mode["hints"]
     max_lives = mode["max_lives"]; max_hints = mode["max_hints"]
     streak = best_streak = idx = 0
     stats = {"played":0,"won":0,"lost":0,"best_streak":0,
-             "hints_used":0,"missed_chapters":[]}
-
-    # Easy mode always shows definition
-    show_def = mode["name"] == "Easy"
+             "hints_used":0,"by_class":{}}
 
     while True:
-        if idx >= len(questions):
-            random.shuffle(questions); idx = 0
+        if idx >= len(entries):
+            random.shuffle(entries); idx = 0
 
-        q = questions[idx]; idx += 1
-        eliminated = []
-        wrong_indices = [i for i in range(4) if i != q["correct"]]
-        hint_active = show_def
+        entry = entries[idx]; idx += 1
+        show_def = mode["name"] == "Easy"
 
         while True:
-            draw_question(q, lives, hints, mode, streak, stats["played"]+1,
-                          eliminated, None, class_name, hint_active)
-            hint_txt = "[dim]? = hint[/dim]" if hints > 0 and not show_def else ""
-            console.print(f"  [A/B/C/D]  {hint_txt}  [dim]q = quit[/dim]: ", end="")
+            draw_screen(entry, lives, hints, mode, streak,
+                        stats["played"]+1, show_def)
+            console.print("  Your answer: ", end="")
             try:
-                user = input().strip().upper()
+                raw = input().strip()
             except (EOFError, KeyboardInterrupt):
                 show_analysis(stats, mode); sys.exit()
 
-            if user == "Q":
+            if not raw: continue
+
+            if raw.lower() == "q":
                 show_analysis(stats, mode); sys.exit()
 
-            if user == "?" and not show_def:
+            if raw == "?":
                 if hints <= 0:
                     console.print("  [red]No hints![/red]"); input("  [Enter]..."); continue
-                remaining = [i for i in wrong_indices if i not in eliminated]
-                if remaining:
-                    eliminated.append(random.choice(remaining))
-                    stats["hints_used"] += 1
-                    if max_hints < 999: hints -= 1
-                hint_active = True
+                show_def = True
+                stats["hints_used"] += 1
+                if max_hints < 999: hints -= 1
                 continue
 
-            if user not in LABELS: continue
+            answer = normalise(raw)
+            if not answer:
+                console.print("  [red]Enter 9, 10, 11, or 12[/red]")
+                input("  [Enter]...")
+                continue
 
-            chosen_idx = LABELS.index(user)
-            correct = chosen_idx == q["correct"]
+            correct_cls = entry["class"]
+            correct = answer == correct_cls
+
+            cls_stats = stats["by_class"].setdefault(correct_cls, [0, 0])
+            cls_stats[1] += 1
             stats["played"] += 1
 
             if correct:
                 stats["won"] += 1
+                cls_stats[0] += 1
                 streak += 1
                 if streak > best_streak:
                     best_streak = streak
@@ -257,12 +220,11 @@ def main():
             else:
                 stats["lost"] += 1
                 streak = 0
-                stats["missed_chapters"].append(q["chapter"])
                 if max_lives < 999: lives -= 1
 
-            draw_question(q, lives, hints, mode, streak, stats["played"],
-                          eliminated, user, class_name, True)
-            input("\n  [Enter] next question...")
+            draw_screen(entry, lives, hints, mode, streak,
+                        stats["played"], True, answered=answer)
+            input("  [Enter] next…")
             break
 
         if lives <= 0:
@@ -274,8 +236,8 @@ def main():
             lives = mode["lives"]; hints = mode["hints"]
             streak = best_streak = idx = 0
             stats = {"played":0,"won":0,"lost":0,"best_streak":0,
-                     "hints_used":0,"missed_chapters":[]}
-            random.shuffle(questions)
+                     "hints_used":0,"by_class":{}}
+            random.shuffle(entries)
 
 
 if __name__ == "__main__":

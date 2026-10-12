@@ -39,8 +39,8 @@ def main():
             "      [dim]Definition→term & term→definition MCQ · all classes · both directions[/dim]\n\n"
             "[bold green]  6.  True or False[/bold green]\n"
             "      [dim]Is this definition correct for the term? · fast-paced T/F[/dim]\n\n"
-            "[bold yellow]  7.  Chapter Sorter[/bold yellow]\n"
-            "      [dim]Which chapter does this term belong to? · 4-option MCQ[/dim]\n\n"
+            "[bold yellow]  7.  Class Sorter[/bold yellow]\n"
+            "      [dim]Given a term, type which class it belongs to (9/10/11/12)[/dim]\n\n"
             "[bold magenta]  8.  Word Scramble[/bold magenta]\n"
             "      [dim]Unscramble shuffled biology terms · type the correct word[/dim]",
             title="[bold]Select Game[/bold]",
