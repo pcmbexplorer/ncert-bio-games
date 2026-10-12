@@ -32,15 +32,17 @@ def main():
             "[bold yellow]  2.  Bio MCQ[/bold yellow]\n"
             "      [dim]Auto-generated MCQ from reference TSVs · 4,500 questions[/dim]\n\n"
             "[bold magenta]  3.  NEET[/bold magenta]\n"
-            "      [dim]Test papers + real NEET exam questions · 8,950 questions[/dim]",
+            "      [dim]Test papers + real NEET exam questions · 8,950 questions[/dim]\n\n"
+            "[bold cyan]  4.  Biology Atlas[/bold cyan]\n"
+            "      [dim]Word chain game · each keyword starts with last letter of previous[/dim]",
             title="[bold]Select Game[/bold]",
             box=box.ROUNDED, padding=(1, 2),
         ))
         console.print()
 
         try:
-            choice = Prompt.ask("  Enter [1/2/3] or Q to quit",
-                                choices=["1", "2", "3", "q", "Q"],
+            choice = Prompt.ask("  Enter [1/2/3/4] or Q to quit",
+                                choices=["1", "2", "3", "4", "q", "Q"],
                                 default="1")
         except (EOFError, KeyboardInterrupt):
             break
@@ -55,6 +57,7 @@ def main():
             "1": games_dir / "hangman" / "hangman.py",
             "2": games_dir / "bio_mcq" / "mcq.py",
             "3": games_dir / "neet"    / "neet.py",
+            "4": games_dir / "atlas"   / "atlas.py",
         }
         subprocess.run([sys.executable, str(game_map[choice])])
 
