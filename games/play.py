@@ -28,21 +28,23 @@ def main():
         console.print()
         console.print(Panel(
             "[bold green]  1.  Hangman[/bold green]\n"
-            "      [dim]Guess the keyword · pick any class(es) · 2,400 words[/dim]\n\n"
+            "      [dim]Guess the keyword · pick any class(es) · 4,700 words[/dim]\n\n"
             "[bold yellow]  2.  Bio MCQ[/bold yellow]\n"
             "      [dim]Auto-generated MCQ from reference TSVs · 4,500 questions[/dim]\n\n"
             "[bold magenta]  3.  NEET[/bold magenta]\n"
             "      [dim]Test papers + real NEET exam questions · 8,950 questions[/dim]\n\n"
             "[bold cyan]  4.  Biology Atlas[/bold cyan]\n"
-            "      [dim]Word chain game · each keyword starts with last letter of previous[/dim]",
+            "      [dim]Word chain game · each keyword starts with last letter of previous[/dim]\n\n"
+            "[bold blue]  5.  Terminology[/bold blue]\n"
+            "      [dim]Definition→term & term→definition MCQ · all classes · both directions[/dim]",
             title="[bold]Select Game[/bold]",
             box=box.ROUNDED, padding=(1, 2),
         ))
         console.print()
 
         try:
-            choice = Prompt.ask("  Enter [1/2/3/4] or Q to quit",
-                                choices=["1", "2", "3", "4", "q", "Q"],
+            choice = Prompt.ask("  Enter [1/2/3/4/5] or Q to quit",
+                                choices=["1", "2", "3", "4", "5", "q", "Q"],
                                 default="1")
         except (EOFError, KeyboardInterrupt):
             break
@@ -54,10 +56,11 @@ def main():
         import subprocess
         games_dir = Path(__file__).parent
         game_map = {
-            "1": games_dir / "hangman" / "hangman.py",
-            "2": games_dir / "bio_mcq" / "mcq.py",
-            "3": games_dir / "neet"    / "neet.py",
-            "4": games_dir / "atlas"   / "atlas.py",
+            "1": games_dir / "hangman"     / "hangman.py",
+            "2": games_dir / "bio_mcq"     / "mcq.py",
+            "3": games_dir / "neet"        / "neet.py",
+            "4": games_dir / "atlas"       / "atlas.py",
+            "5": games_dir / "terminology" / "terminology.py",
         }
         subprocess.run([sys.executable, str(game_map[choice])])
 
