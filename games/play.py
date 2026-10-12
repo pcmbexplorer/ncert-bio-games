@@ -36,15 +36,21 @@ def main():
             "[bold cyan]  4.  Biology Atlas[/bold cyan]\n"
             "      [dim]Word chain game · each keyword starts with last letter of previous[/dim]\n\n"
             "[bold blue]  5.  Terminology[/bold blue]\n"
-            "      [dim]Definition→term & term→definition MCQ · all classes · both directions[/dim]",
+            "      [dim]Definition→term & term→definition MCQ · all classes · both directions[/dim]\n\n"
+            "[bold green]  6.  True or False[/bold green]\n"
+            "      [dim]Is this definition correct for the term? · fast-paced T/F[/dim]\n\n"
+            "[bold yellow]  7.  Chapter Sorter[/bold yellow]\n"
+            "      [dim]Which chapter does this term belong to? · 4-option MCQ[/dim]\n\n"
+            "[bold magenta]  8.  Word Scramble[/bold magenta]\n"
+            "      [dim]Unscramble shuffled biology terms · type the correct word[/dim]",
             title="[bold]Select Game[/bold]",
             box=box.ROUNDED, padding=(1, 2),
         ))
         console.print()
 
         try:
-            choice = Prompt.ask("  Enter [1/2/3/4/5] or Q to quit",
-                                choices=["1", "2", "3", "4", "5", "q", "Q"],
+            choice = Prompt.ask("  Enter [1-8] or Q to quit",
+                                choices=["1","2","3","4","5","6","7","8","q","Q"],
                                 default="1")
         except (EOFError, KeyboardInterrupt):
             break
@@ -56,11 +62,14 @@ def main():
         import subprocess
         games_dir = Path(__file__).parent
         game_map = {
-            "1": games_dir / "hangman"     / "hangman.py",
-            "2": games_dir / "bio_mcq"     / "mcq.py",
-            "3": games_dir / "neet"        / "neet.py",
-            "4": games_dir / "atlas"       / "atlas.py",
-            "5": games_dir / "terminology" / "terminology.py",
+            "1": games_dir / "hangman"        / "hangman.py",
+            "2": games_dir / "bio_mcq"        / "mcq.py",
+            "3": games_dir / "neet"           / "neet.py",
+            "4": games_dir / "atlas"          / "atlas.py",
+            "5": games_dir / "terminology"    / "terminology.py",
+            "6": games_dir / "truefalse"      / "truefalse.py",
+            "7": games_dir / "chapter_sorter" / "chapter_sorter.py",
+            "8": games_dir / "scramble"       / "scramble.py",
         }
         subprocess.run([sys.executable, str(game_map[choice])])
 
