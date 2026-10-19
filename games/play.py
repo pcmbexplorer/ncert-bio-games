@@ -48,15 +48,17 @@ def main():
             "[bold cyan] 10.  Statements T/F[/bold cyan]\n"
             "      [dim]Is this textbook statement true or false? · chapter-grounded · all classes[/dim]\n\n"
             "[bold magenta] 11.  Assertion-Reason[/bold magenta]\n"
-            "      [dim]Classic NEET A-R format · 4-option · auto-generates all question types[/dim]",
+            "      [dim]Classic NEET A-R format · 4-option · auto-generates all question types[/dim]\n\n"
+            "[bold green] 12.  Fill in the Blanks[/bold green]\n"
+            "      [dim]Type the missing word from NCERT sentences · 14,000 questions · all classes[/dim]",
             title="[bold]Select Game[/bold]",
             box=box.ROUNDED, padding=(1, 2),
         ))
         console.print()
 
         try:
-            choice = Prompt.ask("  Enter [1-11] or Q to quit",
-                                choices=["1","2","3","4","5","6","7","8","9","10","11","q","Q"],
+            choice = Prompt.ask("  Enter [1-12] or Q to quit",
+                                choices=["1","2","3","4","5","6","7","8","9","10","11","12","q","Q"],
                                 default="1")
         except (EOFError, KeyboardInterrupt):
             break
@@ -79,6 +81,7 @@ def main():
             "9":  games_dir / "bingo"          / "bingo.py",
             "10": games_dir / "statements"     / "statements.py",
             "11": games_dir / "ar"             / "ar.py",
+            "12": games_dir / "fib"            / "fib.py",
         }
         subprocess.run([sys.executable, str(game_map[choice])])
 
