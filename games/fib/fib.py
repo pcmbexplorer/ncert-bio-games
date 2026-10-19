@@ -194,6 +194,56 @@ def show_analysis(stats, mode):
     console.print()
 
 
+THRESHOLDS = {"Easy": 0.70, "Medium": 0.80, "Hard": 0.90}
+
+
+def select_target(mode):
+    clear()
+    threshold_pct = int(THRESHOLDS[mode["name"]] * 100)
+    console.print(Panel(Align.center("[bold cyan]🎯  SET YOUR TARGET[/bold cyan]"),
+                        box=box.DOUBLE_EDGE, style="cyan"))
+    console.print()
+    console.print(Panel(
+        f"  [bold {mode['color']}]{mode['name']}[/bold {mode['color']}] mode · "
+        f"win by answering [bold]{threshold_pct}%[/bold] or more correctly",
+        title="[bold]What's your target today?[/bold]", box=box.ROUNDED))
+    console.print()
+    console.print("  [dim]b = back · q = quit[/dim]")
+    console.print()
+    while True:
+        raw = input("  Number of blanks: ").strip()
+        if raw.lower() == "q": sys.exit()
+        if raw.lower() == "b": return None
+        if not raw: raw = "20"
+        if raw.isdigit() and int(raw) > 0: return int(raw)
+        console.print("  [red]Enter a positive number (e.g. 10, 20, 50)[/red]")
+
+
+def show_target_result(stats, mode, target):
+    clear()
+    threshold = THRESHOLDS[mode["name"]]
+    accuracy  = stats["won"] / stats["played"] if stats["played"] else 0
+    won_flag  = accuracy >= threshold
+    color     = "green" if won_flag else "red"
+    icon      = "🏆" if won_flag else "💔"
+    acc_pct   = int(accuracy * 100)
+    req_pct   = int(threshold * 100)
+    console.print(Panel(
+        Align.center(f"[bold {color}]{icon}  {'Target Achieved!' if won_flag else 'Target Missed'}[/bold {color}]"),
+        box=box.DOUBLE_EDGE, style=color))
+    console.print()
+    t = Table(box=box.SIMPLE, show_header=False, padding=(0, 2))
+    t.add_column(style="dim", width=20); t.add_column(style="bold")
+    t.add_row("Target",      str(target))
+    t.add_row("Correct",     f"[green]{stats['won']}[/green]  [dim]/ {stats['played']}[/dim]")
+    t.add_row("Accuracy",    f"[{color}]{acc_pct}%[/{color}]")
+    t.add_row("Required",    f"[dim]{req_pct}%[/dim]")
+    if stats.get("best_streak", 0):
+        t.add_row("Best Streak", f"[yellow]🔥 {stats['best_streak']}[/yellow]")
+    console.print(Align.center(t))
+    console.print()
+
+
 def main():
     while True:
         result = select_class()
@@ -202,6 +252,8 @@ def main():
         result = select_mode()
         if result is None: continue
         mode = result
+        target = select_target(mode)
+        if target is None: continue
         break
     mode["max_lives"] = mode["lives"]
     mode["max_hints"] = mode["hints"]
@@ -270,6 +322,17 @@ def main():
         draw_question(q, lives, max_lives, hints, max_hints, mode,
                       streak, stats["played"], correct, class_name)
         input("\n  [Enter] next…")
+
+        if stats["played"] >= target:
+            show_target_result(stats, mode, target)
+            console.print("  [dim]Enter = new game · q = quit[/dim]")
+            try:
+                if input().strip().lower() == "q": return
+            except (EOFError, KeyboardInterrupt): return
+            lives = mode["lives"]; hints = mode["hints"]
+            streak = best_streak = idx = 0
+            stats = {"played": 0, "won": 0, "lost": 0, "best_streak": 0, "hints_used": 0}
+            random.shuffle(questions); continue
 
         if lives <= 0:
             show_analysis(stats, mode)

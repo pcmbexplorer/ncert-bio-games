@@ -198,7 +198,7 @@ def show_analysis(streak: int, chain: List[str], reason: str, elapsed: float = 0
 
 
 def play_round(words, index, mode, class_name):
-    """Play one round. Returns True to play again, False to quit."""
+    """Play one round. Returns (None, user_count) for round end, (False, user_count) to quit."""
     chain: List[str] = []
     used:  Set[str]  = set()
     streak       = 0
@@ -241,7 +241,7 @@ def play_round(words, index, mode, class_name):
                 console.print("\n  [bold red]⏰ TOTAL TIME UP![/bold red]")
                 input("  [Enter]...")
                 show_analysis(streak, chain, "Total clock expired", elapsed)
-                return None
+                return None, user_count
             turn_timeout = total_left
             timer_str    = f"[bold red]🕐 {fmt_time(total_left)}[/bold red]  [dim]+{HARD_BONUS}s/word[/dim]"
 
@@ -263,20 +263,20 @@ def play_round(words, index, mode, class_name):
                         console.print(f"\n  [bold red]⏰ TIME'S UP!  You had {int(turn_timeout)}s.[/bold red]")
                         show_analysis(streak, chain, f"Timed out ({int(turn_timeout)}s)", elapsed)
                     input("  [Enter]...")
-                    return None
+                    return None, user_count
                 user_input = user_input.strip()
             else:
                 console.print("  Your word: ", end="")
                 user_input = input().strip()
         except (EOFError, KeyboardInterrupt):
             show_analysis(streak, chain, "Quit", time.time() - game_start)
-            return False
+            return False, user_count
 
         if not user_input:
             continue
         if user_input.lower() == "q":
             show_analysis(streak, chain, "Quit", time.time() - game_start)
-            return False
+            return False, user_count
         if user_input == "?":
             show_def_word = chain[-1]
             continue
@@ -320,11 +320,49 @@ def play_round(words, index, mode, class_name):
                           f"[bold]{next_letter.upper()}[/bold]! You win![/bold green]")
             input("  [Enter]...")
             show_analysis(streak, chain, "Computer stuck!", time.time() - game_start)
-            return None
+            return None, user_count
 
         chain.append(words[comp_key]["word"])
         used.add(comp_key)
         current_letter = comp_key[-1]
+
+
+def select_target(mode):
+    clear()
+    console.print(Panel(Align.center("[bold cyan]🎯  SET YOUR TARGET[/bold cyan]"),
+                        box=box.DOUBLE_EDGE, style="cyan"))
+    console.print()
+    console.print(Panel(
+        f"  [bold {mode['color']}]{mode['name']}[/bold {mode['color']}] mode\n\n"
+        f"  Win by chaining your target number of words in total across rounds",
+        title="[bold]What's your target today?[/bold]", box=box.ROUNDED))
+    console.print()
+    console.print("  [dim]b = back · q = quit[/dim]")
+    console.print()
+    while True:
+        raw = input("  Words to chain: ").strip()
+        if raw.lower() == "q": sys.exit()
+        if raw.lower() == "b": return None
+        if not raw: raw = "20"
+        if raw.isdigit() and int(raw) > 0: return int(raw)
+        console.print("  [red]Enter a positive number (e.g. 10, 20, 50)[/red]")
+
+
+def show_target_result_atlas(session_words, target):
+    clear()
+    won   = session_words >= target
+    color = "green" if won else "red"
+    icon  = "🏆" if won else "💔"
+    console.print(Panel(
+        Align.center(f"[bold {color}]{icon}  {'Target Achieved!' if won else 'Target Missed'}[/bold {color}]"),
+        box=box.DOUBLE_EDGE, style=color))
+    console.print()
+    t = Table(box=box.SIMPLE, show_header=False, padding=(0, 2))
+    t.add_column(style="dim", width=20); t.add_column(style="bold")
+    t.add_row("Target",        str(target))
+    t.add_row("Words Chained", f"[{'green' if won else 'red'}]{session_words}[/{'green' if won else 'red'}]")
+    console.print(Align.center(t))
+    console.print()
 
 
 def main():
@@ -335,6 +373,8 @@ def main():
         result = select_mode()
         if result is None: continue
         mode = result
+        target = select_target(mode)
+        if target is None: continue
         break
     words = load_words(picks)
     index = words_by_letter(words)
@@ -355,14 +395,26 @@ def main():
     except (EOFError, KeyboardInterrupt):
         return
 
+    session_words = 0
     while True:
-        result = play_round(words, index, mode, class_name)
-        if result is False:   # user quit
+        status, round_words = play_round(words, index, mode, class_name)
+        session_words += round_words
+        if status is False:   # user quit
             break
-        # result is None → round ended (timeout / computer stuck / win)
+        # round ended (timeout / computer stuck / win)
+        if session_words >= target:
+            show_target_result_atlas(session_words, target)
+            console.print("  [dim]Enter = new game · q = quit[/dim]")
+            try:
+                if input().strip().lower() == "q": break
+            except (EOFError, KeyboardInterrupt): break
+            session_words = 0
+            random.shuffle(list(words.keys()))
+            continue
         clear()
         console.print(Panel(Align.center("[bold cyan]🗺  BIOLOGY ATLAS[/bold cyan]"),
                             box=box.DOUBLE_EDGE, style="cyan"))
+        console.print(f"  [dim]Words chained so far: [bold]{session_words}[/bold] / {target}[/dim]")
         console.print()
         try:
             again = input("  Play again? [y/n]: ").strip().lower()
