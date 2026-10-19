@@ -116,7 +116,7 @@ def draw_question(q, lives, max_lives, mode, streak, q_num, answered, class_name
 
     console.print(Panel(
         f"\n  [bold]{q['keyword']}[/bold]\n\n"
-        f"  [italic]{truncate(q['definition'])}[/italic]\n",
+        f"  [italic]{q['definition']}[/italic]\n",
         title=f"[dim]{q['chapter']}[/dim]  —  [dim]Is this definition correct for this term?[/dim]",
         box=box.ROUNDED, style="white"))
     console.print()
@@ -128,7 +128,7 @@ def draw_question(q, lives, max_lives, mode, streak, q_num, answered, class_name
                                          box=box.HEAVY, style="green", width=30)))
         if not q["answer"] and q.get("real_def"):
             console.print()
-            console.print(Panel(f"[dim]Correct definition:\n{truncate(q['real_def'], 100)}[/dim]",
+            console.print(Panel(f"[dim]Correct definition:\n{q['real_def']}[/dim]",
                                 box=box.SIMPLE, style="dim"))
     else:
         correct_word = "TRUE" if q["answer"] else "FALSE"
@@ -137,7 +137,7 @@ def draw_question(q, lives, max_lives, mode, streak, q_num, answered, class_name
             box=box.HEAVY, style="red", width=40)))
         if not q["answer"] and q.get("real_def"):
             console.print()
-            console.print(Panel(f"[dim]Correct definition:\n{truncate(q['real_def'], 100)}[/dim]",
+            console.print(Panel(f"[dim]Correct definition:\n{q['real_def']}[/dim]",
                                 box=box.SIMPLE, style="dim"))
     console.print()
 
