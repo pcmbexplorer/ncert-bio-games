@@ -3,6 +3,8 @@ import csv
 import random
 import os
 import sys
+import select
+import time
 from pathlib import Path
 from typing import Set, List, Dict, Optional
 
@@ -26,8 +28,22 @@ CLASS_FILES = {
 }
 
 
+WARMUP_WORDS = 15   # user words before timer activates
+TIMER_BASE   = 15   # seconds at activation; +1 per word after
+
+
 def clear():
     os.system("clear")
+
+
+def input_timed(prompt: str, timeout: float) -> Optional[str]:
+    """Return user input, or None if timeout expires."""
+    sys.stdout.write(prompt)
+    sys.stdout.flush()
+    ready, _, _ = select.select([sys.stdin], [], [], timeout)
+    if ready:
+        return sys.stdin.readline().rstrip("\n")
+    return None
 
 
 def load_words(picks: List[str]) -> Dict[str, Dict]:
@@ -86,12 +102,19 @@ def select_class() -> tuple:
 
 
 def draw_chain(chain: List[str], words: Dict[str, Dict], current_letter: str,
-               streak: int, show_def: Optional[str] = None):
+               streak: int, show_def: Optional[str] = None,
+               user_count: int = 0, time_limit: Optional[float] = None):
     clear()
+    timer_str = ""
+    if user_count < WARMUP_WORDS:
+        timer_str = f"   [dim]warmup {user_count}/{WARMUP_WORDS}[/dim]"
+    elif time_limit is not None:
+        timer_str = f"   [bold red]⏱ {int(time_limit)}s[/bold red]"
     console.print(Panel(
         Align.center(
             f"[bold cyan]🗺  BIOLOGY ATLAS[/bold cyan]"
             + (f"   [yellow]🔥 {streak}[/yellow]" if streak > 0 else "")
+            + timer_str
         ),
         box=box.DOUBLE_EDGE, style="cyan",
     ))
@@ -193,13 +216,35 @@ def main():
         used.add(first_key)
         current_letter = first_key[-1]
 
+        user_count = 0
+
         while True:
-            draw_chain(chain, words, current_letter, streak, show_def_word)
+            # Compute time limit for this turn
+            if user_count >= WARMUP_WORDS:
+                time_limit = float(TIMER_BASE + (user_count - WARMUP_WORDS))
+            else:
+                time_limit = None
+
+            draw_chain(chain, words, current_letter, streak, show_def_word,
+                       user_count=user_count, time_limit=time_limit)
             show_def_word = None
 
-            console.print(f"  Your word: ", end="")
             try:
-                user_input = input().strip()
+                if time_limit is not None:
+                    user_input = input_timed("  Your word:  ", time_limit)
+                    if user_input is None:
+                        draw_chain(chain, words, current_letter, streak,
+                                   user_count=user_count, time_limit=0)
+                        console.print(
+                            f"\n  [bold red]⏰ TIME'S UP!  You had {int(time_limit)}s.[/bold red]"
+                        )
+                        input("  [Enter]...")
+                        show_analysis(streak, chain, f"Timed out ({int(time_limit)}s)")
+                        break
+                    user_input = user_input.strip()
+                else:
+                    console.print("  Your word: ", end="")
+                    user_input = input().strip()
             except (EOFError, KeyboardInterrupt):
                 show_analysis(streak, chain, "Quit")
                 return
@@ -219,7 +264,8 @@ def main():
             user_key = user_input.lower()
 
             if user_key[0] != current_letter:
-                draw_chain(chain, words, current_letter, streak)
+                draw_chain(chain, words, current_letter, streak,
+                           user_count=user_count, time_limit=time_limit)
                 console.print(
                     f"\n  [red]Must start with [bold]{current_letter.upper()}[/bold]![/red]  "
                     f"[dim]'{user_input}' starts with '{user_input[0].upper()}'[/dim]"
@@ -228,13 +274,15 @@ def main():
                 continue
 
             if user_key not in words:
-                draw_chain(chain, words, current_letter, streak)
+                draw_chain(chain, words, current_letter, streak,
+                           user_count=user_count, time_limit=time_limit)
                 console.print(f"\n  [red]'{user_input}' is not in the keyword list![/red]")
                 input("  [Enter] to continue...")
                 continue
 
             if user_key in used:
-                draw_chain(chain, words, current_letter, streak)
+                draw_chain(chain, words, current_letter, streak,
+                           user_count=user_count, time_limit=time_limit)
                 console.print(f"\n  [red]'{user_input}' was already used![/red]")
                 input("  [Enter] to continue...")
                 continue
@@ -243,6 +291,7 @@ def main():
             chain.append(words[user_key]["word"])
             used.add(user_key)
             streak += 1
+            user_count += 1
             next_letter = user_key[-1]
 
             # Computer's turn
