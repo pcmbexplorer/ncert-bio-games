@@ -44,15 +44,19 @@ def main():
             "[bold magenta]  8.  Word Scramble[/bold magenta]\n"
             "      [dim]Unscramble shuffled biology terms · type the correct word[/dim]\n\n"
             "[bold yellow]  9.  Bio Bingo[/bold yellow]\n"
-            "      [dim]5×5 card of terms · definition read out · type the term · BINGO![/dim]",
+            "      [dim]5×5 card of terms · definition read out · type the term · BINGO![/dim]\n\n"
+            "[bold cyan] 10.  Statements T/F[/bold cyan]\n"
+            "      [dim]Is this textbook statement true or false? · chapter-grounded · all classes[/dim]\n\n"
+            "[bold magenta] 11.  Assertion-Reason[/bold magenta]\n"
+            "      [dim]Classic NEET A-R format · 4-option · auto-generates all question types[/dim]",
             title="[bold]Select Game[/bold]",
             box=box.ROUNDED, padding=(1, 2),
         ))
         console.print()
 
         try:
-            choice = Prompt.ask("  Enter [1-9] or Q to quit",
-                                choices=["1","2","3","4","5","6","7","8","9","q","Q"],
+            choice = Prompt.ask("  Enter [1-11] or Q to quit",
+                                choices=["1","2","3","4","5","6","7","8","9","10","11","q","Q"],
                                 default="1")
         except (EOFError, KeyboardInterrupt):
             break
@@ -72,7 +76,9 @@ def main():
             "6": games_dir / "truefalse"      / "truefalse.py",
             "7": games_dir / "chapter_sorter" / "chapter_sorter.py",
             "8": games_dir / "scramble"       / "scramble.py",
-            "9": games_dir / "bingo"          / "bingo.py",
+            "9":  games_dir / "bingo"          / "bingo.py",
+            "10": games_dir / "statements"     / "statements.py",
+            "11": games_dir / "ar"             / "ar.py",
         }
         subprocess.run([sys.executable, str(game_map[choice])])
 
