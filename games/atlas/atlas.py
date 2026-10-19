@@ -35,8 +35,8 @@ MODES = {
 
 MEDIUM_WARMUP   = 15   # user words before Medium timer activates
 MEDIUM_BASE     = 15   # Medium per-turn seconds at activation (+1 per word after)
-HARD_PER_TURN   = 15   # Hard per-turn limit (always, no warmup)
 HARD_TOTAL      = 300  # Hard total game time in seconds (5 minutes)
+HARD_BONUS      = 15   # seconds added to total clock per valid user word
 
 
 def clear():
@@ -115,7 +115,7 @@ def select_mode() -> dict:
         "[bold yellow]  2.  Medium[/bold yellow]\n"
         "      [dim]First 15 words free · then 15s per turn · +1s for each word earned[/dim]\n\n"
         "[bold red]  3.  Hard[/bold red]\n"
-        "      [dim]15s per turn (always) · 5-minute total game clock[/dim]",
+        "      [dim]5-minute total clock · +15s added for each word you give[/dim]",
         title="[bold]Select Mode[/bold]", box=box.ROUNDED, padding=(1, 2)))
     console.print()
     choice = Prompt.ask("  Enter [1/2/3]", choices=["1", "2", "3"], default="2")
@@ -194,6 +194,7 @@ def play_round(words, index, mode, class_name):
     user_count   = 0
     show_def_word: Optional[str] = None
     game_start   = time.time()
+    hard_bonus   = 0   # accumulated bonus seconds from valid words
 
     # Computer goes first
     first_key  = random.choice(list(words.keys()))
@@ -222,16 +223,16 @@ def play_round(words, index, mode, class_name):
                 timer_str    = f"[bold red]⏱ {int(turn_timeout)}s[/bold red]"
 
         else:  # Hard
-            if total_left is not None and total_left <= 0:
+            total_left = HARD_TOTAL + hard_bonus - elapsed
+            if total_left <= 0:
                 draw_chain(chain, words, current_letter, streak, mode,
                            timer_str="[bold red]🕐 0:00[/bold red]")
-                console.print("\n  [bold red]⏰ TOTAL TIME UP! 5 minutes elapsed.[/bold red]")
+                console.print("\n  [bold red]⏰ TOTAL TIME UP![/bold red]")
                 input("  [Enter]...")
-                show_analysis(streak, chain, "5-minute clock expired", elapsed)
-                return None  # signal: game over, ask to play again
-            turn_timeout = min(float(HARD_PER_TURN), total_left)
-            timer_str    = (f"[bold red]⏱ {int(turn_timeout)}s[/bold red]"
-                            f"  [dim]🕐 {fmt_time(total_left)}[/dim]")
+                show_analysis(streak, chain, "Total clock expired", elapsed)
+                return None
+            turn_timeout = total_left
+            timer_str    = f"[bold red]🕐 {fmt_time(total_left)}[/bold red]  [dim]+{HARD_BONUS}s/word[/dim]"
 
         # ── draw and get input ──────────────────────────────────────────
         draw_chain(chain, words, current_letter, streak, mode,
@@ -244,9 +245,13 @@ def play_round(words, index, mode, class_name):
                 if user_input is None:
                     elapsed = time.time() - game_start
                     draw_chain(chain, words, current_letter, streak, mode)
-                    console.print(f"\n  [bold red]⏰ TIME'S UP!  You had {int(turn_timeout)}s.[/bold red]")
+                    if mode_name == "Hard":
+                        console.print("\n  [bold red]⏰ TOTAL TIME UP![/bold red]")
+                        show_analysis(streak, chain, "Total clock expired", elapsed)
+                    else:
+                        console.print(f"\n  [bold red]⏰ TIME'S UP!  You had {int(turn_timeout)}s.[/bold red]")
+                        show_analysis(streak, chain, f"Timed out ({int(turn_timeout)}s)", elapsed)
                     input("  [Enter]...")
-                    show_analysis(streak, chain, f"Timed out ({int(turn_timeout)}s)", elapsed)
                     return None
                 user_input = user_input.strip()
             else:
@@ -293,6 +298,8 @@ def play_round(words, index, mode, class_name):
         streak += 1
         user_count += 1
         next_letter = user_key[-1]
+        if mode_name == "Hard":
+            hard_bonus += HARD_BONUS
 
         # ── computer's turn ─────────────────────────────────────────────
         comp_key = computer_pick(next_letter, used, index)
