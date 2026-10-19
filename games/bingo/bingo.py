@@ -85,7 +85,7 @@ def winning_lines(marked: Set[tuple]) -> Set[tuple]:
     return winners
 
 
-def draw_card(card, marked: Set[tuple], current_kw: str = ""):
+def draw_card(card, marked: Set[tuple]):
     win_cells = winning_lines(marked) if check_bingo(marked) else set()
 
     t = Table(box=box.SQUARE, show_header=True, header_style="bold cyan",
@@ -108,8 +108,6 @@ def draw_card(card, marked: Set[tuple], current_kw: str = ""):
                 cell = f"[bold black on yellow] {short} [/bold black on yellow]"
             elif pos in marked:
                 cell = f"[bold green]✓ {short}[/bold green]"
-            elif kw.lower() == current_kw.lower():
-                cell = f"[bold yellow]▶ {short}[/bold yellow]"
             else:
                 cell = f"[dim]{short}[/dim]"
             row_cells.append(cell)
@@ -131,13 +129,12 @@ def draw_screen(card, marked, entry, lives, max_lives, streak, q_num,
         box=box.DOUBLE_EDGE, style="cyan"))
     console.print()
 
-    draw_card(card, marked, entry["keyword"] if entry else "")
+    draw_card(card, marked)
     console.print()
 
     if entry:
         console.print(Panel(
-            f"\n  [dim]{entry['chapter']}[/dim]\n\n"
-            f"  [bold]{truncate(entry['definition'])}[/bold]\n",
+            f"\n  [bold]{truncate(entry['definition'])}[/bold]\n",
             title="[dim]Find this term on your card and type it[/dim]",
             box=box.ROUNDED, style="white"))
     if wrong_flash:
