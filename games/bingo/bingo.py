@@ -255,12 +255,9 @@ def main():
         lives  = max_lives
         streak = best_streak = 0
         stats  = {"correct": 0, "wrong": 0, "best_streak": 0}
-        bingo  = False
         wrong_flash = ""
 
         for entry in card_entries:
-            if bingo: break
-
             while True:
                 draw_screen(card, marked, entry, lives, max_lives, streak,
                             stats["correct"]+stats["wrong"]+1, class_name, color, wrong_flash)
@@ -276,12 +273,10 @@ def main():
                 if user.lower() == "q":
                     show_result(card, marked, stats, False); sys.exit()
 
-                # Check if typed term is on the card
-                pos = kw_map.get(user.lower())
+                pos        = kw_map.get(user.lower())
                 correct_kw = entry["keyword"].lower()
 
                 if user.lower() == correct_kw:
-                    # Correct term typed
                     if pos and pos not in marked:
                         marked.add(pos)
                     stats["correct"] += 1
@@ -289,18 +284,15 @@ def main():
                     if streak > best_streak:
                         best_streak = streak
                         stats["best_streak"] = best_streak
-                    if check_bingo(marked):
-                        bingo = True
                     break
                 else:
-                    # Wrong
                     stats["wrong"] += 1
                     streak = 0
                     if max_lives < 999: lives -= 1
                     if pos and pos not in marked:
                         wrong_flash = f"'{user}' is on the card but not the right answer for this definition."
                     else:
-                        wrong_flash = f"'{user}' is not the right term. Try again or type the term you see."
+                        wrong_flash = f"'{user}' is not the right term. Try again."
                     if lives <= 0:
                         draw_screen(card, marked, entry, lives, max_lives, streak,
                                     stats["correct"]+stats["wrong"], class_name, color)
@@ -309,7 +301,9 @@ def main():
             if lives <= 0:
                 break
 
-        show_result(card, marked, stats, bingo)
+        # Win = all 25 cells marked (24 answers + free centre)
+        won = len(marked) == GRID * GRID
+        show_result(card, marked, stats, won)
         console.print("  [dim]Enter = new card · q = quit[/dim]")
         try:
             if input().strip().lower() == "q": break
