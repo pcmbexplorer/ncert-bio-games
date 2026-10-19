@@ -10,7 +10,6 @@ from rich.console import Console
 from rich.panel import Panel
 from rich.table import Table
 from rich.align import Align
-from rich.prompt import Prompt
 from rich import box
 
 console = Console()
@@ -338,9 +337,15 @@ def select_class_filter() -> str:
         "[bold]  4.[/bold]  11th + 12th",
         title="[bold]Select Class[/bold]", box=box.ROUNDED,
     ))
+    console.print("  [dim]b = back · q = quit[/dim]")
     console.print()
-    choice = Prompt.ask("  Enter [1/2/3/4]", choices=["1", "2", "3", "4"], default="1")
-    return CLASS_FILTER[choice]
+    while True:
+        raw = input("  Enter [1/2/3/4]: ").strip()
+        if raw.lower() == "q": sys.exit()
+        if raw.lower() == "b": return None
+        if not raw: raw = "1"
+        if raw in CLASS_FILTER: return CLASS_FILTER[raw]
+        console.print("  [red]Enter 1, 2, 3, or 4[/red]")
 
 
 def select_mode() -> Dict:
@@ -356,9 +361,15 @@ def select_mode() -> Dict:
         "[bold red]  3.  Hard[/bold red]    — 3 lives · 3 hints · no replenishment",
         title="[bold]Select Mode[/bold]", box=box.ROUNDED,
     ))
+    console.print("  [dim]b = back · q = quit[/dim]")
     console.print()
-    choice = Prompt.ask("  Enter [1/2/3]", choices=["1", "2", "3"], default="2")
-    return MODES[choice]
+    while True:
+        raw = input("  Enter [1/2/3]: ").strip()
+        if raw.lower() == "q": sys.exit()
+        if raw.lower() == "b": return None
+        if not raw: raw = "2"
+        if raw in MODES: return MODES[raw]
+        console.print("  [red]Enter 1, 2, or 3[/red]")
 
 
 def draw_question(q: Dict, lives: int, hints: int, mode: Dict,
@@ -535,29 +546,34 @@ def play_round(q: Dict, lives: int, hints: int, mode: Dict,
 
 
 def main():
-    class_filter = select_class_filter()
-    console.print("[dim]Loading questions…[/dim]")
-    all_qs = load_all_questions()
+    while True:
+        class_filter = select_class_filter()
+        if class_filter is None: return
 
-    def matches(q, target):
-        cls = q.get("class", "")
-        ch  = q.get("chapter", "")
-        if not cls:
-            return True  # no class tag → include in all filters
-        return target in cls
+        console.print("[dim]Loading questions…[/dim]")
+        all_qs = load_all_questions()
 
-    if class_filter == "11th only":
-        questions = [q for q in all_qs if matches(q, "11th")]
-    elif class_filter == "12th only":
-        questions = [q for q in all_qs if matches(q, "12th")]
-    elif class_filter == "11th + 12th":
-        questions = [q for q in all_qs if matches(q, "11th") or matches(q, "12th")]
-    else:
-        questions = all_qs
+        def matches(q, target):
+            cls = q.get("class", "")
+            if not cls:
+                return True
+            return target in cls
 
-    console.print(f"[dim]Loaded {len(questions)} questions ({class_filter}).[/dim]")
+        if class_filter == "11th only":
+            questions = [q for q in all_qs if matches(q, "11th")]
+        elif class_filter == "12th only":
+            questions = [q for q in all_qs if matches(q, "12th")]
+        elif class_filter == "11th + 12th":
+            questions = [q for q in all_qs if matches(q, "11th") or matches(q, "12th")]
+        else:
+            questions = all_qs
 
-    mode = select_mode()
+        console.print(f"[dim]Loaded {len(questions)} questions ({class_filter}).[/dim]")
+
+        result = select_mode()
+        if result is None: continue
+        mode = result
+        break
     mode["max_lives"] = mode["lives"]
     mode["max_hints"] = mode["hints"]
 

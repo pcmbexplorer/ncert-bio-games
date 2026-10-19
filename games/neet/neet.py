@@ -7,7 +7,6 @@ from rich.console import Console
 from rich.panel import Panel
 from rich.table import Table
 from rich.align import Align
-from rich.prompt import Prompt
 from rich import box
 
 console = Console()
@@ -173,7 +172,15 @@ def select_source() -> str:
         title="[bold]Select Source[/bold]", box=box.ROUNDED,
     ))
     console.print()
-    return Prompt.ask("  Enter [1/2/3]", choices=["1","2","3"], default="2")
+    console.print("  [dim]b = back · q = quit[/dim]")
+    console.print()
+    while True:
+        raw = input("  Enter [1/2/3]: ").strip()
+        if raw.lower() == "q": sys.exit()
+        if raw.lower() == "b": return None
+        if not raw: raw = "2"
+        if raw in ("1", "2", "3"): return raw
+        console.print("  [red]Enter 1, 2, or 3[/red]")
 
 
 def select_test_paper_classes() -> List[str]:
@@ -189,8 +196,14 @@ def select_test_paper_classes() -> List[str]:
     console.print()
     console.print("  Examples:  [cyan]1[/cyan]  or  [cyan]1 2[/cyan]")
     console.print()
+    console.print("  [dim]b = back · q = quit[/dim]")
+    console.print()
     while True:
-        raw = Prompt.ask("  Your choice", default="1 2").replace(",", " ")
+        raw = input("  Your choice: ").strip()
+        if raw.lower() == "q": sys.exit()
+        if raw.lower() == "b": return None
+        if not raw: raw = "1 2"
+        raw = raw.replace(",", " ")
         picks = [t for t in raw.split() if t in ("1","2")]
         if picks:
             return ["11th" if p=="1" else "12th" for p in picks]
@@ -223,8 +236,13 @@ def select_app_chapters() -> tuple:
     console.print("  [dim]Enter chapter numbers: all / 1 / 1,5 / 1-15[/dim]")
     console.print()
 
+    console.print("  [dim]b = back · q = quit[/dim]")
+    console.print()
     while True:
-        raw = Prompt.ask("  Your choice", default="all").strip().lower()
+        raw = input("  Your choice: ").strip().lower()
+        if raw == "q": sys.exit()
+        if raw == "b": return None
+        if not raw: raw = "all"
         if raw == "all":
             picks = all_chapters
             break
@@ -263,8 +281,15 @@ def select_mode() -> Dict:
         title="[bold]Select Mode[/bold]", box=box.ROUNDED,
     ))
     console.print()
-    choice = Prompt.ask("  Enter [1/2/3]", choices=["1","2","3"], default="2")
-    return MODES[choice]
+    console.print("  [dim]b = back · q = quit[/dim]")
+    console.print()
+    while True:
+        raw = input("  Enter [1/2/3]: ").strip()
+        if raw.lower() == "q": sys.exit()
+        if raw.lower() == "b": return None
+        if not raw: raw = "2"
+        if raw in MODES: return MODES[raw]
+        console.print("  [red]Enter 1, 2, or 3[/red]")
 
 
 # ── Game UI ───────────────────────────────────────────────────────────────────
@@ -401,31 +426,45 @@ def play_round(q, lives, hints, mode, streak, max_lives, max_hints, stats, label
 
 
 def main():
-    source = select_source()
-    questions = []
-    label_parts = []
+    while True:
+        source = select_source()
+        if source is None: return
 
-    if source in ("1", "3"):
-        classes = select_test_paper_classes()
-        qs = load_test_paper_questions(classes)
-        questions.extend(qs)
-        label_parts.append("+".join(classes))
+        questions = []
+        label_parts = []
+        back = False
 
-    if source in ("2", "3"):
-        ch_label, ch_picks = select_app_chapters()
-        qs = load_app_questions(ch_picks)
-        questions.extend(qs)
-        label_parts.append(f"NEET({ch_label})")
+        if source in ("1", "3"):
+            classes = select_test_paper_classes()
+            if classes is None: back = True
+            else:
+                qs = load_test_paper_questions(classes)
+                questions.extend(qs)
+                label_parts.append("+".join(classes))
 
-    label = " + ".join(label_parts)
-    random.shuffle(questions)
+        if not back and source in ("2", "3"):
+            result = select_app_chapters()
+            if result is None: back = True
+            else:
+                ch_label, ch_picks = result
+                qs = load_app_questions(ch_picks)
+                questions.extend(qs)
+                label_parts.append(f"NEET({ch_label})")
 
-    if not questions:
-        console.print("[red]No questions found.[/red]"); sys.exit()
+        if back: continue
 
-    console.print(f"\n  [dim]Loaded {len(questions)} questions.[/dim]")
+        label = " + ".join(label_parts)
+        random.shuffle(questions)
 
-    mode = select_mode()
+        if not questions:
+            console.print("[red]No questions found.[/red]"); sys.exit()
+
+        console.print(f"\n  [dim]Loaded {len(questions)} questions.[/dim]")
+
+        result = select_mode()
+        if result is None: continue
+        mode = result
+        break
     mode["max_lives"] = mode["lives"]
     mode["max_hints"] = mode["hints"]
     lives, hints = mode["lives"], mode["hints"]

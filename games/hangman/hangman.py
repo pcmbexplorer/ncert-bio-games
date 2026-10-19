@@ -11,7 +11,6 @@ from rich.panel import Panel
 from rich.table import Table
 from rich.columns import Columns
 from rich.align import Align
-from rich.prompt import Prompt
 from rich import box
 
 console = Console()
@@ -72,12 +71,17 @@ def select_class() -> tuple:
     console.print("  Examples:  [cyan]3[/cyan]  or  [cyan]3 4[/cyan]  or  [cyan]1,2,3,4[/cyan]")
     console.print()
 
+    console.print("  [dim]b = back · q = quit[/dim]")
+    console.print()
     while True:
-        raw = Prompt.ask("  Your choice", default="3").replace(",", " ")
+        raw = input("  Your choice: ").strip()
+        if raw.lower() == "q": sys.exit()
+        if raw.lower() == "b": return None
+        if not raw: raw = "3"
+        raw = raw.replace(",", " ")
         picks = [t.strip() for t in raw.split() if t.strip() in CLASS_FILES]
-        if picks:
-            break
-        console.print("  [red]Enter one or more of: 1  2  3  4[/red]")
+        if picks: break
+        console.print("  [red]Enter one or more of: 1  2  3  4  5[/red]")
 
     names = "+".join(CLASS_FILES[p][0] for p in picks)
     return names, picks
@@ -144,8 +148,15 @@ def select_mode() -> Dict:
         box=box.ROUNDED,
     ))
     console.print()
-    choice = Prompt.ask("  Enter [1/2/3]", choices=["1", "2", "3"], default="2")
-    return MODES[choice]
+    console.print("  [dim]b = back · q = quit[/dim]")
+    console.print()
+    while True:
+        raw = input("  Enter [1/2/3]: ").strip()
+        if raw.lower() == "q": sys.exit()
+        if raw.lower() == "b": return None
+        if not raw: raw = "2"
+        if raw in MODES: return MODES[raw]
+        console.print("  [red]Enter 1, 2, or 3[/red]")
 
 
 def draw_screen(entry: Dict, word: str, guessed: Set[str], wrong: Set[str],
@@ -337,11 +348,16 @@ def play_round(entry: Dict, lives: int, hints: int, mode: Dict, streak: int,
 
 
 def main():
-    class_name, picks = select_class()
+    while True:
+        result = select_class()
+        if result is None: return
+        class_name, picks = result
+        result = select_mode()
+        if result is None: continue
+        mode = result
+        break
     words = load_words(class_name, picks)
     random.shuffle(words)
-
-    mode = select_mode()
     mode["max_lives"] = mode["lives"]
     mode["max_hints"] = mode["hints"]
 

@@ -6,7 +6,6 @@ from rich.console import Console
 from rich.panel import Panel
 from rich.table import Table
 from rich.align import Align
-from rich.prompt import Prompt
 from rich import box
 
 console = Console()
@@ -96,11 +95,16 @@ def select_class():
         "[bold]  5.[/bold]  12th",
         title="[bold]Select Class(es)[/bold]", box=box.ROUNDED))
     console.print()
+    console.print("  [dim]b = back · q = quit[/dim]")
+    console.print()
     while True:
-        raw = Prompt.ask("  Your choice (e.g. 4 or 4 5)", default="4").replace(",", " ")
+        raw = input("  Your choice: ").strip()
+        if raw.lower() == "q": sys.exit()
+        if raw.lower() == "b": return None
+        if not raw: raw = "4"
+        raw = raw.replace(",", " ")
         picks = [t.strip() for t in raw.split() if t.strip() in CLASS_PREFIXES]
-        if picks:
-            break
+        if picks: break
         console.print("  [red]Enter one or more of: 1  2  3  4  5[/red]")
     label = "+".join(CLASS_PREFIXES[p][0] for p in picks)
     return label, picks
@@ -116,9 +120,15 @@ def select_mode():
         "[bold yellow]  2.  Medium[/bold yellow]  — 3 lives · 3 hints · +1 in both on correct  [dim](? = hint)[/dim]\n\n"
         "[bold red]  3.  Hard[/bold red]    — 3 lives · 3 hints · no replenishment  [dim](? = hint)[/dim]",
         title="[bold]Select Mode[/bold]", box=box.ROUNDED))
+    console.print("  [dim]b = back · q = quit[/dim]")
     console.print()
-    choice = Prompt.ask("  Enter [1/2/3]", choices=["1", "2", "3"], default="2")
-    return MODES[choice]
+    while True:
+        raw = input("  Enter [1/2/3]: ").strip()
+        if raw.lower() == "q": sys.exit()
+        if raw.lower() == "b": return None
+        if not raw: raw = "2"
+        if raw in MODES: return MODES[raw]
+        console.print("  [red]Enter 1, 2, or 3[/red]")
 
 
 def draw_question(q, lives, max_lives, hints, max_hints, mode, streak, q_num,
@@ -143,7 +153,7 @@ def draw_question(q, lives, max_lives, hints, max_hints, mode, streak, q_num,
     console.print()
 
     if answered is None:
-        if show_hint or max_hints >= 999:
+        if show_hint:
             console.print(f"  [dim]Hint: [/dim][cyan]{hint_text(q['answer'])}[/cyan]")
             console.print()
         hint_prompt = "" if max_hints >= 999 else "  [dim]? = hint[/dim]"
@@ -185,8 +195,14 @@ def show_analysis(stats, mode):
 
 
 def main():
-    class_name, picks = select_class()
-    mode = select_mode()
+    while True:
+        result = select_class()
+        if result is None: return
+        class_name, picks = result
+        result = select_mode()
+        if result is None: continue
+        mode = result
+        break
     mode["max_lives"] = mode["lives"]
     mode["max_hints"] = mode["hints"]
 

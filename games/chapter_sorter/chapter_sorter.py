@@ -8,7 +8,6 @@ from rich.panel import Panel
 from rich.table import Table
 from rich.columns import Columns
 from rich.align import Align
-from rich.prompt import Prompt
 from rich import box
 
 console = Console()
@@ -88,9 +87,15 @@ def select_class() -> tuple:
         "[bold]  1.[/bold]  9th\n\n[bold]  2.[/bold]  10th\n\n"
         "[bold]  3.[/bold]  11th\n\n[bold]  4.[/bold]  12th",
         title="[bold]Select Class[/bold]", box=box.ROUNDED))
+    console.print("  [dim]b = back · q = quit[/dim]")
     console.print()
-    choice = Prompt.ask("  Enter [1/2/3/4]", choices=["1","2","3","4"], default="3")
-    return choice
+    while True:
+        raw = input("  Enter [1/2/3/4]: ").strip()
+        if raw.lower() == "q": sys.exit()
+        if raw.lower() == "b": return None
+        if not raw: raw = "3"
+        if raw in ("1", "2", "3", "4"): return raw
+        console.print("  [red]Enter 1, 2, 3, or 4[/red]")
 
 
 def select_mode():
@@ -103,9 +108,15 @@ def select_mode():
         "[bold yellow]  2.  Medium[/bold yellow]  — 3 lives · 3 hints · +1 on correct\n\n"
         "[bold red]  3.  Hard[/bold red]    — 3 lives · no hints",
         title="[bold]Select Mode[/bold]", box=box.ROUNDED))
+    console.print("  [dim]b = back · q = quit[/dim]")
     console.print()
-    choice = Prompt.ask("  Enter [1/2/3]", choices=["1","2","3"], default="2")
-    return MODES[choice]
+    while True:
+        raw = input("  Enter [1/2/3]: ").strip()
+        if raw.lower() == "q": sys.exit()
+        if raw.lower() == "b": return None
+        if not raw: raw = "2"
+        if raw in MODES: return MODES[raw]
+        console.print("  [red]Enter 1, 2, or 3[/red]")
 
 
 def draw_screen(entry, chapter_map, lives, hints, mode, streak, q_num, show_def, answered=None):
@@ -195,8 +206,13 @@ def show_analysis(stats, mode, chapter_map):
 
 
 def main():
-    pick  = select_class()
-    mode  = select_mode()
+    while True:
+        pick = select_class()
+        if pick is None: return
+        result = select_mode()
+        if result is None: continue
+        mode = result
+        break
     mode["max_lives"] = mode["lives"]
     mode["max_hints"] = mode["hints"]
 

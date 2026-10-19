@@ -12,7 +12,6 @@ from rich.console import Console
 from rich.panel import Panel
 from rich.table import Table
 from rich.align import Align
-from rich.prompt import Prompt
 from rich import box
 
 console = Console()
@@ -95,11 +94,16 @@ def select_class() -> tuple:
     console.print()
     console.print("  Examples:  [cyan]3[/cyan]  or  [cyan]3 4[/cyan]  or  [cyan]1,2,3,4[/cyan]")
     console.print()
+    console.print("  [dim]b = back · q = quit[/dim]")
+    console.print()
     while True:
-        raw = Prompt.ask("  Your choice", default="3").replace(",", " ")
+        raw = input("  Your choice: ").strip()
+        if raw.lower() == "q": sys.exit()
+        if raw.lower() == "b": return None
+        if not raw: raw = "3"
+        raw = raw.replace(",", " ")
         picks = [t.strip() for t in raw.split() if t.strip() in CLASS_FILES]
-        if picks:
-            break
+        if picks: break
         console.print("  [red]Enter one or more of: 1  2  3  4  5[/red]")
     return "+".join(CLASS_FILES[p][0] for p in picks), picks
 
@@ -118,8 +122,15 @@ def select_mode() -> dict:
         "      [dim]5-minute total clock · +15s added for each word you give[/dim]",
         title="[bold]Select Mode[/bold]", box=box.ROUNDED, padding=(1, 2)))
     console.print()
-    choice = Prompt.ask("  Enter [1/2/3]", choices=["1", "2", "3"], default="2")
-    return MODES[choice]
+    console.print("  [dim]b = back · q = quit[/dim]")
+    console.print()
+    while True:
+        raw = input("  Enter [1/2/3]: ").strip()
+        if raw.lower() == "q": sys.exit()
+        if raw.lower() == "b": return None
+        if not raw: raw = "2"
+        if raw in MODES: return MODES[raw]
+        console.print("  [red]Enter 1, 2, or 3[/red]")
 
 
 def draw_chain(chain: List[str], words: Dict[str, Dict], current_letter: str,
@@ -317,8 +328,14 @@ def play_round(words, index, mode, class_name):
 
 
 def main():
-    class_name, picks = select_class()
-    mode  = select_mode()
+    while True:
+        result = select_class()
+        if result is None: return
+        class_name, picks = result
+        result = select_mode()
+        if result is None: continue
+        mode = result
+        break
     words = load_words(picks)
     index = words_by_letter(words)
 
@@ -348,10 +365,10 @@ def main():
                             box=box.DOUBLE_EDGE, style="cyan"))
         console.print()
         try:
-            again = Prompt.ask("  Play again?", choices=["y", "n"], default="y")
+            again = input("  Play again? [y/n]: ").strip().lower()
         except (EOFError, KeyboardInterrupt):
             break
-        if again != "y":
+        if again not in ("y", ""):
             break
 
     clear()

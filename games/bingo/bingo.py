@@ -7,7 +7,6 @@ from rich.console import Console
 from rich.panel import Panel
 from rich.table import Table
 from rich.align import Align
-from rich.prompt import Prompt
 from rich import box
 
 console = Console()
@@ -200,8 +199,14 @@ def select_class():
     console.print()
     console.print("  [dim]Need at least 25 keywords — mixing classes gives richer cards[/dim]")
     console.print()
+    console.print("  [dim]b = back · q = quit[/dim]")
+    console.print()
     while True:
-        raw = Prompt.ask("  Your choice", default="3").replace(",", " ")
+        raw = input("  Your choice: ").strip()
+        if raw.lower() == "q": sys.exit()
+        if raw.lower() == "b": return None
+        if not raw: raw = "3"
+        raw = raw.replace(",", " ")
         picks = [t.strip() for t in raw.split() if t.strip() in CLASS_FILES]
         if picks: break
         console.print("  [red]Enter one or more of: 1  2  3  4  5[/red]")
@@ -218,16 +223,28 @@ def select_lives():
         "[bold yellow]  2.  Normal[/bold yellow]  — 5 wrong guesses allowed\n\n"
         "[bold red]  3.  Hardcore[/bold red]  — 3 wrong guesses allowed",
         title="[bold]Select Difficulty[/bold]", box=box.ROUNDED))
+    console.print("  [dim]b = back · q = quit[/dim]")
     console.print()
-    choice = Prompt.ask("  Enter [1/2/3]", choices=["1","2","3"], default="2")
     lives_map = {"1": 999, "2": 5, "3": 3}
     colors    = {"1": "green", "2": "yellow", "3": "red"}
-    return lives_map[choice], colors[choice]
+    while True:
+        raw = input("  Enter [1/2/3]: ").strip()
+        if raw.lower() == "q": sys.exit()
+        if raw.lower() == "b": return None
+        if not raw: raw = "2"
+        if raw in lives_map: return lives_map[raw], colors[raw]
+        console.print("  [red]Enter 1, 2, or 3[/red]")
 
 
 def main():
-    class_name, picks = select_class()
-    max_lives, color  = select_lives()
+    while True:
+        result = select_class()
+        if result is None: return
+        class_name, picks = result
+        result = select_lives()
+        if result is None: continue
+        max_lives, color = result
+        break
 
     console.print("[dim]Loading…[/dim]")
     entries = load_entries(picks)
