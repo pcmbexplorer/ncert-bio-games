@@ -44,12 +44,21 @@ OPTIONS_PLAIN = {
 
 def clear(): os.system("clear")
 
-def truncate(s: str, n: int = 105) -> str:
-    return s if len(s) <= n else s[:n-1] + "…"
-
 def render_lives(lives, max_lives, color):
     if max_lives >= 999: return f"[{color}]❤  ∞[/{color}]"
     return f"[{color}]❤  {lives}[/{color}][dim]/{max_lives}[/dim]"
+
+
+CONTEXT_STARTS = (
+    "these ", "this ", "such ", "they ", "it ", "it'", "hence", "therefore",
+    "thus ", "similarly", "the former", "the latter", "in this", "in such",
+    "both of", "all of them", "all such", "here,", "here ", "as mentioned",
+    "as described", "as stated", "as noted", "as discussed",
+)
+
+def _context_dependent(s: str) -> bool:
+    """True if the sentence opens with a pronoun/reference that needs prior context."""
+    return s.lower().startswith(CONTEXT_STARTS)
 
 
 def load_rows(picks):
@@ -65,7 +74,14 @@ def load_rows(picks):
                     chapter   = row.get("Chapter", "").strip()
                     true_stmt = row.get("True Statement", "").strip()
                     reason    = row.get("Reason", "").strip()
-                    if not true_stmt or not reason:
+                    ar_opt_s  = row.get("AR Option", "").strip()
+                    if not true_stmt or not reason or not ar_opt_s:
+                        continue
+                    if _context_dependent(true_stmt):
+                        continue
+                    try:
+                        ar_opt = int(ar_opt_s)
+                    except ValueError:
                         continue
                     false_variants = [
                         v.strip() for k, v in row.items()
@@ -75,73 +91,77 @@ def load_rows(picks):
                         "chapter":  chapter,
                         "true":     true_stmt,
                         "reason":   reason,
+                        "ar_option": ar_opt,
                         "false":    false_variants,
                     })
     return rows
 
 
+EXPL = {
+    1: "[green]A[/green] is true.  [green]R[/green] correctly explains A.",
+    2: "[green]A[/green] is true.  [green]R[/green] is also true, but explains a [bold]different[/bold] fact — not this A.",
+    3: "[green]A[/green] is true.  [red]R[/red] is a false statement.",
+    4: "[red]A[/red] is false (contains a factual error).  [green]R[/green] is true.",
+}
+
 def build_questions(rows):
     """
-    Four question types, each ~25% of the pool:
-      Type 1 (answer=1): real A + own R   → both true, R explains A
-      Type 2 (answer=2): real A + foreign R (true, but explains different fact) → both true, R≠explanation
-      Type 3 (answer=3): real A + a False-variant from another row as R → A true, R false
-      Type 4 (answer=4): False-variant as A + own R → A false, R true
+    Native pair   : use TSV's own A+R with its AR Option as the answer (1, 2, or 3).
+    Synthetic type 2: real A (ar_option=1 rows only) + foreign true reason → answer 2.
+    Synthetic type 3: real A + false-variant from another row as R → answer 3.
+    Synthetic type 4: false-variant as A + own R → answer 4.
     """
     questions = []
+    all_reasons = [(r["chapter"], r["reason"]) for r in rows]
+    all_false   = [(r["chapter"], fv) for r in rows for fv in r["false"]]
 
-    # collect all reasons (for type-2) and all false variants (for type-3)
-    all_reasons   = [(r["chapter"], r["reason"]) for r in rows]
-    all_false     = [(r["chapter"], fv) for r in rows for fv in r["false"]]
+    for r in rows:
+        ar_opt = r["ar_option"]
 
-    for i, r in enumerate(rows):
-        # Type 1
+        # Native pair — answer comes from TSV
         questions.append({
-            "chapter": r["chapter"],
-            "A": r["true"],
-            "R": r["reason"],
-            "answer": 1,
-            "explanation": f"[green]A[/green] is a true statement.\n"
-                           f"[green]R[/green] correctly explains why A is true.",
+            "chapter":     r["chapter"],
+            "A":           r["true"],
+            "R":           r["reason"],
+            "answer":      ar_opt,
+            "explanation": EXPL[ar_opt],
         })
 
-        # Type 2: pick a reason from a DIFFERENT row
-        foreign_reason = _pick_other(all_reasons, r["reason"])
-        if foreign_reason:
-            fc, fr = foreign_reason
-            questions.append({
-                "chapter": r["chapter"],
-                "A": r["true"],
-                "R": fr,
-                "answer": 2,
-                "explanation": f"[green]A[/green] is true.\n"
-                               f"[green]R[/green] is also a true statement (from {fc}), "
-                               f"but it explains a [bold]different[/bold] fact — not this A.",
-            })
+        # Synthetic type 2: swap in a foreign reason (only valid when own pair is option 1,
+        # so we know the foreign reason is genuinely unrelated to this A)
+        if ar_opt == 1:
+            foreign = _pick_other(all_reasons, r["reason"])
+            if foreign:
+                _, fr = foreign
+                questions.append({
+                    "chapter":     r["chapter"],
+                    "A":           r["true"],
+                    "R":           fr,
+                    "answer":      2,
+                    "explanation": EXPL[2],
+                })
 
-        # Type 3: use a false-variant from a different row as R
+        # Synthetic type 3: real A + false variant from a different row as R
         false_r = _pick_other(all_false, None)
         if false_r:
             _, fr = false_r
             questions.append({
-                "chapter": r["chapter"],
-                "A": r["true"],
-                "R": fr,
-                "answer": 3,
-                "explanation": f"[green]A[/green] is true.\n"
-                               f"[red]R[/red] is a false statement (it is a factual error).",
+                "chapter":     r["chapter"],
+                "A":           r["true"],
+                "R":           fr,
+                "answer":      3,
+                "explanation": EXPL[3],
             })
 
-        # Type 4: use a false variant of this row as A (if any), keep own R
+        # Synthetic type 4: false variant as A + own R
         if r["false"]:
             fv = random.choice(r["false"])
             questions.append({
-                "chapter": r["chapter"],
-                "A": fv,
-                "R": r["reason"],
-                "answer": 4,
-                "explanation": f"[red]A[/red] is false (it contains a factual error).\n"
-                               f"[green]R[/green] is true — {truncate(r['reason'], 80)}",
+                "chapter":     r["chapter"],
+                "A":           fv,
+                "R":           r["reason"],
+                "answer":      4,
+                "explanation": EXPL[4],
             })
 
     random.shuffle(questions)
@@ -201,8 +221,8 @@ def draw_question(q, lives, max_lives, mode, streak, q_num, answered, class_name
     console.print()
 
     console.print(Panel(
-        f"\n  [bold]Assertion (A):[/bold]  [italic]{truncate(q['A'])}[/italic]\n\n"
-        f"  [bold]Reason    (R):[/bold]  [italic]{truncate(q['R'])}[/italic]\n",
+        f"\n  [bold]Assertion (A):[/bold]  [italic]{q['A']}[/italic]\n\n"
+        f"  [bold]Reason    (R):[/bold]  [italic]{q['R']}[/italic]\n",
         title=f"[dim]{q['chapter']}[/dim]",
         box=box.ROUNDED, style="white"))
     console.print()
