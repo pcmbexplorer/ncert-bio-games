@@ -22,20 +22,21 @@ CLASS_PREFIXES = {
 }
 
 MODES = {
-    "1": {"name": "Easy",   "color": "green",  "lives": 999, "replenish": False, "hint": True},
-    "2": {"name": "Medium", "color": "yellow", "lives": 5,   "replenish": True,  "hint": False},
-    "3": {"name": "Hard",   "color": "red",    "lives": 3,   "replenish": False, "hint": False},
+    "1": {"name": "Easy",   "color": "green",  "lives": 999, "hints": 999, "replenish": False},
+    "2": {"name": "Medium", "color": "yellow", "lives": 3,   "hints": 3,   "replenish": True},
+    "3": {"name": "Hard",   "color": "red",    "lives": 3,   "hints": 3,   "replenish": False},
 }
 
 
 def clear(): os.system("clear")
 
-def truncate(s: str, n: int = 105) -> str:
-    return s if len(s) <= n else s[:n-1] + "…"
-
 def render_lives(lives, max_lives, color):
     if max_lives >= 999: return f"[{color}]❤  ∞[/{color}]"
     return f"[{color}]❤  {lives}[/{color}][dim]/{max_lives}[/dim]"
+
+def render_hints(hints, max_hints, color):
+    if max_hints >= 999: return f"[{color}]💡 ∞[/{color}]"
+    return f"[{color}]💡 {hints}[/{color}][dim]/{max_hints}[/dim]"
 
 def extract_answer(true_stmt: str, fib: str) -> str:
     parts = fib.split("___", 1)
@@ -111,16 +112,17 @@ def select_mode():
                         box=box.DOUBLE_EDGE, style="cyan"))
     console.print()
     console.print(Panel(
-        "[bold green]  1.  Easy[/bold green]    — Unlimited lives · first-letter hint\n\n"
-        "[bold yellow]  2.  Medium[/bold yellow]  — 5 lives · +1 on correct · no hint\n\n"
-        "[bold red]  3.  Hard[/bold red]    — 3 lives · no replenishment · no hint",
+        "[bold green]  1.  Easy[/bold green]    — Unlimited lives & hints · hint shown automatically\n\n"
+        "[bold yellow]  2.  Medium[/bold yellow]  — 3 lives · 3 hints · +1 in both on correct  [dim](? = hint)[/dim]\n\n"
+        "[bold red]  3.  Hard[/bold red]    — 3 lives · 3 hints · no replenishment  [dim](? = hint)[/dim]",
         title="[bold]Select Mode[/bold]", box=box.ROUNDED))
     console.print()
     choice = Prompt.ask("  Enter [1/2/3]", choices=["1", "2", "3"], default="2")
     return MODES[choice]
 
 
-def draw_question(q, lives, max_lives, mode, streak, q_num, answered, class_name):
+def draw_question(q, lives, max_lives, hints, max_hints, mode, streak, q_num,
+                  answered, class_name, show_hint=False):
     clear()
     color = mode["color"]
     streak_badge = f"   [yellow]🔥 {streak}[/yellow]" if streak > 0 else ""
@@ -129,10 +131,10 @@ def draw_question(q, lives, max_lives, mode, streak, q_num, answered, class_name
             f"[bold cyan]📝  FILL IN THE BLANKS[/bold cyan]  [dim]· {class_name}[/dim]"
             f"   [bold {color}]{mode['name']}[/bold {color}]{streak_badge}"
         ), box=box.DOUBLE_EDGE, style="cyan"))
-    console.print(f"  {render_lives(lives, max_lives, color)}    [dim]Q{q_num}[/dim]")
+    console.print(f"  {render_lives(lives, max_lives, color)}    "
+                  f"{render_hints(hints, max_hints, color)}    [dim]Q{q_num}[/dim]")
     console.print()
 
-    # Highlight the blank in the FIB sentence
     fib_display = q["fib"].replace("___", "[bold yellow]___[/bold yellow]")
     console.print(Panel(
         f"\n  {fib_display}\n",
@@ -141,25 +143,24 @@ def draw_question(q, lives, max_lives, mode, streak, q_num, answered, class_name
     console.print()
 
     if answered is None:
-        if mode["hint"]:
+        if show_hint or max_hints >= 999:
             console.print(f"  [dim]Hint: [/dim][cyan]{hint_text(q['answer'])}[/cyan]")
             console.print()
-        console.print("  [dim]Type your answer · q = quit[/dim]")
+        hint_prompt = "" if max_hints >= 999 else "  [dim]? = hint[/dim]"
+        console.print(f"  [dim]Type your answer{hint_prompt}   q = quit[/dim]")
     elif answered:
         console.print(Align.center(Panel("[bold green]✓  Correct![/bold green]",
                                          box=box.HEAVY, style="green", width=30)))
         console.print()
-        console.print(Panel(
-            f"[dim]{truncate(q['true_stmt'], 100)}[/dim]",
-            title="[dim]Full statement[/dim]", box=box.SIMPLE, style="dim"))
+        console.print(Panel(f"[dim]{q['true_stmt']}[/dim]",
+                            title="[dim]Full statement[/dim]", box=box.SIMPLE, style="dim"))
     else:
         console.print(Align.center(Panel(
             f"[bold red]✗  Wrong!  Answer: [white]{q['answer']}[/white][/bold red]",
             box=box.HEAVY, style="red", width=50)))
         console.print()
-        console.print(Panel(
-            f"[dim]{truncate(q['true_stmt'], 100)}[/dim]",
-            title="[dim]Full statement[/dim]", box=box.SIMPLE, style="dim"))
+        console.print(Panel(f"[dim]{q['true_stmt']}[/dim]",
+                            title="[dim]Full statement[/dim]", box=box.SIMPLE, style="dim"))
     console.print()
 
 
@@ -178,6 +179,7 @@ def show_analysis(stats, mode):
     t.add_row("Wrong",       f"[red]{stats['lost']}[/red]")
     t.add_row("Accuracy",    f"[yellow]{acc}[/yellow]")
     t.add_row("Best Streak", f"[yellow]🔥 {stats['best_streak']}[/yellow]")
+    t.add_row("Hints Used",  str(stats["hints_used"]))
     console.print(Align.center(t))
     console.print()
 
@@ -186,6 +188,7 @@ def main():
     class_name, picks = select_class()
     mode = select_mode()
     mode["max_lives"] = mode["lives"]
+    mode["max_hints"] = mode["hints"]
 
     console.print("[dim]Loading…[/dim]")
     questions = load_questions(picks)
@@ -194,25 +197,41 @@ def main():
         sys.exit(1)
     console.print(f"[dim]{len(questions)} questions ready.[/dim]")
 
-    lives = mode["lives"]; max_lives = mode["max_lives"]
+    lives     = mode["lives"];  max_lives = mode["max_lives"]
+    hints     = mode["hints"];  max_hints = mode["max_hints"]
     streak = best_streak = idx = 0
-    stats = {"played": 0, "won": 0, "lost": 0, "best_streak": 0}
+    stats = {"played": 0, "won": 0, "lost": 0, "best_streak": 0, "hints_used": 0}
 
     while True:
         if idx >= len(questions):
             random.shuffle(questions); idx = 0
 
         q = questions[idx]; idx += 1
+        show_hint = False
 
-        draw_question(q, lives, max_lives, mode, streak, stats["played"] + 1, None, class_name)
-        console.print("  Answer: ", end="")
-        try:
-            user = input().strip()
-        except (EOFError, KeyboardInterrupt):
-            show_analysis(stats, mode); sys.exit()
+        while True:
+            draw_question(q, lives, max_lives, hints, max_hints, mode,
+                          streak, stats["played"] + 1, None, class_name, show_hint)
+            console.print("  Answer: ", end="")
+            try:
+                user = input().strip()
+            except (EOFError, KeyboardInterrupt):
+                show_analysis(stats, mode); sys.exit()
 
-        if user.lower() == "q":
-            show_analysis(stats, mode); sys.exit()
+            if user.lower() == "q":
+                show_analysis(stats, mode); sys.exit()
+
+            if user == "?" and max_hints < 999:
+                if hints <= 0:
+                    console.print("  [red]No hints left![/red]")
+                    input("  [Enter]...")
+                else:
+                    show_hint = True
+                    hints -= 1
+                    stats["hints_used"] += 1
+                continue
+
+            break
 
         correct = user.strip().lower() == q["answer"].strip().lower()
 
@@ -223,15 +242,17 @@ def main():
             if streak > best_streak:
                 best_streak = streak
                 stats["best_streak"] = best_streak
-            if mode["replenish"] and max_lives < 999:
-                lives = min(lives + 1, max_lives + 2)
+            if mode["replenish"]:
+                if max_lives < 999: lives = min(lives + 1, max_lives + 2)
+                if max_hints < 999: hints = min(hints + 1, max_hints + 2)
         else:
             stats["lost"] += 1
             streak = 0
             if max_lives < 999:
                 lives -= 1
 
-        draw_question(q, lives, max_lives, mode, streak, stats["played"], correct, class_name)
+        draw_question(q, lives, max_lives, hints, max_hints, mode,
+                      streak, stats["played"], correct, class_name)
         input("\n  [Enter] next…")
 
         if lives <= 0:
@@ -242,8 +263,9 @@ def main():
                     break
             except (EOFError, KeyboardInterrupt):
                 break
-            lives = mode["lives"]; streak = best_streak = idx = 0
-            stats = {"played": 0, "won": 0, "lost": 0, "best_streak": 0}
+            lives = mode["lives"]; hints = mode["hints"]
+            streak = best_streak = idx = 0
+            stats = {"played": 0, "won": 0, "lost": 0, "best_streak": 0, "hints_used": 0}
             random.shuffle(questions)
 
 
