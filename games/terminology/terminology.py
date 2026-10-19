@@ -130,23 +130,6 @@ def select_class() -> tuple:
     return names, picks
 
 
-def select_direction() -> str:
-    clear()
-    console.print(Panel(
-        Align.center("[bold cyan]📖  TERMINOLOGY[/bold cyan]"),
-        box=box.DOUBLE_EDGE, style="cyan",
-    ))
-    console.print()
-    console.print(Panel(
-        "[bold]  1.[/bold]  Both directions  [dim](definition→term  +  term→definition)[/dim]\n\n"
-        "[bold]  2.[/bold]  Definition → Term  [dim](read definition, pick the keyword)[/dim]\n\n"
-        "[bold]  3.[/bold]  Term → Definition  [dim](read keyword, pick the definition)[/dim]",
-        title="[bold]Select Direction[/bold]",
-        box=box.ROUNDED,
-    ))
-    console.print()
-    return Prompt.ask("  Enter [1/2/3]", choices=["1", "2", "3"], default="1")
-
 
 def select_mode() -> Dict:
     clear()
@@ -353,7 +336,6 @@ def play_round(q: Dict, lives: int, hints: int, mode: Dict,
 
 def main():
     class_name, picks = select_class()
-    direction_choice  = select_direction()
     mode = select_mode()
     mode["max_lives"] = mode["lives"]
     mode["max_hints"] = mode["hints"]
@@ -361,11 +343,6 @@ def main():
     console.print("[dim]Loading…[/dim]")
     entries = load_entries(picks)
     questions = build_questions(entries)
-
-    if direction_choice == "2":
-        questions = [q for q in questions if q["type"] == "def→term"]
-    elif direction_choice == "3":
-        questions = [q for q in questions if q["type"] == "term→def"]
 
     console.print(f"[dim]{len(questions)} questions ready ({class_name}).[/dim]")
 
